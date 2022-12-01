@@ -1,0 +1,321 @@
+/* variables */
+:root {
+  --dark: #764832;
+  --light: #E6FAFC;
+  --accent: #36558f;
+
+}
+
+/* global */
+
+a {
+  text-decoration:none;
+}
+
+a i {
+  color:var(--accent);
+}
+
+body {
+  color:var(--accent);
+  background-color: var(--light);
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  background-color: var(--light);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Kanit', sans-serif;
+}
+
+header h1{
+  color:var(--light);
+}
+
+h2 {
+  color: var(--dark);
+}
+
+i {
+  font-size:1.6vw;
+  margin:2px 2px;
+}
+
+img, svg {
+  vertical-align: baseline;
+}
+
+/* classes */
+/* tints colored icons black and then adjusts to blue to match blue on site */
+.blue {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(7%) saturate(6942%) hue-rotate(187deg) brightness(83%) contrast(79%);
+}
+
+.button {
+  color:var(--light);
+  background-Color:var(--dark);
+  border:0;
+  padding:10px;
+}
+
+.fuelBy, .forgeBy {
+  padding:.5rem;
+  background-color:var(--dark);
+  color:var(--light);
+}
+
+.forgeBy {
+  position:relative;
+  top:-11px;
+}
+
+.icon {
+  width:1.6vw;
+  margin:2px 2px;
+}
+
+.header-name {
+  background-image: linear-gradient(180deg, var(--light) 30%, var(--dark) 30%, var(--dark) 70%);
+}
+
+.livePath div, .gitPath div{
+  border:5px solid var(--dark);
+  scale:1;
+  transition:all .5s;
+  padding:1em;
+  width:70%;
+  background-color:var(--light);
+}
+
+.livePath:hover div, .gitPath:hover div{
+  scale:1.2;
+  border:5px solid var(--accent);
+  margin-left:2.4em;
+  box-shadow:5px 5px 10px var(--dark);
+  
+}
+
+.modal-body a{
+  color:var(--accent);
+  
+}
+
+.modal-body {
+  background-color: var(--light);
+}
+
+.modal-header {
+  background-color:var(--accent);
+  color:var(--light);
+}
+
+
+
+.nav-link {
+  color:var(--dark);
+}
+
+.nav-link:hover {
+  color:var(--accent);
+}
+
+.pretend-border {
+  background-image: radial-gradient(at 70% top, var(--dark) 1%, var(--light) 33%);
+  height:.6rem;
+}
+
+.projects {
+  border-left: solid 2px var(--accent);
+  height:1100px;
+  overflow:auto;
+}
+
+.projectHeadBG {
+  background-color:var(--light);
+}
+
+.projectFeat {
+  height:400px;
+  width:47%;
+  border:5px solid var(--dark);
+  background-position: center, 0 0, center;
+  background-size: cover, 100% 300%, cover;
+  background-blend-mode: luminosity, multiply;
+  background-repeat: no-repeat;
+  overflow:revert;
+  transition: all 1s;
+}
+
+.projectFeatTitle {
+  position:relative;
+  top:-2px;
+  left:-2px;
+  color:var(--light);
+  background-color:var(--dark);
+  transition: all 1s;
+  height:10rem;
+}
+
+.projectFeatTitle p:nth-child(2) {
+  font-style:italic;
+  font-size:.8rem;
+}
+
+.projectTech {
+  position: relative;
+  bottom: -2.5rem;
+  right: -5px;
+  width: 50%;
+  background-color: var(--light);
+  border: 5px solid var(--accent);
+  height: 5rem;
+  transition: all .5s cubic-bezier(.8,.05,.91,.68);
+  transform:rotateX(90deg);
+}
+
+.projectFeat:hover .projectTech{
+  transform:rotateX(0deg);
+  box-shadow:10px 10px 20px var(--dark);
+}
+
+.tagContainer {
+  height:5rem;
+  padding:1rem;
+}
+
+/* classes for project background */
+
+.codeQuiz {
+  background-image: url(../images/Coding\ Quiz\ Question\ example.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/Coding\ Quiz\ Question\ example.jpg);
+}
+
+
+.csssnips {
+  background-image: url(../images/css_snippet_bg.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/css_snippet_bg.jpg);
+}
+
+
+.constell {
+  background-image: url(../images/constellation\ background.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/constellation\ background.jpg);
+}
+
+.git {
+  background-image: url(../images/tech\ background\ image.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/tech\ background\ image.jpg);
+  
+}
+
+.tds {
+  background-image: url(../images/foodie_bg.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/foodie_bg.jpg);
+
+}
+
+.musing {
+  background-image: url(../images/musing_bg.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/musing_bg.jpg);
+
+}
+
+.hoa{
+  background-image: url(../images/hoa_bg.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/hoa_bg.jpg);
+
+}
+
+.playdate {
+  background-image: url(../images/Play_Date_porfolio_shot_v1.jpg), linear-gradient(0deg, white 33%, black 66%),url(../images/Play_Date_porfolio_shot_v1.jpg);
+}
+
+.garden2 {
+  background-image: url(../images/garden2_bg.jpg),linear-gradient(0deg, white 33%, black 66%), url(../images/garden2_bg.jpg);
+
+}
+
+.scribl {
+  background-image: url(../images/scrible_notes_bg.jpg),linear-gradient(0deg, white 33%, black 66%), url(../images/scrible_notes_bg.jpg);
+
+}
+
+.weatherDash {
+  background-image: url(../images/weather_dash_bg.jpg),linear-gradient(0deg, white 33%, black 66%), url(../images/weather_dash_bg.jpg);
+}
+
+.wg {
+  background-image: url(../images/weird_girls_thumb.jpg),linear-gradient(0deg, white 33%, black 66%), url(../images/weird_girls_thumb.jpg);
+}
+
+.wordguess {
+  background-image: url(../images/word_guess_bg.jpg),linear-gradient(0deg, white 33%, black 66%), url(../images/word_guess_bg.jpg);
+}
+
+.projectFeat:hover {
+  border-color:var(--accent);
+  background-position: center, 0% 100%, center;
+  border-color:var(--accent);
+  box-shadow:10px 10px 20px var(--dark);
+  scale:104%;
+}
+
+.projectFeat:hover .projectFeatTitle{
+  background-color:var(--accent);
+}
+
+/* ids */
+
+#animation_container {
+  padding-left:10rem;
+  width: 300px !important;
+  position: relative;
+  bottom: -2px;
+  z-index:10;
+}
+
+#contactDiv {
+  border-top: solid 2px var(--accent);
+
+}
+
+#root {
+  background-color:var(--light);
+}
+
+/* media queries */
+
+@media screen and (min-width:992px) and (max-width: 1100px) {
+  #animation_container {
+      display:none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .projectFeat {
+      width:90%;
+  }
+  .projectFeatTitle {
+      font-size:.9em;
+}
+i {
+  font-size:3vw;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  i {
+      font-size:3vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+  #animation_container {
+      display:none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  i {
+      font-size:4.5vw;
+    }
+}
+
+
+
