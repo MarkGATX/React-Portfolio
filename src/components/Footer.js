@@ -1,5 +1,6 @@
 import greensock from '../images/gsap-greensock.svg';
 import animate from '../images/Adobe_Animate_CC_icon_(2020).svg';
+import googleFonts from "../images/Google-Fonts-Logo.png"
 import "../styles/index.css";
 
 export default function Footer() {
@@ -15,6 +16,7 @@ export default function Footer() {
                     <i title="Illustrator" className="devicon-illustrator-plain d-block "></i>
                     <img title="Greensock" className="icon " alt="greensock logo" src={greensock} />
                     <img title="Adobe Animate" className="icon" alt="adobe animate logo" src={animate} />
+                    <img title="Google Fonts" className="icon" alt="Google Fonts logo" src={googleFonts} />
                 </p>
             </div>
         </div>

@@ -24,10 +24,6 @@ body {
   font-family: 'Inter', sans-serif !important;
 }
 
-border {
-  color:var(--accent);
-}
-
 
 footer {
   background-color:var(--dark);
@@ -75,10 +71,34 @@ img, svg {
 }
 
 .button {
-  color:var(--light);
-  background-Color:var(--dark);
+  color:var(--accent);
+  background-Color:var(--light);
   border:0;
   padding:10px;
+  width:20%;
+}
+
+.contactCard {
+  background-color:var(--dark) !important ;
+  color:var(--light);
+}
+
+.contactMeContainer {
+  border-left: solid 2px var(--accent);
+  
+
+}
+
+.contactMeContainer i{
+  font-size:4vw;
+  transition:all .5s;
+
+}
+
+.contactMeContainer i:hover { 
+  transform:scale(120%);
+  color:var(--dark);
+
 }
 
 .fuelBy, .forgeBy {

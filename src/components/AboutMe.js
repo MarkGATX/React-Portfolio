@@ -2,6 +2,7 @@
 import greensock from '../images/gsap-greensock.svg'
 import animate from '../images/Adobe_Animate_CC_icon_(2020).svg'
 import Questions from './Questions'
+import googleFonts from "../images/Google-Fonts-Logo.png"
 import "../styles/index.css";
 
 export default function AboutMe() {
@@ -36,7 +37,8 @@ export default function AboutMe() {
                 <i title="After Effects" className="devicon-aftereffects-plain"></i>
                 <i title="Blender" className="devicon-blender-original"></i>
                 <img title="Greensock" className="icon" alt="greensock logo" src={greensock} />
-                    <img title="Adobe Animate" className="icon" alt="adobe animate logo" src={animate} />
+                <img title="Adobe Animate" className="icon" alt="adobe animate logo" src={animate} />
+                <img title="Google Fonts" className="icon" alt="Google Fonts logo" src={googleFonts} />
                     </div>
 
                 </section>
