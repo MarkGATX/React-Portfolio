@@ -30,6 +30,7 @@ export default function AboutMe() {
                 <i title="vscode" className="devicon-vscode-plain"></i>
                 <i title="Javascript" className="devicon-javascript-plain"></i>
                 <i title="CSS3" className="devicon-css3-plain"></i>
+                <i title="HTML5" className="devicon-html5-plain"></i>
                 <i title="NodeJS" className="devicon-nodejs-plain"></i>
                 <i title="Wordpress" className="devicon-wordpress-plain"></i>
                 <i title="Photoshop" className="devicon-photoshop-plain"></i>

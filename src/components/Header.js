@@ -1,5 +1,5 @@
-import Bootstrap from 'react-bootstrap'
-import { gsap } from 'gsap';
+// import Bootstrap from 'react-bootstrap'
+// import { gsap } from 'gsap';
 import markCoffee from '../images/mark_with_coffee.jpg'
 
 
@@ -11,7 +11,7 @@ export default function Header({currentPage, handlePageChange}) {
             <header className="container-fluid p-0 d-flex flex-wrap justify-content-between align-items-end">
                 <div className="col-md-9 col-lg-5 d-flex row align-items-end justify-content-start header-name">
                     <img className='img-fluid rounded-circle col-3 position-relative mt-2 ms-4 mb-2'
-                        src={markCoffee} alt="Picture of Mark with huge coffee cup" />
+                        src={markCoffee} alt="Mark with huge coffee cup" />
 
                     <h1 className='col-8 m-0 p-0 pb-1 position-relative'>Mark Gardner</h1>
                 </div>
@@ -30,7 +30,10 @@ export default function Header({currentPage, handlePageChange}) {
                                 <a className={currentPage === 'Portfolio' ? "nav-link  ms-3 me-1 fs-4 active" : "nav-link  ms-3 me-1 fs-4 "} aria-current="page"  onClick={() => handlePageChange('Portfolio')} href="#Portfolio">Portfolio</a>
                             </li>
                             <li className="nav-item">
-                                <a className={currentPage === 'Contact Me' ? "nav-link  ms-3 me-1 fs-4 active" : "nav-link  ms-3 me-1 fs-4 "} aria-current="page" onClick={() => handlePageChange('Contact Me')} href="#contactMe">Contact Me</a>
+                                <a className={currentPage === 'Contact Me' ? "nav-link  ms-3 me-1 fs-4 active" : "nav-link  ms-3 me-1 fs-4 "} aria-current="page" onClick={() => handlePageChange('Contact Me')} href="#contactMe">Contact</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className={currentPage === 'About Me' ? "nav-link  ms-3 me-1 fs-4 active" : "nav-link  ms-3 me-1 fs-4 "} aria-current="page" onClick={() => handlePageChange('About Me')} href="#aboutMe">About Me</a>
                             </li>
                             <li className="nav-item">
                                 <a className={currentPage === 'Resume' ? "nav-link  ms-3 me-1 fs-4 active" : "nav-link  ms-3 me-1 fs-4 "} aria-current="page" onClick={() => handlePageChange('Resume')} href="#Resume">Resume</a>
