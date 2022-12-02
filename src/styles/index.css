@@ -208,6 +208,11 @@ img, svg {
 
 .resumeSection {
   border-bottom:solid 5px var(--accent);
+  color:var(--dark);
+}
+
+.row h5 , .row h4{
+  color:var(--dark);
 }
 
 .tagContainer {

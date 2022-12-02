@@ -10,44 +10,130 @@ export default function Resume() {
                 <h2>MARK GARDNER</h2>
                 <h3 className="resumeSection">Front-End and Full-Stack Developer</h3>
             </div>
-            <div className="row">
+            <div className="row mb-5">
                 <div className="col-6 text-start">
                     <p >Phone: 512-695-9490</p>
-                    <p >LinkedIn: LinkedIn.com/in/Mark-Gardner-ATX</p>
-                    <p >Portfolio: markgatx.github.io/Portfolio-v2</p>
+                    <p >LinkedIn: <a href="https://LinkedIn.com/in/Mark-Gardner-ATX" target="_blank" rel="noreferrer">LinkedIn.com/in/Mark-Gardner-ATX</a></p>
+                    <p >Portfolio: <a href="https://markgatx.github.io/Portfolio-v2" target="_blank" rel="noreferrer">markgatx.github.io/Portfolio-v2</a></p>
                 </div>
                 <div className="col-6 text-start">
-                    <p >Email: themarkgardner@gmail.com</p>
-                    <p >GitHub: GitHub.com/MarkGATX</p>
+                    <p >Email: <a href="mailto:themarkgardner@gmail.com">themarkgardner@gmail.com</a></p>
+                    <p >GitHub: <a href="https://GitHub.com/MarkGATX" target="_blank" rel="noreferrer">GitHub.com/MarkGATX</a></p>
                 </div>
             </div>
             <div className="container row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection' >Summary</h3>
-                <p >Creative multi-hyphenate with a passion for learning. Looks at every challenge as a chance to improve and thrives on the feeling of accomplishment at the end of a project. Balances a drive for perfection with an easy-going and friendly personality to work well in teams. Technology and all media should be simple, effective, and sometimes a little surprising in order to keep people engaged. </p>
+                <p >Front-end and Full Stack developer and creative multi-hyphenate with a passion for learning. Looks at every challenge as a chance to improve and thrives on the feeling of accomplishment at the end of a project. Balances a drive for perfection with an easy-going and friendly personality to work well in teams. Technology and all media should be simple, effective, and sometimes a little surprising in order to keep people engaged. </p>
             </div>
             <div className="container row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection'>Technical Skills</h3>
-                <p >Technology: HTML5, CSS3, JavaScript ES6+, SQL, NoSQL</p>
-                <p>Libraries: Node.js, Express.js, Bootstrap, Handlebars, JQuery, React, Sequelize, Mongoose</p>
-                <p >Tools: GitHub, VS Code, NPM, Adobe Creative Suite, SQL Workbench, MongoDB Compass, Heroku</p>
+                <h5 >Technology: </h5>
+                <div className='col-12 d-flex flex-wrap justify-content-start align-items-start'>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="HTML5" className="devicon-html5-plain"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="CSS3" className="devicon-css3-plain"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Javascript ES6+" className="devicon-javascript-plain"></i>
+                        <p>Javascript ES6+</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="MySQL" className="devicon-mysql-plain"></i>
+                        <p>SQL</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="NoSql" className="devicon-mongodb-plain"></i>
+                        <p>NoSQL</p>
+                    </div>
+                </div>
+                <h5>Libraries: </h5>
+                <div className='col-12 d-flex flex-wrap justify-content-start align-items-start'>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Bootstrap" className="devicon-bootstrap-plain"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Express" className="devicon-express-original"></i>
+                        <p>Express.js</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Handlebars" className="devicon-handlebars-plain"></i>
+                        <p>Handlebars</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="JQuery" className="devicon-jquery-plain"></i>
+                        <p>JQuery</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Node.js" className="devicon-nodejs-plain"></i>
+                        <p>Node.js</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Mongoose for MongoDb" className="devicon-mongodb-plain"></i>
+                        <p>Mongoose</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="React" className="devicon-react-plain"></i>
+                        <p>React</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Sequelize" className="devicon-sequelize-plain"></i>
+                        <p>Sequelize</p>
+                    </div>
+                </div>
+                <h5 >Tools:</h5>
+                <div className='col-12 d-flex flex-wrap justify-content-start align-items-start'>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Adobe Creative Suite" className="devicon-photoshop-plain"></i>
+                        <p>Adobe Creative Suite</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="GitHub" className="devicon-github-plain"></i>
+                        <p>GitHub</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Heroku" className="devicon-heroku-plain"></i>
+                        <p>Heroku</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Mongo Db Compass" className="devicon-mongodb-plain"></i>
+                        <p>Mongo Db Compass</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Node Package Manager" className="devicon-npm-original-wordmark"></i>
+                        <p>NPM</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="VS Code" className="devicon-vscode-plain"></i>
+                        <p>VS Code</p>
+                    </div>
+                    <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="SQL Workbench" className="devicon-mysql-plain"></i>
+                        <p>SQL Workbench</p>
+                    </div>
+                </div>
             </div>
-            <div className="container row d-flex justify-content-center">
+            <div className="container row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection'>Projects Built</h3>
                 <h4 >Garden<sup>2</sup></h4>
-                <p >Live site: https://garden2ed.herokuapp.com/  </p>
-                <p >GitHub Repo: https://github.com/MarkGATX/Garden2</p>
+                <p >Live site: <a href="https://garden2ed.herokuapp.com/" target='_blank' rel='noreferrer'>https://garden2ed.herokuapp.com/ </a> </p>
+                <p >GitHub Repo: <a href="https://github.com/MarkGATX/Garden2" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/Garden2</a></p>
                 <p >A full-stack web application to help home gardeners plan successful gardens with a comprehenive database of plants, care instructions, and garden layouts users can save to their accounts.</p>
-                <p >Role:Front-end design, branding logos and graphics creation</p>
-                <p >Tools: Bootstrap, JavasScript, CSS3, GoogleFonts, Photoshop, Illustrator, Node.js, Handlebars </p>
+                <p >Role:  Front-end design, branding logos and graphics creation</p>
+                <p className="mb-4" >Tools:  Bootstrap, JavasScript, CSS3, GoogleFonts, Photoshop, Illustrator, Node.js, Handlebars </p>
                 <h4>Weather Dashboard</h4>
-                <p >Live site: https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/ </p>
-                <p >GitHub Repo: https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp</p>
+                <p >Live site: <a href="https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/" target="_blank" rel='noreferrer'>https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/</a> </p>
+                <p >GitHub Repo: <a href="https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp" target="_blank" rel="noreferrer">https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp</a></p>
                 <p >Accurate weather forecasts for cities anywhere in the world using two weather APIs while storing past searches in a simple but powerful interface.</p>
                 <p >Role:Sole Developer</p>
-                <p >Tools: Bootstrap, JavasScript, CSS3, GoogleFonts, OpenWeather API, WeatherBit.io API</p>
+                <p className="mb-4">Tools: Bootstrap, JavasScript, CSS3, GoogleFonts, OpenWeather API, WeatherBit.io API</p>
                 <h4 >Word Guess Game</h4>
-                <p >Live site: https://markgatx.github.io/The-Word-Guess-Game/ </p>
-                <p >GitHub Repo: https://github.com/MarkGATX/The-Word-Guess-Game</p>
+                <p >Live site: <a href="https://markgatx.github.io/The-Word-Guess-Game/" target="_blank" rel="noreferrer">https://markgatx.github.io/The-Word-Guess-Game/</a> </p>
+                <p >GitHub Repo: <a href="https://github.com/MarkGATX/The-Word-Guess-Game" target="_blank" rel="noreferrer">https://github.com/MarkGATX/The-Word-Guess-Game</a></p>
                 <p >A fun and challenging take on a simple word guess game. Added features are animations, tougher scoring rules, a keyboard rate limiter, and a API call at game end for dictionary definitions.</p>
                 <p >Role:Sole Developer</p>
                 <p >Tools:JavasScript, CSS3, GoogleFonts, Dictionary API</p>
