@@ -14,15 +14,15 @@ export default function PortfolioContainer() {
         <>
             <Header />
             <main>
-                <div class="container-fluid">
-                    <div class="row justify-content-around">
-                         <AboutMe />
-    <ProjectsContainer />
-{/*<Contact />*/}
+                <div className="container-fluid">
+                    <div className="row justify-content-around">
+                        <AboutMe />
+                        <ProjectsContainer />
+                        <Contact />
                     </div>
                 </div>
             </main>
-            {/* <Footer />  */}
+            <Footer /> 
         </>
     )
 }

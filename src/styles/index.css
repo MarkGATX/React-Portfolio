@@ -6,6 +6,8 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap');
+
 /* global */
 
 a {
@@ -17,9 +19,18 @@ a i {
 }
 
 body {
-  color:var(--accent);
+  color:var(--accent) !important;
   background-color: var(--light);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif !important;
+}
+footer {
+  background-color:var(--dark);
+  color:var(--light);
+}
+
+footer i {
+  color:var(--light);
+
 }
 
 html {
@@ -27,7 +38,7 @@ html {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 header h1{
@@ -47,6 +58,9 @@ i {
 img, svg {
   vertical-align: baseline;
 }
+
+
+
 
 /* classes */
 /* tints colored icons black and then adjusts to blue to match blue on site */
@@ -272,6 +286,17 @@ img, svg {
 
 #contactDiv {
   border-top: solid 2px var(--accent);
+
+}
+
+#contactDiv i { 
+  font-size:4vw;
+  transition: all .5s
+}
+
+#contactDiv i:hover { 
+  transform:scale(120%);
+  color:var(--dark);
 
 }
 

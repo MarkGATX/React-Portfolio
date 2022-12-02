@@ -1,4 +1,8 @@
 
+import greensock from '../images/gsap-greensock.svg'
+import animate from '../images/Adobe_Animate_CC_icon_(2020).svg'
+import Questions from './Questions'
+import "../styles/index.css";
 
 export default function AboutMe() {
 
@@ -10,8 +14,9 @@ export default function AboutMe() {
             <p>The experience a person has using any media should be easy, enjoyable, and sometimes even
                 surprising. </p>
             <p className="mb-5">Thanks for stopping by and please reach out to say hello.</p>
-            <h5 id="question"></h5>
-            <p id="answer" className="mb-5"></p>
+            <Questions />
+            {/* <h5 id="question"></h5>
+            <p id="answer" className="mb-5"></p> */}
             <h5 id="techSkills" >Tech skills:</h5>
             <div className="d-flex flex-wrap">
                 <i title="Sequelize" className="devicon-sequelize-plain"></i>
@@ -30,8 +35,8 @@ export default function AboutMe() {
                 <i title="Premiere Pro" className="devicon-premierepro-plain"></i>
                 <i title="After Effects" className="devicon-aftereffects-plain"></i>
                 <i title="Blender" className="devicon-blender-original"></i>
-                <img title="Greensock" className="icon " src="./src/images/gsap-greensock.svg" />
-                    <img title="Adobe Animate" className="icon" src="./public/images/Adobe_Animate_CC_icon_(2020).svg" />
+                <img title="Greensock" className="icon" alt="greensock logo" src={greensock} />
+                    <img title="Adobe Animate" className="icon" alt="adobe animate logo" src={animate} />
                     </div>
 
                 </section>
