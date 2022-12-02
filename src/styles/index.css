@@ -211,7 +211,7 @@ img, svg {
   color:var(--dark);
 }
 
-.row h5 , .row h4{
+.resumeHead {
   color:var(--dark);
 }
 
