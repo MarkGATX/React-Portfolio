@@ -23,6 +23,12 @@ body {
   background-color: var(--light);
   font-family: 'Inter', sans-serif !important;
 }
+
+border {
+  color:var(--accent);
+}
+
+
 footer {
   background-color:var(--dark);
   color:var(--light);
@@ -193,6 +199,15 @@ img, svg {
 .projectFeat:hover .projectTech{
   transform:rotateX(0deg);
   box-shadow:10px 10px 20px var(--dark);
+}
+
+.resumeContainer {
+  border-left: solid 2px var(--accent);
+
+}
+
+.resumeSection {
+  border-bottom:solid 5px var(--accent);
 }
 
 .tagContainer {
