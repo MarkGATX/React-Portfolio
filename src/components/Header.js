@@ -6,6 +6,8 @@ import markCoffee from '../images/mark_with_coffee.jpg'
 
 export default function Header({currentPage, handlePageChange}) {
 
+    
+
     return (
         <>
             <header className="container-fluid p-0 d-flex flex-wrap justify-content-between align-items-end">

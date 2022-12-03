@@ -324,6 +324,18 @@ img, svg {
   z-index:10;
 }
 
+#carouselRight {
+  max-height:300px;
+  /* float:right; */
+  overflow:hidden
+}
+
+#carouselLeft {
+  max-height:300px;
+  float:left;
+  overflow:hidden;
+}
+
 #contactDiv {
   border-top: solid 2px var(--accent);
 

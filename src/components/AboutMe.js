@@ -20,23 +20,23 @@ export default function AboutMe() {
             <p id="answer" className="mb-5"></p> */}
             <h5 id="techSkills" >Tech skills:</h5>
             <div className="d-flex flex-wrap">
-                <i title="Sequelize" className="devicon-sequelize-plain"></i>
-                <i title="Bootstrap" className="devicon-bootstrap-plain"></i>
-                <i title="Handlebars" className="devicon-handlebars-plain"></i>
-                <i title="Heroku" className="devicon-heroku-plain"></i>
-                <i title="jquery" className="devicon-jquery-plain"></i>
-                <i title="MySQL" className="devicon-mysql-plain"></i>
-                <i title="MongoDB" className="devicon-mongodb-plain"></i>
-                <i title="vscode" className="devicon-vscode-plain"></i>
-                <i title="Javascript" className="devicon-javascript-plain"></i>
-                <i title="CSS3" className="devicon-css3-plain"></i>
-                <i title="HTML5" className="devicon-html5-plain"></i>
-                <i title="NodeJS" className="devicon-nodejs-plain"></i>
-                <i title="Wordpress" className="devicon-wordpress-plain"></i>
-                <i title="Photoshop" className="devicon-photoshop-plain"></i>
-                <i title="Premiere Pro" className="devicon-premierepro-plain"></i>
-                <i title="After Effects" className="devicon-aftereffects-plain"></i>
-                <i title="Blender" className="devicon-blender-original"></i>
+                <i title="Sequelize" className="devicon-sequelize-plain colored"></i>
+                <i title="Bootstrap" className="devicon-bootstrap-plain colored"></i>
+                <i title="Handlebars" className="devicon-handlebars-plain colored"></i>
+                <i title="Heroku" className="devicon-heroku-plain colored"></i>
+                <i title="jquery" className="devicon-jquery-plain colored"></i>
+                <i title="MySQL" className="devicon-mysql-plain colored"></i>
+                <i title="MongoDB" className="devicon-mongodb-plain colored"></i>
+                <i title="vscode" className="devicon-vscode-plain colored"></i>
+                <i title="Javascript" className="devicon-javascript-plain colored"></i>
+                <i title="CSS3" className="devicon-css3-plain colored"></i>
+                <i title="HTML5" className="devicon-html5-plain colored"></i>
+                <i title="NodeJS" className="devicon-nodejs-plain colored"></i>
+                <i title="Wordpress" className="devicon-wordpress-plain colored"></i>
+                <i title="Photoshop" className="devicon-photoshop-plain colored"></i>
+                <i title="Premiere Pro" className="devicon-premierepro-plain colored"></i>
+                <i title="After Effects" className="devicon-aftereffects-plain colored"></i>
+                <i title="Blender" className="devicon-blender-original colored"></i>
                 <img title="Greensock" className="icon" alt="greensock logo" src={greensock} />
                 <img title="Adobe Animate" className="icon" alt="adobe animate logo" src={animate} />
                 <img title="Google Fonts" className="icon" alt="Google Fonts logo" src={googleFonts} />
