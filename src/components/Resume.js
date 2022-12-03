@@ -1,11 +1,12 @@
-
+// import pdfResume from '../docs/Full-stack_Dev_Resume_2022.pdf'
+import pdfResume from '../docs/Mark_Gardner_Full-stack_Dev_resume_2022.pdf';
 
 export default function Resume() {
 
     return (
         <section className="col-md-8 col-lg-8 resumeContainer">
             <h2 className="col-12 mb-4">Resume</h2>
-            <a href="./public/docs/Full-stack Dev resume 2022.pdf">Downloadable version here</a>
+            <a href={pdfResume} target="_blank" rel="noreferrer">Downloadable version here</a>
             <div className="container  row d-flex justify-content-center text-center mb-5">
                 <h2>MARK GARDNER</h2>
                 <h3 className="resumeSection">Front-End and Full-Stack Developer</h3>
@@ -30,77 +31,77 @@ export default function Resume() {
                 <h5 className='resumeHead'>Technology: </h5>
                 <div className='col-12 d-flex flex-wrap justify-content-start align-items-start'>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="HTML5" className="devicon-html5-plain"></i>
+                        <i title="HTML5" className="devicon-html5-plain colored"></i>
                         <p>HTML5</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="CSS3" className="devicon-css3-plain"></i>
+                        <i title="CSS3" className="devicon-css3-plain colored"></i>
                         <p>CSS3</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Javascript ES6+" className="devicon-javascript-plain"></i>
+                        <i title="Javascript ES6+" className="devicon-javascript-plain colored"></i>
                         <p>Javascript ES6+</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="MySQL" className="devicon-mysql-plain"></i>
+                        <i title="MySQL" className="devicon-mysql-plain colored"></i>
                         <p>SQL</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="NoSql" className="devicon-mongodb-plain"></i>
+                        <i title="NoSql" className="devicon-mongodb-plain colored"></i>
                         <p>NoSQL</p>
                     </div>
                 </div>
                 <h5 className='resumeHead'>Libraries: </h5>
                 <div className='col-12 d-flex flex-wrap justify-content-start align-items-start'>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Bootstrap" className="devicon-bootstrap-plain"></i>
+                        <i title="Bootstrap" className="devicon-bootstrap-plain colored"></i>
                         <p>Bootstrap</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Express" className="devicon-express-original"></i>
+                        <i title="Express" className="devicon-express-original colored"></i>
                         <p>Express.js</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Handlebars" className="devicon-handlebars-plain"></i>
+                        <i title="Handlebars" className="devicon-handlebars-plain colored"></i>
                         <p>Handlebars</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="JQuery" className="devicon-jquery-plain"></i>
+                        <i title="JQuery" className="devicon-jquery-plain colored"></i>
                         <p>JQuery</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Node.js" className="devicon-nodejs-plain"></i>
+                        <i title="Node.js" className="devicon-nodejs-plain colored"></i>
                         <p>Node.js</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Mongoose for MongoDb" className="devicon-mongodb-plain"></i>
+                        <i title="Mongoose for MongoDb" className="devicon-mongodb-plain colored"></i>
                         <p>Mongoose</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="React" className="devicon-react-plain"></i>
+                        <i title="React" className="devicon-react-plain colored"></i>
                         <p>React</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Sequelize" className="devicon-sequelize-plain"></i>
+                        <i title="Sequelize" className="devicon-sequelize-plain colored"></i>
                         <p>Sequelize</p>
                     </div>
                 </div>
                 <h5 className='resumeHead'>Tools:</h5>
                 <div className='col-12 d-flex flex-wrap justify-content-start align-items-start'>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Adobe Creative Suite" className="devicon-photoshop-plain"></i>
+                        <i title="Adobe Creative Suite" className="devicon-photoshop-plain colored"></i>
                         <p>Adobe Creative Suite</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="GitHub" className="devicon-github-plain"></i>
+                        <i title="GitHub" className="devicon-github-plain colored"></i>
                         <p>GitHub</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Heroku" className="devicon-heroku-plain"></i>
+                        <i title="Heroku" className="devicon-heroku-plain colored"></i>
                         <p>Heroku</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Mongo Db Compass" className="devicon-mongodb-plain"></i>
+                        <i title="Mongo Db Compass" className="devicon-mongodb-plain colored"></i>
                         <p>Mongo Db Compass</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
@@ -108,11 +109,11 @@ export default function Resume() {
                         <p>NPM</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="VS Code" className="devicon-vscode-plain"></i>
+                        <i title="VS Code" className="devicon-vscode-plain colored"></i>
                         <p>VS Code</p>
                     </div>
                     <div className="col-2 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="SQL Workbench" className="devicon-mysql-plain"></i>
+                        <i title="SQL Workbench" className="devicon-mysql-plain colored"></i>
                         <p>SQL Workbench</p>
                     </div>
                 </div>
