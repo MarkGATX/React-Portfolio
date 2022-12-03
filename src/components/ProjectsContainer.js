@@ -1,10 +1,13 @@
 import materialize from "../images/materialize.svg"
 import { useState } from "react";
 import LinkModal from "./LinkModal";
+let livePath='' ;
+let gitPath='' ;
+// import gardenLive from 'https://garden2ed.herokuapp.com/';
+// import gardenGit from 'https://github.com/MarkGATX/Garden2';
 
 export default function ProjectsContainer() {
-    let livePath = '';
-    let gitPath = '';
+   
 
     const [show, setShow] = useState(false);
     // const handleClose = () => setShow(false);
@@ -17,8 +20,8 @@ export default function ProjectsContainer() {
                 livePath = 'https://garden2ed.herokuapp.com/';
                 gitPath = 'https://github.com/MarkGATX/Garden2';
                 console.log(livePath);
-                console.log(gitPath)
-                setShow(true);;
+                console.log(gitPath);
+                setShow(true);
                 break;
             case 'weatherDash':
                 livePath = 'https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/';

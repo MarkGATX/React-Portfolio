@@ -7,7 +7,7 @@ export default function LinkModal({livePath, gitPath, setShow, show}) {
 
     console.log(livePath);
     console.log(gitPath);
-
+ 
     return (       
          <>
             <Modal show={show} onHide={() => setShow(false)} size="lg">
