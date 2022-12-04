@@ -1,8 +1,9 @@
 // import Bootstrap from 'react-bootstrap'
 
-import { gsap, CSSPlugin } from 'gsap';
-import { useLayoutEffect, useEffect, useRef } from 'react'
+import { gsap } from "gsap/dist/gsap";
+import { useLayoutEffect, useEffect, useRef} from 'react'
 import markCoffee from '../images/mark_with_coffee.jpg'
+import AnimateCup from "./AnimateCup";
 
 
 
@@ -14,7 +15,7 @@ export default function Header({ currentPage, handlePageChange }) {
     const navItem = useRef();
     const forgeBy = useRef();
     const fuelBy = useRef();
-    const tl = useRef();
+    // const tl = useRef();
     // const cup = useRef();
     // const main = useRef();
 
@@ -32,20 +33,31 @@ export default function Header({ currentPage, handlePageChange }) {
     //     return () => ctx && ctx.revert();
     //   }, [loaded]);
 
-    useEffect(() => {
-        gsap.registerPlugin(CSSPlugin);
-        const enterTl = gsap.context(() => {
-            tl.current = gsap.timeline()
-                .from(aniContain, { duration: 1, x: -2000, y: +1 })
-                .from(headerName, { duration: 1.7, x: -1500 }, '-=1.5')
-                .from(pretendBorder, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(230,250,252) 1%, rgb(230,250,252) 30%)' }, "-=.1")
-                .from(navItem.li, { duration: 1, y: 15, opacity: 0, stagger: .3 }, "-=3.6")
-                .from(forgeBy, { duration: 2, y: -20, opacity: 0 }, '-=3.0')
-                .from(fuelBy, { duration: 2, y: -20, opacity: 0, }, '-=2.5')
+    // useEffect(() => {
+        // gsap.registerPlugin(CSSPlugin);
+        // const enterTl = gsap.context(() => {
+        //     tl.current = gsap.timeline()
+        //         .from(aniContain, { duration: 1, x: -2000, y: +1 })
+        //         .from(headerName, { duration: 1.7, x: -1500 }, '-=1.5')
+        //         .from(pretendBorder, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(230,250,252) 1%, rgb(230,250,252) 30%)' }, "-=.1")
+        //         .from(navItem.li, { duration: 1, y: 15, opacity: 0, stagger: .3 }, "-=3.6")
+        //         .from(forgeBy, { duration: 2, y: -20, opacity: 0 }, '-=3.0')
+        //         .from(fuelBy, { duration: 2, y: -20, opacity: 0, }, '-=2.5')
             // tl.from('main', { duration: 1, opacity: 0 }, '-=1.7')
-        }
-        )
-    }, [])
+        // }, [])
+            
+        // gsap.context(() => {
+        useEffect(() => { 
+            const tl = gsap.timeline();
+            
+                tl.from(headerName.current, { duration: 1.7, x: -1500 });
+                tl.from(pretendBorder.current,  { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(230,250,252) 1%, rgb(230,250,252) 30%)' }, '-=.1');
+                tl.from(navItem.current, { duration: 1, y: 15, opacity: 0, stagger: .3 }, '-=3.6');
+                tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=3.0');
+                tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.5');
+                tl.from('main', { duration: 1, opacity: 0 }, '-=1.7')
+            }, []) 
+    
     return (
         <>
             <header className="container-fluid p-0 d-flex flex-wrap justify-content-between align-items-end">
@@ -57,9 +69,10 @@ export default function Header({ currentPage, handlePageChange }) {
                 </div>
 
                 <div id="animation_container" ref={aniContain} className="col-2">
+                    <AnimateCup />
                     {/* <canvas id="canvas" ref={cup}
                     style={{position: absolute}, {display: block}, {backgroundColor:rgba(255, 255, 255, 0.00)}}></canvas> */}
-                    <canvas id="canvas"></canvas>
+                    
                     <div id="dom_overlay_container">
                     </div>
                 </div>
