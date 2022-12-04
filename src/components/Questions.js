@@ -1,3 +1,4 @@
+import React from 'react';
 
 export default function Questions() {
 
@@ -25,8 +26,8 @@ export default function Questions() {
     ]
 
     const questNum = Math.floor(Math.random() * questAboutMe.length + 1);
-    let quest = "Random question: " + questAboutMe[questNum][0];
-    let ans = questAboutMe[questNum][1];
+    let quest = "Random question: " + questAboutMe?.[questNum]?.[0];
+    let ans = questAboutMe?.[questNum]?.[1];
 
     return (
         <>
