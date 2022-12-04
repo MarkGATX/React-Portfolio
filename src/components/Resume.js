@@ -3,14 +3,12 @@ import pdfResume from '../docs/Mark_Gardner_Full-stack_Dev_resume_2022.pdf';
 
 export default function Resume() {
 
-
-
     return (
       
         <section className="col-md-8 col-lg-8 resumeContainer">
             <h2 className="col-12 mb-4">Resume</h2>
-            
-            <a href={pdfResume} target="_blank" rel="noreferrer">Downloadable version here</a>
+            {/* <button className="button" onClick={()=>  window.open('../docs/Mark_Gardner_Full-stack_Dev_resume_2022.pdf', '_blank')}>Downloadable PDF</button> */}
+            <a href={pdfResume} target="_blank" rel="noreferrer">Downloadable PDF here</a>
             <div className="container  row d-flex justify-content-center text-center mb-5">
                 <h2>MARK GARDNER</h2>
                 <h3 className="resumeSection">Front-End and Full-Stack Developer</h3>

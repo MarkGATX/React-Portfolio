@@ -38,8 +38,6 @@ export default function Resume() {
             return;
 
         }
-
-        alert(`Hello ${name}`);
         
         // clear out the input after a successful submit.
 
