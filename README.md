@@ -12,7 +12,7 @@ I considered starting from scratch to really get a feel for the framework, but I
 
 Let's see how it all turned out.
 
-[You can see it live here to take a look. ](https://markgatx.github.io/Portfolio-v2)
+[You can see it live here to take a look. ](https://markgatx.github.io/react-portfolio/)
 
 
 ___
