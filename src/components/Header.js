@@ -18,6 +18,20 @@ export default function Header({ currentPage, handlePageChange }) {
     // const cup = useRef();
     // const main = useRef();
 
+    // useLayoutEffect(() => {
+    //     let ctx;
+    //     if (loaded) {
+    //       ctx = gsap.context(() => {
+    //         gsap.from("h1", {
+    //           opacity: 0,
+    //           y: 50,
+    //           stagger: 0.1
+    //         });
+    //       }, container);
+    //     }
+    //     return () => ctx && ctx.revert();
+    //   }, [loaded]);
+
     useEffect(() => {
         gsap.registerPlugin(CSSPlugin);
         const enterTl = gsap.context(() => {

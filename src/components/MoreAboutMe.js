@@ -1,11 +1,4 @@
-import makingCurry from '../images/cooking_curry.jpg';
-import vegasAwards from '../images/Awards_las_vegas.jpg';
-import directingWG from '../images/directing_WG_pilot.jpg';
-// import hiking from '../images/hiking_in_mtns.jpg';
-// import mugging from '../images/mugging.jpg';
-// import parisND from '../images/paris_notre_dame.jpg';
-import stepRepeat from '../images/step_repeat_LA.jpg';
-// import wingedVict from '../images/winged_victory.jpg';
+
 import React from 'react';
 import Gallery from './Gallery'
 
@@ -17,7 +10,6 @@ export default function MoreAboutMe() {
             <h2 className="col-12 mb-4 ps-2">More About Me</h2>
             <div className=" container col-12 d-flex justify-content-start flex-wrap ms-0">
                 <div className="col-5">
-
                     <p> So you want to know even more about me?</p>
                     <p> Well that's nice to hear. Thank you!</p>
                     <p> I'm a Front-End and Full-Stack Developer who loves to push the boundaries on what I can achieve. When I come up with a concept in any field, I figure out what I need to learn to make it happen. Then I do it. </p>
@@ -28,13 +20,7 @@ export default function MoreAboutMe() {
                 </div>
                 <div className='col-6'>
                     <Gallery />
-
                 </div>
-
-
-
-
-
             </div>
         </section >
     )
