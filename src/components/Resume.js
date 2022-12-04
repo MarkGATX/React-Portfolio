@@ -3,9 +3,13 @@ import pdfResume from '../docs/Mark_Gardner_Full-stack_Dev_resume_2022.pdf';
 
 export default function Resume() {
 
+
+
     return (
+      
         <section className="col-md-8 col-lg-8 resumeContainer">
             <h2 className="col-12 mb-4">Resume</h2>
+            
             <a href={pdfResume} target="_blank" rel="noreferrer">Downloadable version here</a>
             <div className="container  row d-flex justify-content-center text-center mb-5">
                 <h2>MARK GARDNER</h2>
@@ -158,6 +162,6 @@ export default function Resume() {
                 <p >University of Texas at Austin  / Bachelor of Arts in Plan II</p>
             </div>
         </section>
-
+     
     )
 }

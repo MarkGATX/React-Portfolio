@@ -6,6 +6,7 @@
 // import parisND from '../images/paris_notre_dame.jpg';
 // import stepRepeat from '../images/step_repeat_LA.jpg';
 // import wingedVict from '../images/winged_victory.jpg';
+import React from 'react';
 
 
 export default function MoreAboutMe() {
@@ -13,7 +14,7 @@ export default function MoreAboutMe() {
 
         <section className="col-md-8 col-lg-8 contactMeContainer">
             <h2 className="col-12 mb-4">More About Me</h2>
-            <div className=" container">
+            <div className=" container d-flex justify-content-start flex-wrap ms-0">
 
            
                     <p> So you want to know even more about me?</p>

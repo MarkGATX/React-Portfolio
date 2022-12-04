@@ -152,14 +152,25 @@ img, svg {
   color:var(--light);
 }
 
+.navbar {
+  z-index:10;
+}
 
+.navlink {
+  color:var(--accent) !important;
+  opacity:.5;
+  scale:100%;
+  transition:all .3s;
+}
 
-.nav-link {
-  color:var(--dark);
+.nav-link.active{
+  color:var(--dark) !important;
+  font-weight: bold;;
 }
 
 .nav-link:hover {
-  color:var(--accent);
+  color:var(--accent) !important;
+  scale:105%;
 }
 
 .pretend-border {
@@ -312,6 +323,7 @@ img, svg {
 
 .projectFeat:hover .projectFeatTitle{
   background-color:var(--accent);
+
 }
 
 /* ids */
