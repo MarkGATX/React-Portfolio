@@ -15,13 +15,15 @@ export default function Header({ currentPage, handlePageChange }) {
     const navItem = useRef();
     const forgeBy = useRef();
     const fuelBy = useRef();
+    
    
         useEffect(() => { 
             const tl = gsap.timeline();
+            const links = document.querySelectorAll('li')
             
-                tl.from(headerName.current, { duration: 1.7, x: -1500 });
+                tl.from(headerName.current, { duration: 1.3, x: -1500 });
                 tl.from(pretendBorder.current,  { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(230,250,252) 1%, rgb(230,250,252) 30%)' }, '-=.1');
-                tl.from(navItem.current, { duration: 1, y: 15, opacity: 0, stagger: .3 }, '-=3.6');
+                tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.6');
                 tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=3.0');
                 tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.5');
                 tl.from('main', { duration: 1, opacity: 0 }, '-=1.7')
