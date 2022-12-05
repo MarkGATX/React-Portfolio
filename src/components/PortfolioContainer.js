@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Footer from './Footer';
 import Contact from './Contact';
 import AboutMe from './AboutMe';
@@ -11,6 +11,7 @@ import MoreAboutMe from './MoreAboutMe';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Portfolio');
+    // const main = useRef();
 
     const renderMainSection = () => {
         if (currentPage === 'Portfolio') {
