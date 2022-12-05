@@ -11,9 +11,11 @@ export default function Footer() {
             <p className="col-12">This site created with... </p>
             <div className="col-12 d-flex ">
                 <p className="d-flex flex-row col-12">
-                    <i title="bootstrap" className="devicon-bootstrap-plain d-block "></i>
-                    <i title="CSS3" className="devicon-css3-plain d-block "></i>
-                    <i title="Illustrator" className="devicon-illustrator-plain d-block "></i>
+                <i title="React" className="devicon-react-plain colored"></i>
+                <i title="bootstrap" className="devicon-bootstrap-plain d-block "></i>
+                    <i title="CSS3" className="devicon-css3-plain d-block colored"></i>
+                    <i title="Illustrator" className="devicon-illustrator-plain d-block colored"></i>
+                    <i title="Javascript" className="devicon-javascript-plain colored"></i>
                     <img title="Greensock" className="icon " alt="greensock logo" src={greensock} />
                     <img title="Adobe Animate" className="icon" alt="adobe animate logo" src={animate} />
                     <img title="Google Fonts" className="icon" alt="Google Fonts logo" src={googleFonts} />
