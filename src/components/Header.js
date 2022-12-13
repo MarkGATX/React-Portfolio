@@ -3,7 +3,7 @@
 import { gsap } from "gsap/dist/gsap";
 import {  useEffect, useRef} from 'react'
 import markCoffee from '../images/mark_with_coffee.jpg'
-import AnimateCup from "./AnimateCup";
+
 
 
 
@@ -40,7 +40,7 @@ export default function Header({ currentPage, handlePageChange }) {
                 </div>
 
                 <div id="animation_container" ref={aniContain} className="col-2">
-                    <AnimateCup />
+                   
                     {/* <canvas id="canvas" ref={cup}
                     style={{position: absolute}, {display: block}, {backgroundColor:rgba(255, 255, 255, 0.00)}}></canvas> */}     
                     <div id="dom_overlay_container">

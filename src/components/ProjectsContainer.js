@@ -1,13 +1,15 @@
 import materialize from "../images/materialize.svg"
 import { useState } from "react";
 import LinkModal from "./LinkModal";
-let livePath='' ;
-let gitPath='' ;
+import greensock from '../images/gsap-greensock.svg'
+import victory from '../images/victory.png'
+let livePath = '';
+let gitPath = '';
 // import gardenLive from 'https://garden2ed.herokuapp.com/';
 // import gardenGit from 'https://github.com/MarkGATX/Garden2';
 
 export default function ProjectsContainer() {
-   
+
 
     const [show, setShow] = useState(false);
     // const handleClose = () => setShow(false);
@@ -16,6 +18,13 @@ export default function ProjectsContainer() {
 
     const linkTarget = (link) => {
         switch (link) {
+            case 'migrate':
+                livePath = 'https://migrate-abroad.herokuapp.com/';
+                gitPath = 'https://github.com/richardjhong/migrate';
+                console.log(livePath);
+                console.log(gitPath);
+                setShow(true);
+                break;
             case 'garden2':
                 livePath = 'https://garden2ed.herokuapp.com/';
                 gitPath = 'https://github.com/MarkGATX/Garden2';
@@ -75,6 +84,31 @@ export default function ProjectsContainer() {
             <section className="col-md-8 col-lg-8 projects">
                 <h2 className="col-12 mb-4 projectHeadBG">My Projects</h2>
                 <div className=" col-12 d-flex flex-wrap justify-content-around pb-4">
+                    <article className="projectFeat migrate mb-5 d-flex flex-wrap " data-link="migrate" onClick={() => linkTarget("migrate")}>
+
+                        <div className="projectFeatTitle col-7 p-2 " >
+                            <h5>Migrate</h5>
+                            <p>An app to help potential expats make decisions on their future</p>
+                        </div>
+                        <div
+                            className='projectTech d-flex justify-content-center align-items-center ms-auto mt-auto flex-wrap '>
+                                <i title="React" className="devicon-react-plain colored"></i>
+                            <i title="CSS3" className="devicon-css3-plain colored"></i>
+                            <i title="express" className="devicon-express-original colored"></i>
+                            <i title="victory charts" className="devicon-bootstrap-plain colored"></i>
+                            <i title="graphQL" className="devicon-graphql-plain colored"></i>
+                            <i title="Heroku" className="devicon-heroku-plain colored"></i>
+                            <i title="HTML5" className="devicon-html5-plain colored"></i>
+                            <i title="Sass" className="devicon-sass-plain colored"></i>
+                            <i title="Mongo" className="devicon-mongodb-plain colored"></i>
+                            <i title="vscode" className="devicon-vscode-plain colored"></i>
+                            <i title="Javascript" className="devicon-javascript-plain colored"></i>
+                            <i title="NodeJS" className="devicon-nodejs-plain colored"></i>
+                            <img title="Greensock" className="icon " alt="greensock logo" src={greensock} />
+                            <img title="Vicory" className="icon " alt="victory chart logo" src={victory} />
+                        </div>
+
+                    </article>
                     <article className="projectFeat garden2 mb-5 d-flex flex-wrap " data-link="garden2" onClick={() => linkTarget("garden2")}>
 
                         <div className="projectFeatTitle col-7 p-2 " >
