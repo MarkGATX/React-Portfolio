@@ -1,5 +1,6 @@
 // import pdfResume from '../docs/Full-stack_Dev_Resume_2022.pdf'
-import pdfResume from '../docs/Mark_Gardner_Full-stack_Dev_resume_2022.pdf';
+import pdfResume from '../docs/Mark_Gardner-Full-stack-Dev-resume-2022.pdf';
+
 
 export default function Resume() {
 

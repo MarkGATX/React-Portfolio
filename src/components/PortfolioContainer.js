@@ -5,8 +5,9 @@ import AboutMe from './AboutMe';
 import Header from './Header';
 import ProjectsContainer from './ProjectsContainer';
 import Resume from './Resume';
-import ContactForm from './ContactForm'
+import ContactForm from './ContactForm';
 import MoreAboutMe from './MoreAboutMe';
+import ProjectDetails from './ProjectDetails';
 
 
 export default function PortfolioContainer() {
@@ -25,6 +26,9 @@ export default function PortfolioContainer() {
         }
         if (currentPage === 'About Me') {
             return <MoreAboutMe />;
+          }
+          if (currentPage === 'Details') {
+            return <ProjectDetails />;
           }
         return <ProjectsContainer />;
       };
