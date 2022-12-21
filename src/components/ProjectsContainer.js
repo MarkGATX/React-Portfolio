@@ -23,6 +23,8 @@ export default function ProjectsContainer() {
     const [show, setShow] = useState(false);
  
     const linkTarget = (link) => {
+        console.log('ping the link')
+        console.log(link)
         vidlink='';
         switch (link) {
             case 'migrate':

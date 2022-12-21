@@ -20,7 +20,7 @@ export default function ProjectDetails( {linkTarget} ) {
                 console.log(tech)
                 return (
                     
-                     <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap`} data-link={title} onClick={() => linkTarget( title )}> 
+                     <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap`} data-link={title} onClick={() => linkTarget( displayClass )}> 
                         <div className="projectFeatTitle col-7 p-2 " >
                             <h5>{title}</h5>
                             <p>{desc}</p>
