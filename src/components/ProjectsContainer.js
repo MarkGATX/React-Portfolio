@@ -5,6 +5,8 @@ import greensock from '../images/gsap-greensock.svg'
 import victory from '../images/victory.png'
 import migrateSplash from '../images/migrate-splash.jpg';
 import migrateSingle from '../images/migrate-single-country.jpg';
+import ProjectDetails from "./ProjectDetails";
+
 let livePath = '';
 let gitPath = '';
 let desc= '';
@@ -147,7 +149,7 @@ export default function ProjectsContainer() {
             <section className="col-md-8 col-lg-8 projects">
                 <h2 className="col-12 mb-4 projectHeadBG">My Projects</h2>
                 <div className=" col-12 d-flex flex-wrap justify-content-around pb-4">
-                    <article className="projectFeat migrate mb-5 d-flex flex-wrap " data-link="migrate" onClick={() => linkTarget("migrate")}>
+                    {/* <article className="projectFeat migrate mb-5 d-flex flex-wrap " data-link="migrate" onClick={() => linkTarget("migrate")}>
 
                         <div className="projectFeatTitle col-7 p-2 " >
                             <h5>Migrate</h5>
@@ -340,7 +342,8 @@ export default function ProjectsContainer() {
                             <i title="Premiere Pro" className="devicon-premierepro-plain colored"></i>
                             <i title="After Effects" className="devicon-aftereffects-plain colored"></i>
                         </div>
-                    </article>
+                    </article> */}
+                    < ProjectDetails linkTarget={linkTarget} />
                 </div>
             </section>
             <LinkModal livePath={livePath} gitPath={gitPath} desc={desc} role={role} vidlink={vidlink} imgs={imgs} title={title} setShow={setShow} show={show} />

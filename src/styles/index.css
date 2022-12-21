@@ -82,6 +82,11 @@ img, svg {
   box-shadow:5px 5px 10px #4b2513;
 }
 
+
+.button:active {
+  box-shadow:5px 5px 10px inset #4b2513;
+}
+
 .contactCard {
   background-color:var(--dark) !important ;
   color:var(--light);
@@ -117,7 +122,7 @@ img, svg {
 }
 
 .icon {
-  width:1.6vw;
+  width:1.3vw;
   margin:2px 2px;
 }
 

@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { validateEmail } from '../utils/helpers';
 import ContactFormModal from './contactFormModal'
+import emailjs from '@emailjs/browser'
 
 
 export default function Resume() {
@@ -9,12 +10,14 @@ export default function Resume() {
     const [message, setMessage] = useState("");
     const [errorMessage, setErrorMessage] = useState('');
     const [show, setShow] = useState(false);
+    const form = useRef();
 
     const handleInputChange = (e) => {
         // Getting the value and name of the input which triggered the change
         const { target } = e;
         const inputType = target.id;
         const inputValue = target.value;
+       
 
         if (inputType === 'email') {
             setEmail(inputValue);
@@ -23,12 +26,11 @@ export default function Resume() {
         } else {
             setMessage(inputValue);
         }
-        console.log(name);
-        console.log(email);
-        console.log(message)
+        
     };
 
-    const handleFormSubmit = (e) => {
+    const HandleFormSubmit = (e) => {
+        
         e.preventDefault();
 
         // First we check to see if the email is not valid. If so we set an error message to be displayed on the page.
@@ -38,6 +40,12 @@ export default function Resume() {
             return;
 
         }
+        emailjs.sendForm('default_service', 'portfolio_contact', form.current, '9YVbKkrKLvP796bXY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
         
         // clear out the input after a successful submit.
 
@@ -63,25 +71,25 @@ export default function Resume() {
             </div>
             <div className="container-fluid row d-flex justify-content-center mt-2">
                 <div className="card contactCard col-8">
-                    <div className="card-body">
+                    <form className="card-body" ref={form} onSubmit={HandleFormSubmit}>
                         <h5 className="card-title">Or send me an email...</h5>
                         <label className="form-label">Your Email address</label>
-                        <input type="email" className="form-control"  id="email" value={email} onChange={ handleInputChange} aria-describedby="emailHelp" />
+                        <input type="email" className="form-control mb-3" name='user_email' id="email" value={email} onChange={ handleInputChange} aria-describedby="emailHelp" />
                         <div className="mb-3">
                             <label className="form-label">Your Name</label>
-                            <input type="text" value={name} className="form-control"  id="name" onChange={ handleInputChange} />
+                            <input type="text" value={name} className="form-control" name='user_name' id="name" onChange={ handleInputChange} />
                         </div>
                         <div className="mb-3">
                             <label className="form-label">Your message here:</label>
-                            <input type="textarea" value={message}  className="form-control" onChange={ handleInputChange} id="message" />
+                            <input type="textarea" value={message} name="message" className="form-control" onChange={ handleInputChange} id="message" />
                         </div>
-                        <button type="button" className="button" onClick={handleFormSubmit}>Submit</button>
+                        <button type="submit" className="button" >Submit</button>
                         {errorMessage && (
                             <div>
                                 <p className="error-text">{errorMessage}</p>
                             </div>
                         )}
-                    </div>
+                    </form>
                 </div>
             </div>
             <ContactFormModal  show={show} setShow={setShow}/>
