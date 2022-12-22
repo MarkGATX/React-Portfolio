@@ -1,9 +1,0 @@
-[
-    { "Title": "Migrate",
-    "Desc": "An app to help potential expats make decisions on their future.",
-    "LongDesc": "The world is a big place and with the growing acceptance of remote work and the desire to experience different parts of the world, finding good information on what life could be like can be hard. Migrate takes data from the Social Progress Imperative and displays it in a format that's easy to understand. This was a final group project in the UT-Austin Full-Stack Development Bootcamp. It's a MERN stack that also uses Greensock, SASS, and Victory Charts to make a solid and smooth user experience.",
-    "Role": "Front-End and Full-Stack Development",
-    "Tech":""
-    }
-    
-]

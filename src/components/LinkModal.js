@@ -1,15 +1,18 @@
 import React from 'react'
 import Modal from 'react-bootstrap/Modal';
 // import liveIcon from "../images/live_path_icon.svg";
-import liveIcon from "../images/live_path_icon.svg"
+import liveIcon from "../images/live_path_icon.svg";
+
 
 
 export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, title, desc, role, imgs }) {
     console.log(vidlink)
     console.log(livePath);
     console.log(gitPath);
-    const imgArray = imgs.map((image) => <img src={image} alt={title} />)
-    if (vidlink === '') {
+    // vidlink = Object.values({vidlink})
+    console.log(vidlink)
+    const imgArray = imgs.map((image) => image.map((imageData, key) => <img key={key} src={imageData} alt={title} />))
+    if (vidlink === undefined) {
         return (
             <>
                 <Modal show={show} onHide={() => setShow(false)} size="lg">

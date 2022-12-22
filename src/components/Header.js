@@ -1,34 +1,38 @@
 // import Bootstrap from 'react-bootstrap'
 
 import { gsap } from "gsap/dist/gsap";
-import {  useEffect, useRef} from 'react'
+import { useEffect, useState, useRef } from 'react'
 import markCoffee from '../images/mark_with_coffee.jpg'
-
+// import init from '../utils/coffeCupInt'
+// import { AnimateCC, GetAnimationObjectParameter } from "react-adobe-animate";
 
 
 
 
 export default function Header({ currentPage, handlePageChange }) {
+    // const [animationObject, getAnimationObject] = useState < GetAnimationObjectParameter | null > (null);
+    // const [animationObject, getAnimationObject] = useState(null);
     const aniContain = useRef();
     const headerName = useRef();
     const pretendBorder = useRef();
     const navItem = useRef();
     const forgeBy = useRef();
     const fuelBy = useRef();
-    
-   
-        useEffect(() => { 
-            const tl = gsap.timeline();
-            const links = document.querySelectorAll('li')
-            
-                tl.from(headerName.current, { duration: 1.3, x: -1500 });
-                tl.from(pretendBorder.current,  { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(230,250,252) 1%, rgb(230,250,252) 30%)' }, '-=.1');
-                tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.6');
-                tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=3.0');
-                tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.5');
-                tl.from('main', { duration: 1, opacity: 0 }, '-=1.7')
-            }, []) 
-    
+
+
+    useEffect(() => {
+        const tl = gsap.timeline();
+        const links = document.querySelectorAll('li')
+        // init();
+
+        tl.from(headerName.current, { duration: 1.3, x: -1500 });
+        tl.from(pretendBorder.current, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(230,250,252) 1%, rgb(230,250,252) 30%)' }, '-=.1');
+        tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.6');
+        tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=3.0');
+        tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.5');
+        tl.from('main', { duration: 1, opacity: 0 }, '-=1.7')
+    }, [])
+
     return (
         <>
             <header className="container-fluid p-0 d-flex flex-wrap justify-content-between align-items-end">
@@ -39,13 +43,17 @@ export default function Header({ currentPage, handlePageChange }) {
                     <h1 className='col-8 m-0 p-0 pb-1 position-relative'>Mark Gardner</h1>
                 </div>
 
-                <div id="animation_container" ref={aniContain} className="col-2">
-                   
-                    {/* <canvas id="canvas" ref={cup}
-                    style={{position: absolute}, {display: block}, {backgroundColor:rgba(255, 255, 255, 0.00)}}></canvas> */}     
+                {/* < AnimateCC
+                    animationName="coffeecupanimation400"
+                    getAnimationObject={getAnimationObject}
+                    composition='F15B08081EC66A4580C4FA61AB570BE6' 
+                    /> */}
+                {/* <div id="animation_container" className="col-2">
+                    <canvas id="canvas"
+                        style={{position: "absolute", display: "block", backgroundColor:"rgba(255, 255, 255, 0.00)"}}></canvas>
                     <div id="dom_overlay_container">
                     </div>
-                </div>
+                </div> */}
 
                 <nav className="navbar expand-lg col-md-6 col-lg-4 d-flex align-items-end">
                     <div className="container-fluid justify-content-end">
