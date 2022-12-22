@@ -2,14 +2,16 @@ export const projectData = [
     {
         "title": "Migrate",
         "displayClass": "migrate",
+       
         "livePath": "https://migrate-abroad.herokuapp.com/",
         "gitPath": "https://github.com/richardjhong/migrate",
         "desc": "An app to help potential expats make decisions on their future.",
         "longDesc": "The world is a big place and with the growing acceptance of remote work and the desire to experience different parts of the world, finding good information on what life could be like can be hard. Migrate takes data from the Social Progress Imperative and displays it in a format that's easy to understand. This was a final group project in the UT-Austin Full-Stack Development Bootcamp. It's a MERN stack that also uses Greensock, SASS, and Victory Charts to make a solid and smooth user experience.",
         "role": "Front-End and Full-Stack Development",
         "imgs": [
-            "../images/migrate-splash.jpg",
-            "../images/migrate-single-country.jpg",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/migrate-splash.jpg?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/migrate-single-country.jpg?raw=true"
+           
         ],
         "tech": [
             "react",
@@ -31,6 +33,7 @@ export const projectData = [
         "title": "Garden2",
         "displayClass": "garden2",
         "desc":"An app to help you plan and maintain your garden.",
+        
         "livePath": "https://garden2ed.herokuapp.com/",
         "gitPath": "https://github.com/MarkGATX/Garden2",
         "longDesc": "Over the past few years, interest in home gardening has exploded. But starting and maintaining and garden can be a challenge even for experienced growers. This app is a group project from the UT-Austin Full-Stack Bootcamp that aims to make it easier. Users can select where they live and be presented with a list of crops that grow well in that area. Then they can use that information to develop a plan for a square foot garden by dragging and dropping plants in their virtual garden. It's a simple to use but powerful app that can help home gardeners everywhere.",
@@ -41,25 +44,25 @@ export const projectData = [
             "https://github.com/MarkGATX/Garden2/raw/main/Assets/photo5.jpg",
         ],
         "tech": [
-            "react",
             "css3",
-            "express",
-            "graphQL",
+            "Sequelize",
+            "Bootstrap",
+            "Handlebars",
             "Heroku",
             "HTML5",
-            "Sass",
-            "Mongo",
+            "JQuery",
+            "MySQL",
             "vscode",
             "Javascript",
             "NodeJS",
-            "Greensock",
-            "victory charts",
+           
         ]
     },
     {
         "title": "Weather Dashboard",
         "displayClass": "weatherDash",
         "desc": "A simple app to give you weather forecasts for... anywhere.",
+       
         "livePath": "https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/",
         "gitPath": "https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp",
         "longDesc": "Weather dashboards may be everywhere, but so are the adds. This is a project for the UT-Austin Full-Stack Bootcamp that aims to create a simple yet powerful weather dashboard. This app uses two separate weather APIs to pinpoint locations and to return five day weather forecasts. The logic behind the app will even help you pinpoint exactly which city you want to search for by providing you with options from all over the world. Your last five searches are also saved in local storage for ease of use.",
@@ -68,25 +71,19 @@ export const projectData = [
             "https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp/raw/main/assets/images/Weather%20Dashboard%20small%20Screenshot.jpg",
         ],
         "tech": [
-            "react",
-            "css3",
-            "express",
-            "graphQL",
-            "Heroku",
+            "Bootstrap",
+            "JQuery",
+            "CSS3",
             "HTML5",
-            "Sass",
-            "Mongo",
             "vscode",
             "Javascript",
-            "NodeJS",
-            "Greensock",
-            "victory charts",
         ]
     },
     {
         "title": "Scribl Notes",
         "displayClass": "scribl",
         "desc":"A full-stack CMS platform.",
+        
         "livePath": "https://scribl-notes.herokuapp.com/",
         "gitPath": "https://github.com/MarkGATX/Scrible_Notes_CMS",
         "longDesc": "This project for the UT-Austin Full-Stack Bootcamp is meant to be one of our first exposures to CMS systems. It has a basic user-login that will allow users to create Thoughts and also post replies to other user Thoughts. This is one of the earliest uses of Bootstrap for me as a developer and I've definitely learned a lot since then. In the end, I wanted to try and slightly different look and feel to the expected tech blog and I think I achieved that while maintaining good function on the back end.",
@@ -96,25 +93,24 @@ export const projectData = [
             "https://github.com/MarkGATX/Scrible_Notes_CMS/raw/main/public/images/scrible_notes_comments.jpg",
         ],
         "tech": [
-            "react",
             "css3",
-            "express",
-            "graphQL",
+            "Express",
+            "Sequelize",
+            "mySQL",
             "Heroku",
             "HTML5",
-            "Sass",
-            "Mongo",
             "vscode",
             "Javascript",
             "NodeJS",
-            "Greensock",
-            "victory charts",
+            "Handlebars",
+            "Bootstrap",
         ]
     },
     {
         "title": "The Word Guess Game",
         "displayClass": "wordguess",
         "desc": "A simple wordguess game.",
+       
         "livePath": "https://markgatx.github.io/The-Word-Guess-Game/",
         "gitPath": "https://github.com/MarkGATX/The-Word-Guess-Game",
         "longDesc": "The idea for this game was inspired by a Mini-Project meant to be done during one hour of our UT-Austin Full Stack Bootcamp. I really liked the idea and wanted to try and liven it up a bit. While the basic function of a high-score system has been used before in camp, I wanted to add some extra flair. I made a few modifications, including changing the score system to increase scores based on perceived difficulty, adding animations for slecting letters and winning the game, and including an API call to a dictionary to show the final word's definition after the game. In the end, I'm really proud of this simple application and one day I may even increase the size of the word array.",
@@ -124,25 +120,18 @@ export const projectData = [
             "https://github.com/MarkGATX/The-Word-Guess-Game/raw/main/assets/images/word_guess_game_screenshot_labelled.jpg"
         ],
         "tech": [
-            "react",
             "css3",
-            "express",
-            "graphQL",
-            "Heroku",
             "HTML5",
-            "Sass",
-            "Mongo",
             "vscode",
             "Javascript",
-            "NodeJS",
-            "Greensock",
-            "victory charts",
+            "Bootstrap",
         ]
     },
     {
         "title": "The Coding Quiz",
         "displayClass": "codeQuiz",
         "desc": "A quick quiz testing your knowledge of coding.",
+       
         "livePath": "https://markgatx.github.io/The-Coding-Quiz-Challenge/",
         "gitPath": "https://github.com/MarkGATX/The-Coding-Quiz-Challenge",
         "longDesc": "This coding quiz game is a project from the UT-Austin Full-Stack Bootcamp that challenged students early on with web APIs and all of our HTML and CSS knowledge to that point. I added a few more bells and whistles to my final project by randomizing the questions and the answers to each question. I also added some very basic :hover effects and some additional CSS stylings to give it a little more effect. I'm pround of the final result. In fact, the grader for the Bootcamp said, 'This is one of the most put-together, well-designed, and intuitive quizzes I've seen!' ",
@@ -152,25 +141,17 @@ export const projectData = [
             "https://github.com/MarkGATX/The-Coding-Quiz-Challenge/raw/main/assets/images/Coding%20Quiz%20High%20Scores.jpg"
         ],
         "tech": [
-            "react",
             "css3",
-            "express",
-            "graphQL",
-            "Heroku",
             "HTML5",
-            "Sass",
-            "Mongo",
             "vscode",
             "Javascript",
-            "NodeJS",
-            "Greensock",
-            "victory charts",
         ]
     },
     {
         "title": "Playdate",
         "displayClass": "playdate",
         "desc":"An app to help busy parents keep their kids entertained.",
+       
         "livePath": "https://markgatx.github.io/Playdate-The-App-for-Exhausted-Parents/",
         "gitPath": "https://github.com/MarkGATX/Playdate-The-App-for-Exhausted-Parents",
         "longDesc": "As a father of a young child, I can guarantee that some days you just don't know what to do. This app is meant to be an easy way for tired parents to find an answer to that question. This is the very first group project that was assigned at the UT-Austin Boot Camp. This was meant to be our first introduction to collaborative coding using GitHub while pushing our use of third-party APIs. My sole was primarily to use the MapBox API to render map locations. I also helped as needed on other aspects of the backend by helping to troubleshoot when called on.",
@@ -179,19 +160,12 @@ export const projectData = [
             "https://github.com/MarkGATX/Playdate-The-App-for-Exhausted-Parents/raw/main/assets/images/Playdate%20Screenshot.jpg"
         ],
         "tech": [
-            "react",
+            "materialize",
             "css3",
-            "express",
-            "graphQL",
-            "Heroku",
             "HTML5",
-            "Sass",
-            "Mongo",
+            "JQuery",
             "vscode",
             "Javascript",
-            "NodeJS",
-            "Greensock",
-            "victory charts",
         ]
     },
     {
@@ -206,19 +180,10 @@ export const projectData = [
             "https://raw.githubusercontent.com/MarkGATX/React-Portfolio-v3/main/src/images/constell-play.jpg"
         ],
         "tech": [
-            "react",
-            "css3",
-            "express",
-            "graphQL",
-            "Heroku",
-            "HTML5",
-            "Sass",
-            "Mongo",
-            "vscode",
-            "Javascript",
-            "NodeJS",
-            "Greensock",
-            "victory charts",
+            "Blender",
+            "Photoshop",
+            "PremierePro",
+            "AfterEffects",
         ]
     },
     {
@@ -233,19 +198,9 @@ export const projectData = [
             "https://i.ytimg.com/vi/6y4HTNJ4g6o/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1-WAppycL4JN8WjnhFWQUiqEr2A"
         ],
         "tech": [
-            "react",
-            "css3",
-            "express",
-            "graphQL",
-            "Heroku",
-            "HTML5",
-            "Sass",
-            "Mongo",
-            "vscode",
-            "Javascript",
-            "NodeJS",
-            "Greensock",
-            "victory charts",
+            "Wordpress",
+            "Photoshop",
+            "PremierePro",
         ]
     },
     {
@@ -257,19 +212,9 @@ export const projectData = [
         "role": "Creator, Producer, Player",
         "imgs": [],
         "tech": [
-            "react",
-            "css3",
-            "express",
-            "graphQL",
-            "Heroku",
-            "HTML5",
-            "Sass",
-            "Mongo",
-            "vscode",
-            "Javascript",
-            "NodeJS",
-            "Greensock",
-            "victory charts",
+            "Photoshop",
+            "PremierePro",
+            "AfterEffects",
         ]
     },
     {
@@ -281,26 +226,16 @@ export const projectData = [
         "role": "Writer, Director, Editor",
         "imgs": [],
         "tech": [
-            "react",
-            "css3",
-            "express",
-            "graphQL",
-            "Heroku",
-            "HTML5",
-            "Sass",
-            "Mongo",
-            "vscode",
-            "Javascript",
-            "NodeJS",
-            "Greensock",
-            "victory charts",
+            "Photoshop",
+            "PremierePro",
+            "AfterEffects",
         ]
     },
     {
         "title": "CSS Snippets",
         "displayClass": "csssnips",
         "desc":"Quick page from bootcamp to store neat CSS tricks.",
-        "gitPath": "https://markgatx.github.io/CSS-Cheat-Sheet/",
+        "gitPath": "https://github.com/MarkGATX/CSS-Cheat-Sheet",
         "livePath": "https://markgatx.github.io/CSS-Cheat-Sheet/",
         "longDesc": "This is a very simple HTML page that was done as a mini-project for one of our first tests of using CSS in the UT-Austin Full-Stack Boot Camp. I was able to get the page completed in the one-hour given and decided that I wanted to keep it around to use. So on occassion I will still post some trick or use of CSS to the Snippet page just in case I want an easy resource later.",
         "role": "Sole-Developer",
@@ -308,19 +243,9 @@ export const projectData = [
             "https://github.com/MarkGATX/CSS-Cheat-Sheet/raw/main/assets/images/css_snippet_bg.jpg"
         ],
         "tech": [
-            "react",
             "css3",
-            "express",
-            "graphQL",
-            "Heroku",
             "HTML5",
-            "Sass",
-            "Mongo",
             "vscode",
-            "Javascript",
-            "NodeJS",
-            "Greensock",
-            "victory charts",
         ]
     }
 ]

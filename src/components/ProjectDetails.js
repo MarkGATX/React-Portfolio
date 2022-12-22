@@ -15,12 +15,10 @@ export default function ProjectDetails( {linkTarget} ) {
     return (
         <>
             {projectData.map((Val, key) => {
-                console.log(Val)
-                const { title, desc, role, imgs, longDesc, tech, displayClass } = Val;
-                console.log(tech)
+                const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink } = Val;
                 return (
                     
-                     <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap`} data-link={title} onClick={() => linkTarget( displayClass )}> 
+                     <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap`} data-link={title} onClick={() => linkTarget( displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink )}> 
                         <div className="projectFeatTitle col-7 p-2 " >
                             <h5>{title}</h5>
                             <p>{desc}</p>
@@ -33,6 +31,8 @@ export default function ProjectDetails( {linkTarget} ) {
                                     return (<img key={key} title="victory charts" className="icon " alt="victory chart logo" src={victory} />)
                                 } else if (techVal === "express") {
                                     return (<i key={key} title="express" className="devicon-express-original colored"></i>)
+                                } else if (techVal === "Blender") {
+                                    return (<i key={key} title="blender" className="devicon-blender-original colored"></i>)
                                 } else {
                                     return (<i key={key} title={techVal} className={`devicon-${techVal.toLowerCase()}-plain colored`}></i>)
                                 }
