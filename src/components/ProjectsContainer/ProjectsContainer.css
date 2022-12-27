@@ -1,0 +1,9 @@
+.projects {
+    border-left: solid 2px var(--accent);
+    height: 1100px;
+    overflow: auto;
+}
+
+.projectHeadBG {
+    background-color: var(--light);
+}

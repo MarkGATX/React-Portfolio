@@ -1,5 +1,6 @@
 import React from 'react'
 import Modal from 'react-bootstrap/Modal';
+import "./contactFormModal.css";
 
 export default function ContactFormModal({ show, setShow}) {
 

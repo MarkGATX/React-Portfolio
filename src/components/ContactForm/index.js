@@ -1,7 +1,8 @@
 import React, { useState, useRef } from "react";
-import { validateEmail } from '../utils/helpers';
-import ContactFormModal from './contactFormModal'
+import { validateEmail } from '../../utils/helpers';
+import ContactFormModal from '../contactFormModal'
 import emailjs from '@emailjs/browser'
+import "./ContactForm.css";
 
 
 export default function Resume() {

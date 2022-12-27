@@ -1,7 +1,7 @@
-import greensock from '../images/gsap-greensock.svg';
-import animate from '../images/Adobe_Animate_CC_icon_(2020).svg';
-import googleFonts from "../images/Google-Fonts-Logo.png"
-import "../styles/index.css";
+import greensock from '../../images/gsap-greensock.svg';
+import animate from '../../images/Adobe_Animate_CC_icon_(2020).svg';
+import googleFonts from "../../images/Google-Fonts-Logo.png"
+import "./Footer.css";
 
 export default function Footer() {
 

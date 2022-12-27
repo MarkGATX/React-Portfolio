@@ -1,7 +1,8 @@
 import React from 'react'
 import Modal from 'react-bootstrap/Modal';
 // import liveIcon from "../images/live_path_icon.svg";
-import liveIcon from "../images/live_path_icon.svg";
+import liveIcon from "../../images/live_path_icon.svg";
+import "./LinkModal.css";
 
 
 

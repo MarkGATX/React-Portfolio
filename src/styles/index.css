@@ -26,26 +26,12 @@ body {
 }
 
 
-footer {
-  background-color:var(--dark);
-  color:var(--light);
-}
-
-footer i {
-  color:var(--light);
-
-}
-
 html {
   background-color: var(--light);
 }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Outfit', sans-serif;
-}
-
-header h1{
-  color:var(--light);
 }
 
 h2 {
@@ -61,9 +47,6 @@ i {
 img, svg {
   vertical-align: baseline;
 }
-
-
-
 
 /* classes */
 /* tints colored icons black and then adjusts to blue to match blue on site */
@@ -88,266 +71,8 @@ img, svg {
   box-shadow:5px 5px 10px inset #4b2513;
 }
 
-.contactCard {
-  background-color:var(--dark) !important ;
-  color:var(--light);
-}
-
-.contactMeContainer {
-  border-left: solid 2px var(--accent);
-  
-
-}
-
-.contactMeContainer i{
-  font-size:4vw;
-  transition:all .5s;
-
-}
-
-.contactMeContainer i:hover { 
-  transform:scale(120%);
-  color:var(--dark);
-
-}
-
-.fuelBy, .forgeBy {
-  padding:.5rem;
-  background-color:var(--dark);
-  color:var(--light);
-}
-
-.forgeBy {
-  position:relative;
-  top:-11px;
-}
-
-.icon {
-  width:1.3vw;
-  margin:2px 2px;
-}
-
-.header-name {
-  background-image: linear-gradient(180deg, var(--light) 30%, var(--dark) 30%, var(--dark) 70%);
-}
-
 .imgBlock img {
   width:32%;
-}
-
-.livePath div, .gitPath div{
-  border:5px solid var(--dark);
-  scale:1;
-  transition:all .5s;
-  padding:1em;
-  width:100%;
-  background-color:var(--light);
-}
-
-.livePath:hover div, .gitPath:hover div{
-  scale:1.2;
-  border:5px solid var(--accent);
-  box-shadow:5px 5px 10px var(--dark);
-  
-}
-
-.modal-body a{
-  color:var(--accent);
-  
-}
-
-.modal-body {
-  background-color: var(--light);
-}
-
-.modal-header {
-  background-color:var(--accent);
-  color:var(--light);
-}
-
-.modal-footer {
-  background-color: var(--light) !important;
-  justify-content:center !important;
-}
-
-.navbar {
-  z-index:10;
-}
-
-.nav-link {
-  color:var(--accent) !important;
-  /* opacity:.5; */
-  scale:100%;
-  transition:scale .3s;
-}
-
-.nav-link.active{
-  color:var(--dark) !important;
-  font-weight: bold;
-}
-
-.nav-link:hover {
-  color:var(--accent) !important;
-  scale:110%;
-}
-
-.pretend-border {
-  background-image: radial-gradient(at 70% top, var(--dark) 1%, var(--light) 33%);
-  height:.6rem;
-}
-
-.projects {
-  border-left: solid 2px var(--accent);
-  height:1100px;
-  overflow:auto;
-}
-
-.projectHeadBG {
-  background-color:var(--light);
-}
-
-.projectFeat {
-  height:400px;
-  width:47%;
-  border:5px solid var(--dark);
-  background-position: center, 0 0, center;
-  background-size: cover, 100% 300%, cover;
-  background-blend-mode: luminosity, multiply;
-  background-repeat: no-repeat;
-  overflow:revert;
-  transition: all 1s;
-
-}
-
-.projectFeatTitle {
-  position:relative;
-  top:-2px;
-  left:-2px;
-  color:var(--light);
-  background-color:var(--dark);
-  transition: all 1s;
-  height:10rem;
-}
-
-.projectFeatTitle p:nth-child(2) {
-  font-style:italic;
-  font-size:.8rem;
-}
-
-.projectTech {
-  position: relative;
-  bottom: -2.5rem;
-  right: -5px;
-  width: 50%;
-  background-color: var(--light);
-  border: 5px solid var(--accent);
-  height: 5rem;
-  transition: all .5s cubic-bezier(.8,.05,.91,.68);
-  transform:rotateX(90deg);
-}
-
-.projectFeat:hover .projectTech{
-  transform:rotateX(0deg);
-  box-shadow:10px 10px 20px var(--dark);
-}
-
-.resumeContainer {
-  border-left: solid 2px var(--accent);
-
-}
-
-.resumeSection {
-  border-bottom:solid 5px var(--accent);
-  color:var(--dark);
-}
-
-.resumeHead {
-  color:var(--dark);
-}
-
-.tagContainer {
-  height:5rem;
-  padding:1rem;
-}
-
-/* classes for project background */
-
-.codeQuiz {
-  background-image: url(../images/Coding\ Quiz\ Question\ example.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/Coding\ Quiz\ Question\ example.jpg);
-}
-
-
-.csssnips {
-  background-image: url(../images/css_snippet_bg.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/css_snippet_bg.jpg);
-}
-
-
-.constell {
-  background-image: url(../images/constellation\ background.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/constellation\ background.jpg);
-}
-
-.git {
-  background-image: url(../images/tech\ background\ image.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/tech\ background\ image.jpg);
-  
-}
-
-.migrate {
-  background-image: url(../images/migrate-screenschot.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/migrate-screenschot.jpg);
-   
-}
-
-.tds {
-  background-image: url(../images/foodie_bg.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/foodie_bg.jpg);
-
-}
-
-.musing {
-  background-image: url(../images/musing_bg.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/musing_bg.jpg);
-
-}
-
-.hoa{
-  background-image: url(../images/hoa_bg.jpg),linear-gradient(0deg, white 33%, black 66%),url(../images/hoa_bg.jpg);
-
-}
-
-.playdate {
-  background-image: url(../images/Play_Date_porfolio_shot_v1.jpg), linear-gradient(0deg, white 33%, black 66%),url(../images/Play_Date_porfolio_shot_v1.jpg);
-}
-
-.garden2 {
-  background-image: url(../images/garden2_bg.jpg),linear-gradient(0deg, white 33%, black 66%), url(../images/garden2_bg.jpg);
-
-}
-
-.scribl {
-  background-image: url(../images/scrible_notes_bg.jpg),linear-gradient(0deg, white 33%, black 66%), url(../images/scrible_notes_bg.jpg);
-
-}
-
-.weatherDash {
-  background-image: url(../images/weather_dash_bg.jpg),linear-gradient(0deg, white 33%, black 66%), url(../images/weather_dash_bg.jpg);
-}
-
-.wg {
-  background-image: url(../images/weird_girls_thumb.jpg),linear-gradient(0deg, white 33%, black 66%), url(../images/weird_girls_thumb.jpg);
-}
-
-.wordguess {
-  background-image: url(../images/word_guess_bg.jpg),linear-gradient(0deg, white 33%, black 66%), url(../images/word_guess_bg.jpg);
-}
-
-.projectFeat:hover {
-  border-color:var(--accent);
-  background-position: center, 0% 100%, center;
-  border-color:var(--accent);
-  box-shadow:10px 10px 20px var(--dark);
-  scale:104%;
-}
-
-.projectFeat:hover .projectFeatTitle{
-  background-color:var(--accent);
-
 }
 
 /* ids */
@@ -372,22 +97,6 @@ img, svg {
   overflow:hidden;
 }
 
-#contactDiv {
-  border-top: solid 2px var(--accent);
-
-}
-
-#contactDiv i { 
-  font-size:4vw;
-  transition: all .5s
-}
-
-#contactDiv i:hover { 
-  transform:scale(120%);
-  color:var(--dark);
-
-}
-
 #root {
   background-color:var(--light);
 }
@@ -401,12 +110,7 @@ img, svg {
 }
 
 @media screen and (max-width: 992px) {
-  .projectFeat {
-      width:90%;
-  }
-  .projectFeatTitle {
-      font-size:.9em;
-}
+ 
 i {
   font-size:3vw;
 }

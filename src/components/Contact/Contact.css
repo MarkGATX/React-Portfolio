@@ -1,0 +1,13 @@
+#contactDiv {
+    border-top: solid 2px var(--accent);
+  }
+  
+  #contactDiv i { 
+    font-size:4vw;
+    transition: all .5s
+  }
+  
+  #contactDiv i:hover { 
+    transform:scale(120%);
+    color:var(--dark); 
+  }

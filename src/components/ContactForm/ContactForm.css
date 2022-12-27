@@ -1,0 +1,18 @@
+.contactCard {
+    background-color: var(--dark) !important;
+    color: var(--light);
+}
+
+.contactMeContainer {
+    border-left: solid 2px var(--accent);
+}
+
+.contactMeContainer i {
+    font-size: 4vw;
+    transition: all .5s;
+}
+
+.contactMeContainer i:hover {
+    transform: scale(120%);
+    color: var(--dark);
+}
