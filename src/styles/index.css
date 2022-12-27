@@ -71,6 +71,11 @@ img, svg {
   box-shadow:5px 5px 10px inset #4b2513;
 }
 
+.icon {
+  width:1.3vw;
+  height:auto;
+}
+
 .imgBlock img {
   width:32%;
 }
