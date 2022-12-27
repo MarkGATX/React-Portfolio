@@ -2,9 +2,10 @@
 
 import { gsap } from "gsap/dist/gsap";
 import { useEffect, useState, useRef } from 'react'
-import markCoffee from '../images/mark_with_coffee.jpg'
+import markCoffee from '../../images/mark_with_coffee.jpg'
 // import init from '../utils/coffeCupInt'
 // import { AnimateCC, GetAnimationObjectParameter } from "react-adobe-animate";
+import "./Header.css";
 
 
 

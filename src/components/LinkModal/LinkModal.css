@@ -1,0 +1,34 @@
+.livePath div,
+.gitPath div {
+    border: 5px solid var(--dark);
+    scale: 1;
+    transition: all .5s;
+    padding: 1em;
+    width: 100%;
+    background-color: var(--light);
+}
+
+.livePath:hover div,
+.gitPath:hover div {
+    scale: 1.2;
+    border: 5px solid var(--accent);
+    box-shadow: 5px 5px 10px var(--dark);
+}
+
+.modal-body a {
+    color: var(--accent);
+}
+
+.modal-body {
+    background-color: var(--light);
+}
+
+.modal-header {
+    background-color: var(--accent);
+    color: var(--light);
+}
+
+.modal-footer {
+    background-color: var(--light) !important;
+    justify-content: center !important;
+}

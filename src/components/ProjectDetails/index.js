@@ -1,7 +1,8 @@
-import { projectData } from '../utils/projectData';
-import greensock from '../images/gsap-greensock.svg'
-import victory from '../images/victory.png';
-import materialize from '../images/materialize.svg';
+import { projectData } from '../../utils/projectData';
+import greensock from '../../images/gsap-greensock.svg'
+import victory from '../../images/victory.png';
+import materialize from '../../images/materialize.svg';
+import "./ProjectDetails.css";
 let livePath = '';
 let gitPath = '';
 let desc = '';
@@ -11,15 +12,16 @@ let title = '';
 let vidlink = '';
 let tech = [];
 
-export default function ProjectDetails( {linkTarget} ) {
+
+export default function ProjectDetails({ linkTarget }) {
 
     return (
         <>
             {projectData.map((Val, key) => {
                 const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink } = Val;
                 return (
-                    
-                     <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap`} data-link={title} onClick={() => linkTarget( displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink )}> 
+
+                    <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap`} data-link={title} onClick={() => linkTarget(displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink)}>
                         <div className="projectFeatTitle col-7 p-2 " >
                             <h5>{title}</h5>
                             <p>{desc}</p>
@@ -36,7 +38,7 @@ export default function ProjectDetails( {linkTarget} ) {
                                     return (<i key={key} title="blender" className="devicon-blender-original colored"></i>)
                                 } else if (techVal === "materialize") {
                                     return (<img key={key} title="Materialize" className="icon blue" alt="Materialize icon" src={materialize} />)
-                                }else {
+                                } else {
                                     return (<i key={key} title={techVal} className={`devicon-${techVal.toLowerCase()}-plain colored`}></i>)
                                 }
                             }

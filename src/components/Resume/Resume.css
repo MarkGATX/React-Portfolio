@@ -1,0 +1,12 @@
+.resumeContainer {
+    border-left: solid 2px var(--accent);
+}
+
+.resumeSection {
+    border-bottom: solid 5px var(--accent);
+    color: var(--dark);
+}
+
+.resumeHead {
+    color: var(--dark);
+}

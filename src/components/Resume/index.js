@@ -1,5 +1,6 @@
 // import pdfResume from '../docs/Full-stack_Dev_Resume_2022.pdf'
-import pdfResume from '../docs/Mark_Gardner-Full-stack-Dev-resume-2022.pdf';
+import pdfResume from '../../docs/Mark_Gardner-Full-stack-Dev-resume-2022.pdf';
+import "./Resume.css";
 
 
 export default function Resume() {
@@ -123,18 +124,27 @@ export default function Resume() {
             </div>
             <div className="container row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection'>Projects Built</h3>
+                <h4 className='resumeHead'>Migrate</h4>
+                <p >Live site: <a href="https://migrate-abroad.herokuapp.com" target='_blank' rel='noreferrer'>https://migrate-abroad.herokuapp.com </a> </p>
+                <p >GitHub Repo: <a href="https://github.com/richardjhong/migrate" target="_blank" rel='noreferrer'> https://github.com/richardjhong/migrate</a></p>
+                <p >A MERN application to help people who are looking to relocate to another country to live or work find a place that will feel like home.</p>
+                <p >Role:  Front-end design, Full-stack coding</p>
+                <p className="mb-4" >Tools:  React, Express, MongoDB, JavasScript, CSS3, GoogleFonts, Photoshop,  Node.js, TypeKit, SASS, Greensock, Victory Charts, Unsplash API </p>
+
                 <h4 className='resumeHead'>Garden<sup>2</sup></h4>
                 <p >Live site: <a href="https://garden2ed.herokuapp.com/" target='_blank' rel='noreferrer'>https://garden2ed.herokuapp.com/ </a> </p>
                 <p >GitHub Repo: <a href="https://github.com/MarkGATX/Garden2" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/Garden2</a></p>
                 <p >A full-stack web application to help home gardeners plan successful gardens with a comprehenive database of plants, care instructions, and garden layouts users can save to their accounts.</p>
                 <p >Role:  Front-end design, branding logos and graphics creation</p>
                 <p className="mb-4" >Tools:  Bootstrap, JavasScript, CSS3, GoogleFonts, Photoshop, Illustrator, Node.js, Handlebars </p>
+
                 <h4 className='resumeHead'>Weather Dashboard</h4>
                 <p >Live site: <a href="https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/" target="_blank" rel='noreferrer'>https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/</a> </p>
                 <p >GitHub Repo: <a href="https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp" target="_blank" rel="noreferrer">https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp</a></p>
                 <p >Accurate weather forecasts for cities anywhere in the world using two weather APIs while storing past searches in a simple but powerful interface.</p>
                 <p >Role:Sole Developer</p>
                 <p className="mb-4">Tools: Bootstrap, JavasScript, CSS3, GoogleFonts, OpenWeather API, WeatherBit.io API</p>
+                
                 <h4 className='resumeHead'>Word Guess Game</h4>
                 <p >Live site: <a href="https://markgatx.github.io/The-Word-Guess-Game/" target="_blank" rel="noreferrer">https://markgatx.github.io/The-Word-Guess-Game/</a> </p>
                 <p >GitHub Repo: <a href="https://github.com/MarkGATX/The-Word-Guess-Game" target="_blank" rel="noreferrer">https://github.com/MarkGATX/The-Word-Guess-Game</a></p>

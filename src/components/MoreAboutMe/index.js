@@ -1,6 +1,7 @@
 
 import React from 'react';
-import Gallery from './Gallery'
+import Gallery from '../Gallery'
+import "./MoreAboutMe.css";
 
 
 export default function MoreAboutMe() {
