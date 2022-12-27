@@ -74,6 +74,7 @@ img, svg {
 .icon {
   width:1.3vw;
   height:auto;
+  margin-right:.3em;
 }
 
 .imgBlock img {
