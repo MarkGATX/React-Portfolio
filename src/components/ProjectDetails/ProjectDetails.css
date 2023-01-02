@@ -7,7 +7,7 @@
     background-blend-mode: luminosity, multiply;
     background-repeat: no-repeat;
     overflow: revert;
-    box-shadow:0 0 0 0 var(--darkshadow);
+    box-shadow:0 0 3px 2px var(--darkshadow);
     transition: box-shadow .7s ease-out, scale .5s ease-out, background-position .3s;
 
 }
