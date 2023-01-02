@@ -9,6 +9,13 @@
   top:-11px;
 }
 
+header {
+  position:relative;
+  z-index:2;
+  /* box-shadow: 2px 2px 5px var(--darkshadow); */
+
+}
+
 header h1 {
   color: var(--light);
 }
@@ -25,7 +32,8 @@ header h1 {
   color: var(--accent) !important;
   /* opacity:.5; */
   scale: 100%;
-  transition: scale .3s;
+  text-shadow:0 0 5px 5px var(--darkshadow);
+  transition: all .3s !important;
 }
 
 .nav-link.active {
@@ -35,7 +43,8 @@ header h1 {
 
 .nav-link:hover {
   color: var(--accent) !important;
-  scale: 110%;
+  scale: 110% ;
+  text-shadow:0 0 5px var(--darkshadow);
 }
 
 .pretend-border {

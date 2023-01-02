@@ -7,3 +7,9 @@
 .projectHeadBG {
     background-color: var(--light);
 }
+
+@media screen and (min-width:300px) and (max-width: 768px) {
+    .projects {
+        z-index:1;
+    }
+}

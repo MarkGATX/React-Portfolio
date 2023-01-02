@@ -11,3 +11,27 @@
     transform: scale(120%);
     color: var(--dark);
 }
+
+@media screen and (max-width: 992px) {
+    .contactMeContainer i { 
+      font-size:10vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contactMeContainer i { 
+      font-size:10vw;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .contactMeContainer i { 
+      font-size:10vw;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .contactMeContainer i { 
+      font-size:10vw;
+    }
+  }

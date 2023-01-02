@@ -36,7 +36,7 @@ export default function Header({ currentPage, handlePageChange }) {
 
     return (
         <>
-            <header className="container-fluid p-0 d-flex flex-wrap justify-content-between align-items-end">
+            <header className="container-fluid p-0 d-flex flex-wrap justify-content-between align-items-end ">
                 <div className="col-md-9 col-lg-5 d-flex row align-items-end justify-content-start header-name" ref={headerName}>
                     <img className='img-fluid rounded-circle col-3 position-relative mt-2 ms-4 mb-2'
                         src={markCoffee} alt="Mark with huge coffee cup" />

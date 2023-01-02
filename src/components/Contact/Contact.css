@@ -10,4 +10,35 @@
   #contactDiv i:hover { 
     transform:scale(120%);
     color:var(--dark); 
+   
+  }
+
+  @media screen and (min-width:992px) and (max-width: 1100px) {
+    #animation_container {
+        display:none;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    #contactDiv i { 
+      font-size:10vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #contactDiv i { 
+      font-size:10vw;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    #contactDiv i { 
+      font-size:10vw;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    #contactDiv i { 
+      font-size:10vw;
+    }
   }

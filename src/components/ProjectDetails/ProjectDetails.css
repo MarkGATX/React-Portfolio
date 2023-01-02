@@ -7,7 +7,8 @@
     background-blend-mode: luminosity, multiply;
     background-repeat: no-repeat;
     overflow: revert;
-    transition: all 1s;
+    box-shadow:0 0 0 0 var(--darkshadow);
+    transition: box-shadow .7s ease-out, scale .5s ease-out, background-position .3s;
 
 }
 
@@ -17,8 +18,9 @@
     left: -2px;
     color: var(--light);
     background-color: var(--dark);
-    transition: all 1s;
+    transition: all .5s;
     height: 10rem;
+    z-index:10;
 }
 
 .projectFeatTitle p:nth-child(2) {
@@ -34,20 +36,23 @@
     background-color: var(--light);
     border: 5px solid var(--accent);
     height: 5rem;
+    /* box-shadow: 0 0 0 0 var(--darkshadow); */
     transition: all .5s cubic-bezier(.8, .05, .91, .68);
     transform: rotateX(90deg);
+    
 }
 
 .projectFeat:hover .projectTech {
     transform: rotateX(0deg);
-    box-shadow: 10px 10px 20px var(--dark);
+    box-shadow: 0 0 10px 10px var(--darkshadow)
 }
+
 
 .projectFeat:hover {
     border-color: var(--accent);
     background-position: center, 0% 100%, center;
     border-color: var(--accent);
-    box-shadow: 10px 10px 20px var(--dark);
+    box-shadow: 0 0 10px 10px var(--darkshadow);
     scale: 104%;
 }
 
