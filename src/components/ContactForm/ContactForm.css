@@ -17,6 +17,12 @@
     color: var(--dark);
 }
 
+@media screen and (max-width: 1250px) {
+    .button {
+        width:50%;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .contactMeContainer i {
         font-size: 10vw;
@@ -38,5 +44,8 @@
 @media screen and (max-width: 576px) {
     .contactMeContainer i {
         font-size: 10vw;
+    }
+    .button {
+        width:100%;
     }
 }
