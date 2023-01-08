@@ -1,7 +1,9 @@
 /* variables */
 :root {
   --dark: #764832;
-  --darkshadow:rgba(118,72,50,.5);
+  /* --darkshadow:rgba(118,72,50,.5); */
+  --darkshadow:rgba(0,0,0,.5);
+
   --light: #E6FAFC;
   --accent: #36558f;
 
@@ -133,7 +135,7 @@ i {
       font-size:3vw;
     }
     .icon {
-      width:3vw;
+      width:vw;
     }
 }
 
