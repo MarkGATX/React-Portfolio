@@ -8,7 +8,7 @@ ___
 
 This project is meant to push our understanding and famililarity with React by having us redesign our portfolio pages to take advantage of React functionality.
 
-I considered starting from scratch to really get a feel for the framework, but I liked the foundation of my version 2 Portfolio and decided I wanted to expand on that. That meant I had to reimagine my entire page as components nested all around each other. Considering the nunmber of nested `div` and DOM elements I already had, this was going to be a challenge with the limited time to turn things in.
+I considered starting from scratch to really get a feel for the framework, but I liked the foundation of my version 2 Portfolio and decided I wanted to expand on that. That meant I had to reimagine my entire page as components nested all around each other. Considering the nunmber of nested `div` and DOM elements I already had, this was going to be a challenge with the limited time to turn things in for my Bootcamp projects.
 
 Let's see how it all turned out.
 
@@ -41,7 +41,7 @@ Once you click on the project, a modal dialog with open asking if you want to vi
 
 In the navigation bar at the top you have other options to look at. 
 
-- **Contact Me**: This opens up a contact page with links to my GitHub, LinkedIn, and a Contact Form. Fill out the form with valid information and a message will be sent. NOTE: The message currently doesn't send, even though there is a confirmation dialog. If you need or want to get in touch with me in real life, please use GitHub or LinkedIn.
+- **Contact Me**: This opens up a contact page with links to my GitHub, LinkedIn, and a Contact Form. Fill out the form with valid information and a message will be sent. 
 
 ![contact form detail](./readme_images/contact_me_detail.jpg)
 
@@ -62,11 +62,7 @@ ___
 
 - Formatting everything to take advantage of React was a lesson in patience. Apart from the pain of replacing every `class` declaration with `className`, there were a lot of tiny details that tripped me up. At the end of the day I got the page back working as intended and even added some more bells and whistles. However, some things are still not working as intended.
 
-- The Contact Form is currently an exercise in validation and form submission. With no server running the site, I really don't have a way to actually send messages with the form.
-
-- Greensock is broken. Well, my implementation of Greensock is broken. Working with Greensock in vanilla JavaScript is fairly simple and fun. For some reason getting the same functionality in React has proven to be a challenge. I at least got the pages rendering with GSAP code included. But nothing is animating yet. It has to do with `useRef()` in React and also some strange warnings about some modules not being registered with GSAP. I'll keep hammering at it and keep looking for more documentation to show me what I've done wrong. Maybe even a trip to the forums.
-
-- My custom CSS files have gotten huge. Too huge. There are two things that I need to experiment with to fix that. One is finding a way to use Bootstrap variables but replace them with my values. Like making `bg-dark` into my current value of `#36558f`. THe other option is reformatting the components folder. Currently every component exists as its own page. I can reformat the structure so that each component has its own folder. In that folder is an index.js file and a css file. I can include the CSS file in that index.js and just include the CSS necessary for that component. That will basically split the main CSS page up into smaller chunks and keep the code easier to maintain by component.
+- My original coffee animation is not working. I've hammered at it for quite some time and have gone to multiple online and in-person resources for help and so far no one has been able to get it to work as intended. I'll have to keep trying new things until I finally find what's not working. Fortunately, while I like the animation and I feel it ties the site theme together, it's not necessary for full function.
 
  ___
 
@@ -75,13 +71,6 @@ ___
 - Fix DOM and canvas animations
 - Learn and use SASS to add my colors to Bootstrap variables.
 - Deconstruct Bootstrap to only use a serve elements I'm using on the site
-- Fix contact form to actually main information and messages.
-- Reformat component directory structure
-- Split out CSS per component.
-- Change individual projects to components and then map over an array of components to populate the page.
-
-
-
 ___
 
 
