@@ -124,6 +124,9 @@
     background-image: url(../../images/weird_girls_thumb.jpg), linear-gradient(0deg, white 33%, black 66%), url(../../images/weird_girls_thumb.jpg);
 }
 
+.wheezy {
+    background-image: url(../../images/wheezy_main.jpg), linear-gradient(0deg, white 33%, black 66%), url(../../images/wheezy_main.jpg);
+}
 .wordguess {
     background-image: url(../../images/word_guess_bg.jpg), linear-gradient(0deg, white 33%, black 66%), url(../../images/word_guess_bg.jpg);
 }

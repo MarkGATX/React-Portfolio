@@ -30,6 +30,31 @@ export const projectData = [
         ]
     },
     {
+        "title": "Wheezy Waiter",
+        "displayClass": "wheezy",
+       
+        "livePath": "https://markgatx.github.io/wheezywaiter/",
+        "gitPath": "https://github.com/MarkGATX/wheezywaiter",
+        "desc": "A demo site for an established YouTube creator",
+        "longDesc": "The creator economy is still booming and with the rise of fall of social media outlets, having an evergreen home on the internet is vital for content creators. I developed this unofficial site for my friend Craig to help keep my coding sharp while teaching myself another front-end framework, namely Material UI. Using his current official site and feedback he gave as a starting point, I developed a custom color theme using Material Design concepts and theme generators and also implemented a dark-mode toggle. The YouTube API also provides videos with a simple one-line query for my custom video sections.",
+        "role": "Sole-Developer",
+        "imgs": [
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/wheezy_main.jpg?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/wheezy_player.jpg?raw=true"
+           
+        ],
+        "tech": [
+            "react",
+            "css3",
+            "HTML5",
+            "Sass",
+            "vscode",
+            "Javascript",
+            "NodeJS",
+            "MaterialUI"
+        ]
+    },
+    {
         "title": "Garden2",
         "displayClass": "garden2",
         "desc":"An app to help you plan and maintain your garden.",
