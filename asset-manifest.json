@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-v3/static/css/main.edde54a8.css",
-    "main.js": "/React-Portfolio-v3/static/js/main.1648e744.js",
+    "main.css": "/React-Portfolio-v3/static/css/main.1099dd2f.css",
+    "main.js": "/React-Portfolio-v3/static/js/main.d049db1f.js",
     "static/media/css_snippet_bg.jpg": "/React-Portfolio-v3/static/media/css_snippet_bg.0c981d8e2343182345cc.jpg",
     "static/media/tech background image.jpg": "/React-Portfolio-v3/static/media/tech background image.2fe0b76340fbe68f6469.jpg",
     "static/media/Play_Date_porfolio_shot_v1.jpg": "/React-Portfolio-v3/static/media/Play_Date_porfolio_shot_v1.cd629d9e0a1f23d588b8.jpg",
-    "static/media/Mark_Gardner-Full-stack-Dev-resume-2022.pdf": "/React-Portfolio-v3/static/media/Mark_Gardner-Full-stack-Dev-resume-2022.56423e058d57251ced01.pdf",
+    "static/media/Mark_Gardner-Full-stack-Dev-resume-2023.pdf": "/React-Portfolio-v3/static/media/Mark_Gardner-Full-stack-Dev-resume-2023.bcf4ffa057f77d7677b5.pdf",
     "static/media/hoa_bg.jpg": "/React-Portfolio-v3/static/media/hoa_bg.6416b8fa3603d0e2a91a.jpg",
     "static/media/paris_notre_dame.jpg": "/React-Portfolio-v3/static/media/paris_notre_dame.da46980b66d7dbd809c9.jpg",
     "static/media/hiking_in_mtns.jpg": "/React-Portfolio-v3/static/media/hiking_in_mtns.c6ca38c5830a740c89d9.jpg",
@@ -28,6 +28,7 @@
     "static/media/mark_with_coffee.jpg": "/React-Portfolio-v3/static/media/mark_with_coffee.48ef6c09050d8d90b5af.jpg",
     "static/media/scrible_notes_bg.jpg": "/React-Portfolio-v3/static/media/scrible_notes_bg.a1e4b7138f1d34e71a93.jpg",
     "static/media/Coding Quiz Question example.jpg": "/React-Portfolio-v3/static/media/Coding Quiz Question example.850d1b0d84fe56b2bd02.jpg",
+    "static/media/wheezy_main.jpg": "/React-Portfolio-v3/static/media/wheezy_main.ba86f812f8cb782b0a91.jpg",
     "static/media/mugging.jpg": "/React-Portfolio-v3/static/media/mugging.fd8e42894fe856251af9.jpg",
     "static/media/gsap-greensock.svg": "/React-Portfolio-v3/static/media/gsap-greensock.dff87e2debbe5d37479732018b2a575a.svg",
     "static/media/word_guess_bg.jpg": "/React-Portfolio-v3/static/media/word_guess_bg.8a58ffae3564781f751c.jpg",
@@ -36,11 +37,11 @@
     "static/media/live_path_icon.svg": "/React-Portfolio-v3/static/media/live_path_icon.f936b3c46029d57f238798138b9f3b6e.svg",
     "static/media/Adobe_Animate_CC_icon_(2020).svg": "/React-Portfolio-v3/static/media/Adobe_Animate_CC_icon_(2020).77d2058086cb94cb4ad514fbe8f48da5.svg",
     "index.html": "/React-Portfolio-v3/index.html",
-    "main.edde54a8.css.map": "/React-Portfolio-v3/static/css/main.edde54a8.css.map",
-    "main.1648e744.js.map": "/React-Portfolio-v3/static/js/main.1648e744.js.map"
+    "main.1099dd2f.css.map": "/React-Portfolio-v3/static/css/main.1099dd2f.css.map",
+    "main.d049db1f.js.map": "/React-Portfolio-v3/static/js/main.d049db1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.edde54a8.css",
-    "static/js/main.1648e744.js"
+    "static/css/main.1099dd2f.css",
+    "static/js/main.d049db1f.js"
   ]
 }
