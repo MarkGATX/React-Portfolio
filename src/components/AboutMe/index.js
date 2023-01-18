@@ -20,7 +20,8 @@ export default function AboutMe() {
             <p id="answer" className="mb-5"></p> */}
             <h5 id="techSkills" >Tech skills:</h5>
             <div className="d-flex flex-wrap">
-            <i title="React" className="devicon-react-plain colored"></i>
+                <i title="React" className="devicon-react-plain colored"></i>
+                <i title="MaterialUI" className="devicon-materialui-plain colored"></i>
                 <i title="Sequelize" className="devicon-sequelize-plain colored"></i>
                 <i title="Bootstrap" className="devicon-bootstrap-plain colored"></i>
                 <i title="Handlebars" className="devicon-handlebars-plain colored"></i>

@@ -27,6 +27,7 @@ export const projectData = [
             "NodeJS",
             "Greensock",
             "victory charts",
+            "Google Fonts"
         ]
     },
     {
@@ -45,13 +46,13 @@ export const projectData = [
         ],
         "tech": [
             "react",
+            "MaterialUI",
             "css3",
             "HTML5",
-            "Sass",
             "vscode",
             "Javascript",
             "NodeJS",
-            "MaterialUI"
+            "Google Fonts"
         ]
     },
     {

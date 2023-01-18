@@ -82,6 +82,7 @@ img, svg {
 
 .imgBlock img {
   width:32%;
+  height:100%;
 }
 
 /* ids */

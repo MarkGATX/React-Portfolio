@@ -1,12 +1,12 @@
 // import pdfResume from '../docs/Full-stack_Dev_Resume_2022.pdf'
-import pdfResume from '../../docs/Mark_Gardner-Full-stack-Dev-resume-2022.pdf';
+import pdfResume from '../../docs/Mark_Gardner-Full-stack-Dev-resume-2023.pdf';
 import "./Resume.css";
 
 
 export default function Resume() {
 
     return (
-      
+
         <section className="col-md-8 col-lg-8 resumeContainer">
             <h2 className="col-12 mb-4">Resume</h2>
             {/* <button className="button" onClick={()=>  window.open('../docs/Mark_Gardner_Full-stack_Dev_resume_2022.pdf', '_blank')}>Downloadable PDF</button> */}
@@ -58,6 +58,14 @@ export default function Resume() {
                 <h5 className='resumeHead'>Libraries: </h5>
                 <div className='col-12 d-flex flex-wrap justify-content-start align-items-start'>
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="React" className="devicon-react-plain colored"></i>
+                        <p>React</p>
+                    </div>
+                    <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="MaterialUI" className="devicon-materialui-plain colored"></i>
+                        <p>Material UI</p>
+                    </div>
+                    <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
                         <i title="Bootstrap" className="devicon-bootstrap-plain colored"></i>
                         <p>Bootstrap</p>
                     </div>
@@ -81,10 +89,7 @@ export default function Resume() {
                         <i title="Mongoose for MongoDb" className="devicon-mongodb-plain colored"></i>
                         <p>Mongoose</p>
                     </div>
-                    <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="React" className="devicon-react-plain colored"></i>
-                        <p>React</p>
-                    </div>
+
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
                         <i title="Sequelize" className="devicon-sequelize-plain colored"></i>
                         <p>Sequelize</p>
@@ -144,7 +149,7 @@ export default function Resume() {
                 <p >Accurate weather forecasts for cities anywhere in the world using two weather APIs while storing past searches in a simple but powerful interface.</p>
                 <p >Role:Sole Developer</p>
                 <p className="mb-4">Tools: Bootstrap, JavasScript, CSS3, GoogleFonts, OpenWeather API, WeatherBit.io API</p>
-                
+
                 <h4 className='resumeHead'>Word Guess Game</h4>
                 <p >Live site: <a href="https://markgatx.github.io/The-Word-Guess-Game/" target="_blank" rel="noreferrer">https://markgatx.github.io/The-Word-Guess-Game/</a> </p>
                 <p >GitHub Repo: <a href="https://github.com/MarkGATX/The-Word-Guess-Game" target="_blank" rel="noreferrer">https://github.com/MarkGATX/The-Word-Guess-Game</a></p>
@@ -171,6 +176,6 @@ export default function Resume() {
                 <p >University of Texas at Austin  / Bachelor of Arts in Plan II</p>
             </div>
         </section>
-     
+
     )
 }
