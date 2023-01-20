@@ -56,3 +56,11 @@ header h1 {
   height:5rem;
   padding:1rem;
 }
+
+/* IDs */
+#cupAnimation {
+  top:32px;
+  overflow:hidden;
+  position:relative;
+  left:220px;
+}

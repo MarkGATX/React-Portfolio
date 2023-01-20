@@ -1,7 +1,7 @@
 // import Bootstrap from 'react-bootstrap'
 
 import { gsap } from "gsap/dist/gsap";
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import markCoffee from '../../images/mark_with_coffee.jpg'
 // import init from '../utils/coffeCupInt'
 // import { AnimateCC, GetAnimationObjectParameter } from "react-adobe-animate";
@@ -25,8 +25,8 @@ export default function Header({ currentPage, handlePageChange }) {
         const tl = gsap.timeline();
         const links = document.querySelectorAll('li')
         // init();
-
-        tl.from(headerName.current, { duration: 1.3, x: -1500 });
+        tl.from(aniContain.current, {duration:1, x:-2500 ,y:+1});
+        tl.from(headerName.current, { duration: 1.3, x: -1500 }, '-=1.5');
         tl.from(pretendBorder.current, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(230,250,252) 1%, rgb(230,250,252) 30%)' }, '-=.1');
         tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.6');
         tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=3.0');
@@ -43,7 +43,7 @@ export default function Header({ currentPage, handlePageChange }) {
 
                     <h1 className='col-8 m-0 p-0 pb-1 position-relative'>Mark Gardner</h1>
                 </div>
-
+                <iframe id="cupAnimation" src={`${process.env.PUBLIC_URL}/coffee_cup_400.html`} title="Coffee cup spilling coffee" ref={aniContain}></iframe>
                 {/* < AnimateCC
                     animationName="coffeecupanimation400"
                     getAnimationObject={getAnimationObject}
