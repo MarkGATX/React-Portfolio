@@ -7,9 +7,8 @@
     background-blend-mode: luminosity, multiply;
     background-repeat: no-repeat;
     overflow: revert;
-    box-shadow:0 0 3px 2px var(--darkshadow);
-    transition: box-shadow .7s ease-out, scale .5s ease-out, background-position .3s;
-
+    transition: box-shadow .6s ease-out, scale .4s ease-out, background-position .3s;
+    cursor:pointer;
 }
 
 .projectFeatTitle {
@@ -36,15 +35,14 @@
     background-color: var(--light);
     border: 5px solid var(--accent);
     height: 5rem;
-    /* box-shadow: 0 0 0 0 var(--darkshadow); */
     transition: all .5s cubic-bezier(.8, .05, .91, .68);
     transform: rotateX(90deg);
-    
+ 
 }
 
 .projectFeat:hover .projectTech {
     transform: rotateX(0deg);
-    box-shadow: 0 0 10px 10px var(--darkshadow)
+    box-shadow: 0 0 6px 4px var(--darkshadow)
 }
 
 
@@ -52,7 +50,7 @@
     border-color: var(--accent);
     background-position: center, 0% 100%, center;
     border-color: var(--accent);
-    box-shadow: 0 0 10px 10px var(--darkshadow);
+    box-shadow: 0 0 5px 3px var(--darkshadow);
     scale: 104%;
 }
 
