@@ -1,5 +1,6 @@
 // import pdfResume from '../docs/Full-stack_Dev_Resume_2022.pdf'
 import pdfResume from '../../docs/Mark_Gardner-Full-stack-Dev-resume-2023.pdf';
+import greensock from '../../images/gsap-greensock.svg'
 import "./Resume.css";
 
 
@@ -70,6 +71,10 @@ export default function Resume() {
                         <p>Bootstrap</p>
                     </div>
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
+                    <img title="Greensock" className="icon" alt="greensock logo" src={greensock} />
+                        <p>Greensock</p>
+                    </div>
+                    <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
                         <i title="Express" className="devicon-express-original colored"></i>
                         <p>Express.js</p>
                     </div>
@@ -135,6 +140,14 @@ export default function Resume() {
                 <p >A MERN application to help people who are looking to relocate to another country to live or work find a place that will feel like home.</p>
                 <p >Role:  Front-end design, Full-stack coding</p>
                 <p className="mb-4" >Tools:  React, Express, MongoDB, JavasScript, CSS3, GoogleFonts, Photoshop,  Node.js, TypeKit, SASS, Greensock, Victory Charts, Unsplash API </p>
+
+                <h4 className='resumeHead'>Wheezy Waiter</h4>
+                <p >Live site: <a href="https://markgatx.github.io/wheezywaiter/" target='_blank' rel='noreferrer'>https://markgatx.github.io/wheezywaiter/ </a> </p>
+                <p >GitHub Repo: <a href="https://github.com/MarkGATX/wheezywaiter" target="_blank" rel='noreferrer'>https://github.com/MarkGATX/wheezywaiter</a></p>
+                <p >An unofficial site for a YouTube creator that acts as a home for all of their projects, regardless of the rise and fall of other social outlets.
+</p>
+                <p >Role:  Sole Developer</p>
+                <p className="mb-4" >Tools:  React, Material UI, JavasScript, CSS3, GoogleFonts, YouTube API, Spotify API</p>
 
                 <h4 className='resumeHead'>Garden<sup>2</sup></h4>
                 <p >Live site: <a href="https://garden2ed.herokuapp.com/" target='_blank' rel='noreferrer'>https://garden2ed.herokuapp.com/ </a> </p>
