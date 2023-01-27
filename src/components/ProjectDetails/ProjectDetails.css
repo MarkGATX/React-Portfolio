@@ -65,6 +65,10 @@
     background-image: url(../../images/Coding\ Quiz\ Question\ example.jpg), linear-gradient(0deg, white 33%, black 66%), url(../../images/Coding\ Quiz\ Question\ example.jpg);
 }
 
+.CELL {
+    background-image: url(../../images/CELL_hqdefault.webp), linear-gradient(0deg, white 33%, black 66%), url(../../images/Coding\ Quiz\ Question\ example.jpg);
+}
+
 
 .csssnips {
     background-image: url(../../images/css_snippet_bg.jpg), linear-gradient(0deg, white 33%, black 66%), url(../../images/css_snippet_bg.jpg);

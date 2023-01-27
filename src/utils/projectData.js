@@ -273,5 +273,18 @@ export const projectData = [
             "HTML5",
             "vscode",
         ]
-    }
+    },
+    {
+        "title": "CELL: The Web Series",
+        "displayClass": "CELL",
+        "desc": "Psychological thriller about a man who finds himself trapped in a mysterious cell.",
+        "vidlink": "https://www.youtube.com/playlist?list=PLC88580FE5AC3A473",
+        "longDesc": "This is a 13-episode web series with a running time well over 2 hours that debuted on the now defunct channel KoldcastTV. This was my first ever writing on this scale as well as my first effort Producing and Directing for film. It was very successful on Koldcast with millions of views and garnered well over 25 award nominations, including Best Drama, Best Writing, and Best Cinematography. I learned a lot on this project and even with its evident flaws 10 years after the fact, I'm still immensely proud of what our team accomplished together.",
+        "role": "Writer, Director, Producer",
+        "imgs": [],
+        "tech": [
+            "Photoshop",
+            "AfterEffects",
+        ]
+    },
 ]
