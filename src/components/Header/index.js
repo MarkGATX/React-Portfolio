@@ -27,7 +27,7 @@ export default function Header({ currentPage, handlePageChange }) {
         // init();
         tl.from(aniContain.current, {duration:1, x:-2500 ,y:+1});
         tl.from(headerName.current, { duration: 1.3, x: -1500 }, '-=1.5');
-        tl.from(pretendBorder.current, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(230,250,252) 1%, rgb(230,250,252) 30%)' }, '-=.1');
+        tl.from(pretendBorder.current, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(255,251,255) 1%, rgb(255,251,255) 30%)' }, '-=.1');
         tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.6');
         tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=3.0');
         tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.5');
@@ -44,17 +44,7 @@ export default function Header({ currentPage, handlePageChange }) {
                     <h1 className='col-8 m-0 p-0 pb-1 position-relative'>Mark Gardner</h1>
                 </div>
                 <iframe id="cupAnimation" src={`${process.env.PUBLIC_URL}/coffee_cup_400.html`} title="Coffee cup spilling coffee" ref={aniContain}></iframe>
-                {/* < AnimateCC
-                    animationName="coffeecupanimation400"
-                    getAnimationObject={getAnimationObject}
-                    composition='F15B08081EC66A4580C4FA61AB570BE6' 
-                    /> */}
-                {/* <div id="animation_container" className="col-2">
-                    <canvas id="canvas"
-                        style={{position: "absolute", display: "block", backgroundColor:"rgba(255, 255, 255, 0.00)"}}></canvas>
-                    <div id="dom_overlay_container">
-                    </div>
-                </div> */}
+
 
                 <nav className="navbar expand-lg col-md-6 col-lg-4 d-flex align-items-end">
                     <div className="container-fluid justify-content-end">

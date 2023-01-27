@@ -12,6 +12,7 @@
 header {
   position:relative;
   z-index:2;
+  background-color:var(--light);
   /* box-shadow: 2px 2px 5px var(--darkshadow); */
 
 }
@@ -48,6 +49,7 @@ header h1 {
 }
 
 .pretend-border {
+  background-color:var(--light);
   background-image: radial-gradient(at 70% top, var(--dark) 1%, var(--light) 33%);
   height: .6rem;
 }

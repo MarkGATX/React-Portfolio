@@ -1,11 +1,16 @@
 /* variables */
 :root {
-  --dark: #764832;
-  /* --darkshadow:rgba(118,72,50,.5); */
+  /* --dark: #764832;
+  --darkshadow:rgba(118,72,50,.5);
   --darkshadow:rgba(0,0,0,.5);
-
   --light: #E6FAFC;
-  --accent: #36558f;
+  --accent: #36558f; */
+  --dark: #99461a;
+  --darkshadow:rgba(0,0,0,.5);
+  --light: #fffbff;
+  --accent: #5355aa;
+  --background: #fffbff;
+  --text:#201a18;
 
 }
 
@@ -23,8 +28,8 @@ a i {
 }
 
 body {
-  color:var(--accent) !important;
-  background-color: var(--light);
+  color:var(--text) !important;
+  background-color: var(--background) !important;
   font-family: 'Inter', sans-serif !important;
 }
 
@@ -66,12 +71,12 @@ img, svg {
 }
 
 .button:hover {
-  box-shadow:5px 5px 10px #4b2513;
+  box-shadow:5px 5px 10px var(--darkshadow);
 }
 
 
 .button:active {
-  box-shadow:5px 5px 10px inset #4b2513;
+  box-shadow:5px 5px 10px inset var(--darkshadow);
 }
 
 .icon {
