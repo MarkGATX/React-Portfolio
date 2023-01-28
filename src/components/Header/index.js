@@ -31,7 +31,7 @@ export default function Header({ currentPage, handlePageChange }) {
         tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.6');
         tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=3.0');
         tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.5');
-        tl.from('main', { duration: 1, opacity: 0 }, '-=1.7')
+        tl.from('main', { duration: 1, opacity: 0 }, '-=4')
     }, [])
 
     return (

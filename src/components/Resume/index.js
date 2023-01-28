@@ -12,29 +12,29 @@ export default function Resume() {
             <h2 className="col-12 mb-4">Resume</h2>
             {/* <button className="button" onClick={()=>  window.open('../docs/Mark_Gardner_Full-stack_Dev_resume_2022.pdf', '_blank')}>Downloadable PDF</button> */}
             <a href={pdfResume} target="_blank" rel="noreferrer">Downloadable PDF here</a>
-            <div className="container  row d-flex justify-content-center text-center mb-5">
+            <div className="row d-flex justify-content-center text-center mb-5">
                 <h2>MARK GARDNER</h2>
                 <h3 className="resumeSection">Front-End and Full-Stack Developer</h3>
             </div>
             <div className="row mb-5">
-                <div className="col-6 text-start">
+                <div className="col-sm-12 col-md-6 text-start">
                     <p >Phone: 512-695-9490</p>
                     <p >LinkedIn: <a href="https://LinkedIn.com/in/Mark-Gardner-ATX" target="_blank" rel="noreferrer">LinkedIn.com/in/Mark-Gardner-ATX</a></p>
                     <p >Portfolio: <a href="https://markgatx.github.io/Portfolio-v2" target="_blank" rel="noreferrer">markgatx.github.io/Portfolio-v2</a></p>
                 </div>
-                <div className="col-6 text-start">
+                <div className="col-sm-12 col-md-6 text-start">
                     <p >Email: <a href="mailto:themarkgardner@gmail.com">themarkgardner@gmail.com</a></p>
                     <p >GitHub: <a href="https://GitHub.com/MarkGATX" target="_blank" rel="noreferrer">GitHub.com/MarkGATX</a></p>
                 </div>
             </div>
-            <div className="container row d-flex justify-content-center mb-5">
+            <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection' >Summary</h3>
                 <p >Front-end and Full Stack developer and creative multi-hyphenate with a passion for learning. Looks at every challenge as a chance to improve and thrives on the feeling of accomplishment at the end of a project. Balances a drive for perfection with an easy-going and friendly personality to work well in teams. Technology and all media should be simple, effective, and sometimes a little surprising in order to keep people engaged. </p>
             </div>
-            <div className="container row d-flex justify-content-center mb-5">
+            <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection'>Technical Skills</h3>
                 <h5 className='resumeHead'>Technology: </h5>
-                <div className='col-12 d-flex flex-wrap justify-content-start align-items-start'>
+                <div className='col-12 d-flex flex-wrap justify-content-center align-items-start'>
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
                         <i title="HTML5" className="devicon-html5-plain colored"></i>
                         <p>HTML5</p>
@@ -57,7 +57,7 @@ export default function Resume() {
                     </div>
                 </div>
                 <h5 className='resumeHead'>Libraries: </h5>
-                <div className='col-12 d-flex flex-wrap justify-content-start align-items-start'>
+                <div className='col-12 d-flex flex-wrap justify-content-center align-items-start'>
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
                         <i title="React" className="devicon-react-plain colored"></i>
                         <p>React</p>
@@ -71,7 +71,7 @@ export default function Resume() {
                         <p>Bootstrap</p>
                     </div>
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
-                    <img title="Greensock" className="icon" alt="greensock logo" src={greensock} />
+                        <img title="Greensock" className="icon" alt="greensock logo" src={greensock} />
                         <p>Greensock</p>
                     </div>
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
@@ -101,7 +101,7 @@ export default function Resume() {
                     </div>
                 </div>
                 <h5 className='resumeHead'>Tools:</h5>
-                <div className='col-12 d-flex flex-wrap justify-content-start align-items-start'>
+                <div className='col-12 d-flex flex-wrap justify-content-center align-items-start'>
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
                         <i title="Adobe Creative Suite" className="devicon-photoshop-plain colored"></i>
                         <p>Adobe Creative Suite</p>
@@ -132,7 +132,7 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
-            <div className="container row d-flex justify-content-center mb-5">
+            <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection'>Projects Built</h3>
                 <h4 className='resumeHead'>Migrate</h4>
                 <p >Live site: <a href="https://migrate-abroad.herokuapp.com" target='_blank' rel='noreferrer'>https://migrate-abroad.herokuapp.com </a> </p>
@@ -145,7 +145,7 @@ export default function Resume() {
                 <p >Live site: <a href="https://markgatx.github.io/wheezywaiter/" target='_blank' rel='noreferrer'>https://markgatx.github.io/wheezywaiter/ </a> </p>
                 <p >GitHub Repo: <a href="https://github.com/MarkGATX/wheezywaiter" target="_blank" rel='noreferrer'>https://github.com/MarkGATX/wheezywaiter</a></p>
                 <p >An unofficial site for a YouTube creator that acts as a home for all of their projects, regardless of the rise and fall of other social outlets.
-</p>
+                </p>
                 <p >Role:  Sole Developer</p>
                 <p className="mb-4" >Tools:  React, Material UI, JavasScript, CSS3, GoogleFonts, YouTube API, Spotify API</p>
 
@@ -170,19 +170,34 @@ export default function Resume() {
                 <p >Role:Sole Developer</p>
                 <p >Tools:JavasScript, CSS3, GoogleFonts, Dictionary API</p>
             </div>
-            <div className="container row d-flex justify-content-center">
+            <div className="row d-flex justify-content-center">
                 <h3 className='col-12 resumeSection' >Relevant Experience</h3>
                 <h4 className='resumeHead'>Local Government Solutions  /  Developer</h4>
                 <p >2017 - 2018,  AUSTIN</p>
-                <p >Assisted in customer and business transitions to LGS after HCSS was acquired. Developed proposals and outlines for new customer training and retention programs and developed a proposal for a revamped online brand presence and website.</p>
+                <ul className='ms-5'>
+                    <li>Assisted in customer and business transitions to LGS after HCSS was acquired.</li>
+                    <li> Developed proposals and outlines for new customer training and retention programs and developed a proposal for a revamped
+                        online brand presence and website.</li>
+                </ul>
                 <h4 className='resumeHead'>The Weirdlings  /  Creator and Producer</h4>
                 <p >2011 - 2020,   AUSTIN</p>
-                <p >Guided growth of the channel and contributors to reach over 15,000 subscribers and 2.7 million lifetime views on YouTube. Engaged in the community and was elected to the Board of Directors of the International Academy of Web Televison where I was named Secretary. Created and maintained all social outlets and websites using Wordpress, Social Pilot, Tweetdeck and others. Implemented custom CSS to further customize pages and managed a team of creators to optimize videos for release.</p>
+                <ul className='ms-5'>
+                    <li>Guided growth of the channel and contributors to reach over 15,000 subscribers and 2.7 million lifetime views on YouTube.</li>
+                    <li>Engaged in the community and was elected to the Board of Directors of the International Academy of Web Televison where I
+                        was named Secretary.</li>
+                    <li>Created and maintained all social outlets and websites using Wordpress, Social Pilot, Tweetdeck and others.</li>
+                    <li>Implemented custom CSS to further customize pages and managed a team of creators to optimize videos for release.</li>
+                </ul>
                 <h4 className='resumeHead'>Hill Country Software and Support  / VP of Development</h4>
                 <p >2008 - 2017,  AUSTIN</p>
-                <p >Implemented a complete redesign and deployment of the web-based front end of a COBOL backend. Migrated the website to a Wordpress CMS and implemented systems to directly notify customers of updates to systems and important notes. Trained users and provided technical support as needed.</p>
+                <ul className='ms-5'>
+                    <li>Implemented a complete redesign and deployment of the web-based front end of a COBOL backend.</li>
+                        <li>Migrated the website to a Wordpress CMS and implemented systems to directly notify customers of updates to systems and
+                            important news.</li>
+                        <li>Trained users and provided technical support as needed.</li>
+                </ul>
             </div>
-            <div className="container row d-flex justify-content-center">
+            <div className="row d-flex justify-content-center">
                 <h3 className="col-12 resumeSection">Education</h3>
                 <p >University of Texas at Austin / Full-Stack Developer Certificate</p>
                 <p >University of Texas at Austin  / Master in Sports Science and Nutrition</p>

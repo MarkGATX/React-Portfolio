@@ -7,18 +7,11 @@ import "./LinkModal.css";
 
 
 export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, title, desc, role, imgs }) {
-    console.log(vidlink)
-    console.log(livePath);
-    console.log(gitPath);
-    // vidlink = Object.values({vidlink})
-    console.log(vidlink)
     const imgArray = imgs.map((image) => image.map((imageData, key) => <img key={key} src={imageData} alt={title} />))
     if (vidlink === undefined) {
         return (
             <>
                 <Modal show={show} onHide={() => setShow(false)} size="lg">
-
-
                     <Modal.Header closeButton>
                         <Modal.Title>{title}</Modal.Title>
                     </Modal.Header>
@@ -52,8 +45,6 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
         return (
             <>
                 <Modal show={show} onHide={() => setShow(false)} size="lg">
-
-
                     <Modal.Header closeButton>
                         <Modal.Title>{title}</Modal.Title>
                     </Modal.Header>

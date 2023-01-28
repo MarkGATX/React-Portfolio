@@ -27,6 +27,7 @@ header h1 {
 
 .navbar {
   z-index: 10;
+
 }
 
 .nav-link {
@@ -107,5 +108,12 @@ header h1 {
 @media screen and (max-width:530px) {
   #cupAnimation {
     display:none;
+  }
+}
+
+@media screen and (max-width:545px) {
+  .navbar-nav {
+    flex-wrap:wrap;
+    justify-content:space-around;
   }
 }

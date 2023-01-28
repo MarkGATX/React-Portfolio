@@ -43,9 +43,9 @@ export default function Resume() {
         }
         emailjs.sendForm('default_service', 'portfolio_contact', form.current, '9YVbKkrKLvP796bXY')
       .then((result) => {
-          console.log(result.text);
+          
       }, (error) => {
-          console.log(error.text);
+          
       });
         
         // clear out the input after a successful submit.

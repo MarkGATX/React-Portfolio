@@ -4,14 +4,7 @@ import victory from '../../images/victory.png';
 import materialize from '../../images/materialize.svg';
 import googleFonts from "../../images/Google-Fonts-Logo.png"
 import "./ProjectDetails.css";
-// let livePath = '';
-// let gitPath = '';
-// let desc = '';
-// let role = '';
-// let imgs = [];
-// let title = '';
-// let vidlink = '';
-// let tech = [];
+
 
 
 export default function ProjectDetails({ linkTarget }) {

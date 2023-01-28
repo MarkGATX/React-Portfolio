@@ -1,10 +1,5 @@
-import materialize from "../../images/materialize.svg"
 import { useState } from "react";
 import LinkModal from "../LinkModal";
-import greensock from '../../images/gsap-greensock.svg'
-import victory from '../../images/victory.png'
-import migrateSplash from '../../images/migrate-splash.jpg';
-import migrateSingle from '../../images/migrate-single-country.jpg';
 import ProjectDetails from "../ProjectDetails";
 import "./ProjectsContainer.css";
 
@@ -23,9 +18,7 @@ export default function ProjectsContainer() {
 
     const [show, setShow] = useState(false);
 
-    const linkTarget = (link, titleData, liveData, gitData, descData, roleData, imgsData, vidlinkData) => {
-        console.log('ping the link')
-        console.log(link)
+    const linkTarget = (link, titleData, liveData, gitData, descData, roleData, imgsData, vidlinkData) => {    
         vidlink = { vidlinkData };
         title = { titleData };
         livePath = { liveData };
@@ -33,9 +26,6 @@ export default function ProjectsContainer() {
         desc = { descData };
         role = { roleData };
         imgs = Object.values({ imgsData })
-        console.log(livePath);
-        console.log(gitPath);
-        console.log(imgs)
         setShow(true);
     }
 

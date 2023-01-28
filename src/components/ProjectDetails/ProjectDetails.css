@@ -7,7 +7,7 @@
     background-blend-mode: luminosity, multiply;
     background-repeat: no-repeat;
     overflow: revert;
-    transition: box-shadow .6s ease-out, scale .4s ease-out, background-position .3s;
+    transition: box-shadow .6s ease-out, scale .4s ease-out, background-position .3s, height .3s;
     cursor:pointer;
 }
 
@@ -143,3 +143,14 @@
         font-size:.9em;
   }
 }
+
+@media screen and (min-width:2500px) {
+
+    .projectFeat {
+      height:600px;
+    }
+    .projectTech {
+      height:7em;
+      bottom:0;
+    }
+  }
