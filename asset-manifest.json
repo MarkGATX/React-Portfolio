@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-v3/static/css/main.aa034f51.css",
-    "main.js": "/React-Portfolio-v3/static/js/main.536264de.js",
+    "main.css": "/React-Portfolio-v3/static/css/main.ab70b28d.css",
+    "main.js": "/React-Portfolio-v3/static/js/main.bea995c8.js",
     "static/media/css_snippet_bg.jpg": "/React-Portfolio-v3/static/media/css_snippet_bg.0c981d8e2343182345cc.jpg",
     "static/media/tech background image.jpg": "/React-Portfolio-v3/static/media/tech background image.2fe0b76340fbe68f6469.jpg",
     "static/media/Play_Date_porfolio_shot_v1.jpg": "/React-Portfolio-v3/static/media/Play_Date_porfolio_shot_v1.cd629d9e0a1f23d588b8.jpg",
@@ -17,14 +17,12 @@
     "static/media/constellation background.jpg": "/React-Portfolio-v3/static/media/constellation background.3447123ea38034e879e3.jpg",
     "static/media/migrate-screenschot.jpg": "/React-Portfolio-v3/static/media/migrate-screenschot.861a7fa78bad6e2fa7c6.jpg",
     "static/media/weird_girls_thumb.jpg": "/React-Portfolio-v3/static/media/weird_girls_thumb.a94f3580596a3a9dee36.jpg",
-    "static/media/migrate-single-country.jpg": "/React-Portfolio-v3/static/media/migrate-single-country.d4b9442f889a16108bce.jpg",
     "static/media/Google-Fonts-Logo.png": "/React-Portfolio-v3/static/media/Google-Fonts-Logo.45101858dc9100cc4b5c.png",
     "static/media/directing_WG_pilot.jpg": "/React-Portfolio-v3/static/media/directing_WG_pilot.9f2363c58202e00faf50.jpg",
     "static/media/step_repeat_LA.jpg": "/React-Portfolio-v3/static/media/step_repeat_LA.2af0b4e74720ff34a1d6.jpg",
     "static/media/garden2_bg.jpg": "/React-Portfolio-v3/static/media/garden2_bg.c2d2677729a75e6caeb4.jpg",
     "static/media/exploring_Cardiff.jpg": "/React-Portfolio-v3/static/media/exploring_Cardiff.91f3f870d1a8d1d39253.jpg",
     "static/media/weather_dash_bg.jpg": "/React-Portfolio-v3/static/media/weather_dash_bg.a4fac7660b5fadd53999.jpg",
-    "static/media/migrate-splash.jpg": "/React-Portfolio-v3/static/media/migrate-splash.53b5410db95c261d8585.jpg",
     "static/media/mark_with_coffee.jpg": "/React-Portfolio-v3/static/media/mark_with_coffee.48ef6c09050d8d90b5af.jpg",
     "static/media/scrible_notes_bg.jpg": "/React-Portfolio-v3/static/media/scrible_notes_bg.a1e4b7138f1d34e71a93.jpg",
     "static/media/Coding Quiz Question example.jpg": "/React-Portfolio-v3/static/media/Coding Quiz Question example.850d1b0d84fe56b2bd02.jpg",
@@ -38,11 +36,11 @@
     "static/media/live_path_icon.svg": "/React-Portfolio-v3/static/media/live_path_icon.f936b3c46029d57f238798138b9f3b6e.svg",
     "static/media/Adobe_Animate_CC_icon_(2020).svg": "/React-Portfolio-v3/static/media/Adobe_Animate_CC_icon_(2020).77d2058086cb94cb4ad514fbe8f48da5.svg",
     "index.html": "/React-Portfolio-v3/index.html",
-    "main.aa034f51.css.map": "/React-Portfolio-v3/static/css/main.aa034f51.css.map",
-    "main.536264de.js.map": "/React-Portfolio-v3/static/js/main.536264de.js.map"
+    "main.ab70b28d.css.map": "/React-Portfolio-v3/static/css/main.ab70b28d.css.map",
+    "main.bea995c8.js.map": "/React-Portfolio-v3/static/js/main.bea995c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa034f51.css",
-    "static/js/main.536264de.js"
+    "static/css/main.ab70b28d.css",
+    "static/js/main.bea995c8.js"
   ]
 }
