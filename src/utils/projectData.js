@@ -6,7 +6,7 @@ export const projectData = [
         "livePath": "https://migrate-abroad.herokuapp.com/",
         "gitPath": "https://github.com/richardjhong/migrate",
         "desc": "An app to help potential expats make decisions on their future.",
-        "longDesc": "The world is a big place and with the growing acceptance of remote work and the desire to experience different parts of the world, finding good information on what life could be like can be hard. Migrate takes data from the Social Progress Imperative and displays it in a format that's easy to understand. This was a final group project in the UT-Austin Full-Stack Development Bootcamp. It's a MERN stack that also uses Greensock, SASS, and Victory Charts to make a solid and smooth user experience.",
+        "longDesc": "This was a final group project in the UT-Austin Full-Stack Development Bootcamp. We were given a one-week deadline to develop a MERN stack applicaton. We also use Greensock, SASS, and Victory Charts to make a solid and smooth user experience. The world is a big place and with the growing acceptance of remote work and the desire to experience different parts of the world, finding good information on what life could be like can be hard. Migrate takes data from the Social Progress Imperative and displays it in a format that's easy to understand. ",
         "role": "Front-End and Full-Stack Development",
         "imgs": [
             "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/migrate-splash.jpg?raw=true",
@@ -37,7 +37,7 @@ export const projectData = [
         "livePath": "https://markgatx.github.io/wheezywaiter/",
         "gitPath": "https://github.com/MarkGATX/wheezywaiter",
         "desc": "A demo site for an established YouTube creator",
-        "longDesc": "The creator economy is still booming and with the rise of fall of social media outlets, having an evergreen home on the internet is vital for content creators. I developed this unofficial site for my friend Craig to help keep my coding sharp while teaching myself another front-end framework, namely Material UI. Using his current official site and feedback he gave as a starting point, I developed a custom color theme using Material Design concepts and theme generators and also implemented a dark-mode toggle. The YouTube API also provides videos with a simple one-line query for my custom video sections.",
+        "longDesc": "I developed this unofficial site for my friend Craig to help keep my coding sharp while teaching myself another front-end framework, namely Material UI. Using his current official site and feedback he gave as a starting point, I developed a custom color theme using Material Design concepts and theme generators and also implemented a dark-mode toggle. The YouTube API also provides videos with a simple one-line query for my custom video sections. With the creator economy still booming and with the constant rise of fall of social media outlets, having an evergreen home on the internet is vital for content creators. ",
         "role": "Sole-Developer",
         "imgs": [
             "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/wheezy_main.jpg?raw=true",
@@ -62,7 +62,7 @@ export const projectData = [
         
         "livePath": "https://garden2ed.herokuapp.com/",
         "gitPath": "https://github.com/MarkGATX/Garden2",
-        "longDesc": "Over the past few years, interest in home gardening has exploded. But starting and maintaining and garden can be a challenge even for experienced growers. This app is a group project from the UT-Austin Full-Stack Bootcamp that aims to make it easier. Users can select where they live and be presented with a list of crops that grow well in that area. Then they can use that information to develop a plan for a square foot garden by dragging and dropping plants in their virtual garden. It's a simple to use but powerful app that can help home gardeners everywhere.",
+        "longDesc": "This was a mid-class group project in the Full-Stack Development Bootcamp. We were given one week to develop an app to help gardeners of all experience levels to start and maintain a garden.  Users can select where they live and be presented with a list of crops that grow well in that area. Then they can use that information to develop a plan for a square foot garden by dragging and dropping plants in their virtual garden. It's a simple to use but powerful app that can help home gardeners everywhere.",
         "role": "Front-End and Full-Stack Developer",
         "imgs": [
             "https://github.com/MarkGATX/Garden2/raw/main/Assets/screenPlay.gif",
@@ -91,7 +91,7 @@ export const projectData = [
        
         "livePath": "https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/",
         "gitPath": "https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp",
-        "longDesc": "Weather dashboards may be everywhere, but so are the adds. This is a project for the UT-Austin Full-Stack Bootcamp that aims to create a simple yet powerful weather dashboard. This app uses two separate weather APIs to pinpoint locations and to return five day weather forecasts. The logic behind the app will even help you pinpoint exactly which city you want to search for by providing you with options from all over the world. Your last five searches are also saved in local storage for ease of use.",
+        "longDesc": "This is a solo project for the UT-Austin Full-Stack Bootcamp that aims to create a simple yet powerful weather dashboard. This app uses two separate weather APIs to pinpoint locations and to return five day weather forecasts. The logic behind the app will even help you pinpoint exactly which city you want to search for by providing you with options from all over the world. Your last five searches are also saved in local storage for ease of use.",
         "role": "Sole-Developer",
         "imgs": [
             "https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp/raw/main/assets/images/Weather%20Dashboard%20small%20Screenshot.jpg",
@@ -112,7 +112,7 @@ export const projectData = [
         
         "livePath": "https://scribl-notes.herokuapp.com/",
         "gitPath": "https://github.com/MarkGATX/Scrible_Notes_CMS",
-        "longDesc": "This project for the UT-Austin Full-Stack Bootcamp is meant to be one of our first exposures to CMS systems. It has a basic user-login that will allow users to create Thoughts and also post replies to other user Thoughts. This is one of the earliest uses of Bootstrap for me as a developer and I've definitely learned a lot since then. In the end, I wanted to try and slightly different look and feel to the expected tech blog and I think I achieved that while maintaining good function on the back end.",
+        "longDesc": "This solo project for the UT-Austin Full-Stack Bootcamp is meant to be one of our first exposures to CMS systems. It has a basic user-login that will allow users to create Thoughts and also post replies to other user Thoughts. This is one of the earliest uses of Bootstrap for me as a developer and I've definitely learned a lot since then. In the end, I wanted to try and slightly different look and feel to the expected tech blog and I think I achieved that while maintaining good function on the back end.",
         "role": "Sole-Developer",
         "imgs": [
             "https://github.com/MarkGATX/Scrible_Notes_CMS/raw/main/public/images/scribl_notes_home.jpg",
@@ -180,7 +180,7 @@ export const projectData = [
        
         "livePath": "https://markgatx.github.io/Playdate-The-App-for-Exhausted-Parents/",
         "gitPath": "https://github.com/MarkGATX/Playdate-The-App-for-Exhausted-Parents",
-        "longDesc": "As a father of a young child, I can guarantee that some days you just don't know what to do. This app is meant to be an easy way for tired parents to find an answer to that question. This is the very first group project that was assigned at the UT-Austin Boot Camp. This was meant to be our first introduction to collaborative coding using GitHub while pushing our use of third-party APIs. My sole was primarily to use the MapBox API to render map locations. I also helped as needed on other aspects of the backend by helping to troubleshoot when called on.",
+        "longDesc": "This is the very first group project that was assigned at the UT-Austin Boot Camp. This was meant to be our first introduction to collaborative coding using GitHub while pushing our use of third-party APIs. My role was primarily to use the MapBox API to render map locations. I also helped as needed on other aspects of the backend by helping to troubleshoot when called on.",
         "role": "MapBox API, Back-end code",
         "imgs": [
             "https://github.com/MarkGATX/Playdate-The-App-for-Exhausted-Parents/raw/main/assets/images/Playdate%20Screenshot.jpg"
