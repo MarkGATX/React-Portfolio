@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-v3/static/css/main.ab70b28d.css",
-    "main.js": "/React-Portfolio-v3/static/js/main.8a20dce5.js",
+    "main.css": "/React-Portfolio-v3/static/css/main.d4bd3307.css",
+    "main.js": "/React-Portfolio-v3/static/js/main.eefde246.js",
     "static/media/css_snippet_bg.jpg": "/React-Portfolio-v3/static/media/css_snippet_bg.0c981d8e2343182345cc.jpg",
     "static/media/tech background image.jpg": "/React-Portfolio-v3/static/media/tech background image.2fe0b76340fbe68f6469.jpg",
     "static/media/Play_Date_porfolio_shot_v1.jpg": "/React-Portfolio-v3/static/media/Play_Date_porfolio_shot_v1.cd629d9e0a1f23d588b8.jpg",
-    "static/media/Mark_Gardner-Full-stack-Dev-resume-2023.pdf": "/React-Portfolio-v3/static/media/Mark_Gardner-Full-stack-Dev-resume-2023.4b5be286aff4501bc14d.pdf",
+    "static/media/Mark_Gardner-Full-stack-Dev-resume-2023.pdf": "/React-Portfolio-v3/static/media/Mark_Gardner-Full-stack-Dev-resume-2023.ebd059f80d57ee30ef0a.pdf",
     "static/media/hoa_bg.jpg": "/React-Portfolio-v3/static/media/hoa_bg.6416b8fa3603d0e2a91a.jpg",
     "static/media/paris_notre_dame.jpg": "/React-Portfolio-v3/static/media/paris_notre_dame.da46980b66d7dbd809c9.jpg",
     "static/media/hiking_in_mtns.jpg": "/React-Portfolio-v3/static/media/hiking_in_mtns.c6ca38c5830a740c89d9.jpg",
@@ -36,11 +36,11 @@
     "static/media/live_path_icon.svg": "/React-Portfolio-v3/static/media/live_path_icon.f936b3c46029d57f238798138b9f3b6e.svg",
     "static/media/Adobe_Animate_CC_icon_(2020).svg": "/React-Portfolio-v3/static/media/Adobe_Animate_CC_icon_(2020).77d2058086cb94cb4ad514fbe8f48da5.svg",
     "index.html": "/React-Portfolio-v3/index.html",
-    "main.ab70b28d.css.map": "/React-Portfolio-v3/static/css/main.ab70b28d.css.map",
-    "main.8a20dce5.js.map": "/React-Portfolio-v3/static/js/main.8a20dce5.js.map"
+    "main.d4bd3307.css.map": "/React-Portfolio-v3/static/css/main.d4bd3307.css.map",
+    "main.eefde246.js.map": "/React-Portfolio-v3/static/js/main.eefde246.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab70b28d.css",
-    "static/js/main.8a20dce5.js"
+    "static/css/main.d4bd3307.css",
+    "static/js/main.eefde246.js"
   ]
 }
