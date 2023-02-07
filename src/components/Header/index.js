@@ -3,16 +3,12 @@
 import { gsap } from "gsap/dist/gsap";
 import { useEffect, useRef } from 'react'
 import markCoffee from '../../images/mark_with_coffee.jpg'
-// import init from '../utils/coffeCupInt'
-// import { AnimateCC, GetAnimationObjectParameter } from "react-adobe-animate";
 import "./Header.css";
 
 
 
 
 export default function Header({ currentPage, handlePageChange }) {
-    // const [animationObject, getAnimationObject] = useState < GetAnimationObjectParameter | null > (null);
-    // const [animationObject, getAnimationObject] = useState(null);
     const aniContain = useRef();
     const headerName = useRef();
     const pretendBorder = useRef();

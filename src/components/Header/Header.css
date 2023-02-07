@@ -68,6 +68,14 @@ header h1 {
   left:220px;
 }
 
+#animation_container {
+  overflow:hidden;
+}
+
+#canvas {
+  overflow:hidden;
+}
+
 @media screen and (min-width:992px) and (max-width: 1095px) {
   #cupAnimation {
     order:3;
