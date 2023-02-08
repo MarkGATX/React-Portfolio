@@ -20,7 +20,7 @@ export default function Resume() {
                 <div className="col-sm-12 col-md-6 text-start">
                     <p >Phone: 512-695-9490</p>
                     <p >LinkedIn: <a href="https://LinkedIn.com/in/Mark-Gardner-ATX" target="_blank" rel="noreferrer">LinkedIn.com/in/Mark-Gardner-ATX</a></p>
-                    <p >Portfolio: <a href="https://markgatx.github.io/Portfolio-v2" target="_blank" rel="noreferrer">markgatx.github.io/Portfolio-v2</a></p>
+                    <p >Portfolio: <a href="https://markgatx.github.io/React-Portfolio-v3/" target="_blank" rel="noreferrer">markgatx.github.io/React-Portfolio-v3/</a></p>
                 </div>
                 <div className="col-sm-12 col-md-6 text-start">
                     <p >Email: <a href="mailto:themarkgardner@gmail.com">themarkgardner@gmail.com</a></p>
@@ -136,7 +136,7 @@ export default function Resume() {
                 <h3 className='col-12 resumeSection'>Projects Built</h3>
                 <h4 className='resumeHead'>Migrate</h4>
                 <p >Live site: <a href="https://migrate-abroad.herokuapp.com" target='_blank' rel='noreferrer'>https://migrate-abroad.herokuapp.com </a> </p>
-                <p >GitHub Repo: <a href="https://github.com/richardjhong/migrate" target="_blank" rel='noreferrer'> https://github.com/richardjhong/migrate</a></p>
+                <p >GitHub Repo: <a href="https://github.com/richardjhong/migrate" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/migrate</a></p>
                 <p >A MERN application to help people who are looking to relocate to another country to live or work find a place that will feel like home.</p>
                 <p >Role:  Front-end design, Full-stack coding</p>
                 <p className="mb-4" >Tools:  React, Express, MongoDB, JavasScript, CSS3, GoogleFonts, Photoshop,  Node.js, TypeKit, SASS, Greensock, Victory Charts, Unsplash API </p>
