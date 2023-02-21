@@ -157,10 +157,10 @@
     .projectFeat {
       height:600px;
     }
-    .projectTech {
+    /* .projectTech {
       height:7em;
       bottom:0;
-    }
+    } */
   }
 
   @media screen and (max-width:450px) {
