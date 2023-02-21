@@ -18,7 +18,7 @@ export default function Resume() {
             </div>
             <div className="row mb-5">
                 <div className="col-sm-12 col-md-6 text-start">
-                    <p >Phone: 512-695-9490</p>
+                    <p >Phone: +1 512-695-9490</p>
                     <p >LinkedIn: <a href="https://LinkedIn.com/in/Mark-Gardner-ATX" target="_blank" rel="noreferrer">LinkedIn.com/in/Mark-Gardner-ATX</a></p>
                     <p >Portfolio: <a href="https://markgatx.github.io/React-Portfolio-v3/" target="_blank" rel="noreferrer">markgatx.github.io/React-Portfolio-v3/</a></p>
                 </div>
