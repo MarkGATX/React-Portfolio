@@ -398,7 +398,7 @@ var createjs, AdobeAn;
 </script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
-setTimeout(function init() {
+function init() {
 
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
@@ -410,7 +410,7 @@ setTimeout(function init() {
 	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
 	var lib=comp.getLibrary();
 	loader.loadManifest(lib.properties.manifest);
-},1100)
+}
 function handleFileLoad(evt, comp) {
 	var images=comp.getImages();	
 	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
@@ -440,7 +440,7 @@ function handleComplete(evt,comp) {
 </script>
 <!-- write your code here -->
 </head>
-<body onload="init();" style="margin:0px;overflow:hidden;">
+<body onload="setTimeout(init, 1100);" style="margin:0px;overflow:hidden;">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 0.00); width:353px; height:140px; overflow:hidden;">
 		<canvas id="canvas" width="353" height="140" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 0.00);overflow:hidden;"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:353px; height:140px; position: absolute; left: 0px; top: 0px; display: block;overflow:hidden;">
