@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser'
 import "./ContactForm.css";
 
 
-export default function Resume() {
+export default function ContactForm() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");

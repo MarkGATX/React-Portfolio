@@ -6,7 +6,7 @@ export const projectData = [
         "livePath": "https://migrate-abroad.herokuapp.com/",
         "gitPath": "https://github.com/richardjhong/migrate",
         "desc": "An app to help potential expats make decisions on their future.",
-        "longDesc": "This was a final group project in the UT-Austin Full-Stack Development Bootcamp. We were given a one-week deadline to develop a MERN stack applicaton. We also use Greensock, SASS, and Victory Charts to make a solid and smooth user experience. The world is a big place and with the growing acceptance of remote work and the desire to experience different parts of the world, finding good information on what life could be like can be hard. Migrate takes data from the Social Progress Imperative and displays it in a format that's easy to understand. ",
+        "longDesc": "This was a final group project in the UT-Austin Full-Stack Development Bootcamp. We were given a one-week deadline to develop a MERN stack applicaton. We also use Greensock, SASS, and Victory Charts to make a solid and smooth user experience. The world is a big place and with the growing acceptance of remote work and the desire to experience different parts of the world, finding good information on what life could be like can be hard. Migrate takes data from the Social Progress Imperative and displays it in a format that's easy to understand.",
         "role": "Front-End and Full-Stack Development",
         "imgs": [
             "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/migrate-splash.jpg?raw=true",

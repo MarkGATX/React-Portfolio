@@ -10,7 +10,7 @@ export default function AboutMe() {
     return (
         <section className="aboutMe col-md-3 col-lg-3 ">
             <h2 className="col-12 mb-4">About me</h2>
-            <p>I'm a creative full-stack developer and multi-hyphenate who loves learning and creating new
+            <p>I'm a creative Front-End developer and multi-hyphenate who loves learning and creating new
                 things. </p>
             <p>The experience a person has using any media should be easy, enjoyable, and sometimes even
                 surprising. </p>

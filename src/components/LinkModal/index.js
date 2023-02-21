@@ -23,17 +23,16 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                         </div>
                     </Modal.Body>
                     <Modal.Footer>
-                        <div className="d-flex flex-wrap justify-content-around">
+                        <div className="d-flex flex-wrap justify-content-around detailsLinks" >
                             <a href={livePath} target="_blank" rel="noreferrer" className="livePath col-5 text-decoration-none">
-                                <div className="mb-2 ">
-                                    <img className='icon' src={liveIcon} alt="icon for live site" title="Icon for live site" />Click
-                                    here to go to the live site.
+                                <div className="mb-2 d-flex justify-content-start">
+                                    <img className='icon ' src={liveIcon} alt="icon for live site" title="Icon for live site"  />Live site
                                 </div>
                             </a>
                             <a href={gitPath} target="_blank" rel="noreferrer" className="gitPath col-5 text-decoration-none">
-                                <div className="mb-2 ">
-                                    <i className="devicon-github-original" title="icon for GitHub"></i>
-                                    Click here to go to the GitHub Repository
+                                <div className="mb-2 d-flex justify-content-start align-items-center">
+                                    <i className="devicon-github-original detailsIcon" title="icon for GitHub"></i>
+                                    GitHub
                                 </div>
                             </a>
                         </div>

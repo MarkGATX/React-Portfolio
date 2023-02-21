@@ -15,12 +15,13 @@ export default function ProjectDetails({ linkTarget }) {
                 const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink } = Val;
                 return (
 
-                    <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap`} data-link={title} onClick={() => linkTarget(displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink)}>
-                        <div className="projectFeatTitle col-7 p-2 " >
+                    <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap justify-content-end align-content-start`} data-link={title} onClick={() => linkTarget(displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink)}>
+                        <div className="projectFeatTitle col-12 p-2 " >
                             <h5>{title}</h5>
                             <p>{desc}</p>
                         </div>
-                        <div className='projectTech d-flex justify-content-center align-items-center ms-auto mt-auto flex-wrap '>
+                        {/* <div className='projectTech d-flex justify-content-center align-items-center ms-auto mt-auto flex-wrap col-7'> */}
+                        <div className='projectTech d-flex justify-content-center align-items-center flex-wrap col-7'>
                             {tech.map((techVal, key) => {
                                 if (techVal === "Greensock") {
                                     return (<img key={key} title="Greensock" className="icon " alt="greensock logo" src={greensock} />);

@@ -17,17 +17,32 @@ export default function Header({ currentPage, handlePageChange }) {
     const fuelBy = useRef();
 
 
+    // useEffect(() => {
+    //     const tl = gsap.timeline();
+    //     const links = document.querySelectorAll('li')
+    //     // init();
+    //     tl.from(aniContain.current, {duration:1, x:-2500 ,y:+1});
+    //     tl.from(headerName.current, { duration: 1.3, x: -1500 }, '-=1.5');
+    //     tl.from(pretendBorder.current, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(255,251,255) 1%, rgb(255,251,255) 30%)' }, '-=.1');
+    //     tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.6');
+    //     tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=3.0');
+    //     tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.5');
+    //     tl.from('main', { duration: 1, opacity: 0 }, '-=4.2')
+    // }, [])
+
     useEffect(() => {
         const tl = gsap.timeline();
         const links = document.querySelectorAll('li')
         // init();
-        tl.from(aniContain.current, {duration:1, x:-2500 ,y:+1});
-        tl.from(headerName.current, { duration: 1.3, x: -1500 }, '-=1.5');
-        tl.from(pretendBorder.current, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(255,251,255) 1%, rgb(255,251,255) 30%)' }, '-=.1');
-        tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.6');
-        tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=3.0');
-        tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.5');
-        tl.from('main', { duration: 1, opacity: 0 }, '-=4.2')
+        
+        tl.from(headerName.current, { duration: 1.3, x: -1500 });
+        tl.from('.aboutMe', { duration: 1.3, y: -20, opacity: 0, }, '-=.5');
+        tl.from(aniContain.current, {duration:1, x:-2500 ,y:+1}, '-=1');
+        tl.from(pretendBorder.current, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(255,251,255) 1%, rgb(255,251,255) 30%)' }, '+=.1');
+        tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.5');
+        tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=2.5');
+        tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.3');    
+        tl.from('.projects', { duration: 1, opacity: 0 }, '-=2')
     }, [])
 
     return (
@@ -49,11 +64,12 @@ export default function Header({ currentPage, handlePageChange }) {
                                 <a className={currentPage === 'Portfolio' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Portfolio')} href="#Portfolio">Portfolio</a>
                             </li>
                             <li className="nav-item" >
-                                <a className={currentPage === 'Contact Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Contact Me')} href="#contactMe">Contact</a>
-                            </li>
-                            <li className="nav-item" >
                                 <a className={currentPage === 'About Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('About Me')} href="#aboutMe">About Me</a>
                             </li>
+                            <li className="nav-item" >
+                                <a className={currentPage === 'Contact Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Contact Me')} href="#contactMe">Contact</a>
+                            </li>
+                            
                             <li className="nav-item" >
                                 <a className={currentPage === 'Resume' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Resume')} href="#Resume">Resume</a>
                             </li>
