@@ -398,7 +398,8 @@ var createjs, AdobeAn;
 </script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
-function init() {
+setTimeout(function init() {
+
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
@@ -409,7 +410,7 @@ function init() {
 	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
 	var lib=comp.getLibrary();
 	loader.loadManifest(lib.properties.manifest);
-}
+},1100)
 function handleFileLoad(evt, comp) {
 	var images=comp.getImages();	
 	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
