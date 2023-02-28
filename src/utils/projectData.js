@@ -1,5 +1,32 @@
 export const projectData = [
     {
+        "title": "Luxe Cavallo",
+        "displayClass": "luxe",
+       
+        "livePath": "https://luxecavallo.herokuapp.com/",
+        "gitPath": "https://github.com/markgatx/luxecavallo",
+        "desc": "MERN stack project for fictional luxury boutique",
+        "longDesc": "This is a constantly evolving project I started to reinforce React skills with GraphQL and MongoDB running queries. It all started with me playing with the idea behind a vertical navbar on a desktop application. From there it evolved into a Full-stack project that pushed my knowledge and understanding of app development. I've learned a lot about the strucutre of code and making sure unique layouts stay responsive at various screen resolutions and not just screen width. Even though I'm still working on full responsiveness and a functional shopping cart, I'm happy with the overall look and feel. It also let me get back to some quick video and photo editing to make the intro splash and edit the product images for consistency.",
+        "imgs": [
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/luxecavallo_home.jpg?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/luxe_product_detail.jpg?raw=true"
+           
+        ],
+        "tech": [
+            "react",
+            "css3",
+            "express",
+            "graphQL",
+            "Heroku",
+            "HTML5",,
+            "Mongo",
+            "vscode",
+            "Javascript",
+            "NodeJS",
+            "Greensock",
+        ]
+    },
+    {
         "title": "Migrate",
         "displayClass": "migrate",
        

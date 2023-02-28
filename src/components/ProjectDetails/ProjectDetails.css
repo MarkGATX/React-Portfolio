@@ -112,6 +112,11 @@
 
 }
 
+.luxe {
+    background-image: url(../../images/luxecavallo_home.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/luxecavallo_home.jpg);
+
+}
+
 .playdate {
     background-image: url(../../images/Play_Date_porfolio_shot_v1.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/Play_Date_porfolio_shot_v1.jpg);
 }
