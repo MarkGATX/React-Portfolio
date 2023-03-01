@@ -1,6 +1,7 @@
 import React from 'react'
 import Modal from 'react-bootstrap/Modal';
-import liveIcon from "../../images/live_path_icon.svg";
+// import liveIcon from "../../images/live_path_icon.svg";
+import liveIcon from "../../images/live_path_icon.svg"
 import "./LinkModal.css";
 
 
@@ -25,7 +26,7 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                         <div className="d-flex flex-wrap justify-content-around detailsLinks" >
                             <a href={livePath} target="_blank" rel="noreferrer" className="livePath col-5 text-decoration-none">
                                 <div className="mb-2 d-flex justify-content-start">
-                                    <img className='icon ' src={liveIcon} alt="icon for live site" title="Icon for live site" />Live site
+                                    <img className='icon' src={liveIcon} alt="icon for live site" title="Icon for live site" />Live site
                                 </div>
                             </a>
                             <a href={gitPath} target="_blank" rel="noreferrer" className="gitPath col-5 text-decoration-none">

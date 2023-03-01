@@ -4,6 +4,7 @@ import victory from '../../images/victory.png';
 import materialize from '../../images/materialize.svg';
 import googleFonts from "../../images/Google-Fonts-Logo.png"
 import "./ProjectDetails.css";
+import adobeFonts from "../../images/Adobe_Fonts.svg"
 
 
 
@@ -35,7 +36,9 @@ export default function ProjectDetails({ linkTarget }) {
                                     return (<img key={key} title="Materialize" className="icon blue" alt="Materialize icon" src={materialize} />)
                                 } else if (techVal === "Google Fonts") {
                                     return (<img key={key} title="Google Fonts" className="icon" alt="Google Fonts icon" src={googleFonts}  />)
-                                } else {
+                                } else if (techVal === "Adobe Fonts") {
+                                    return (<img key={key} title="Adobe Fonts" className="icon" alt="Adobe Fonts icon" src={adobeFonts}  />)
+                                }else {
                                     return (<i key={key} title={techVal} className={`devicon-${techVal.toLowerCase()}-plain colored`}></i>)
                                 }
                             }

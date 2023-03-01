@@ -14,16 +14,20 @@ export const projectData = [
         ],
         "tech": [
             "react",
-            "css3",
-            "express",
             "graphQL",
-            "Heroku",
-            "HTML5",,
-            "Mongo",
-            "vscode",
             "Javascript",
             "NodeJS",
+            "express",           
+            "Mongo",
             "Greensock",
+            "css3",
+            "Adobe Fonts",
+            "Heroku",
+            "HTML5",,            
+            "vscode",
+            
+            
+            
         ]
     },
     {
@@ -49,12 +53,13 @@ export const projectData = [
             "HTML5",
             "Sass",
             "Mongo",
+            "Adobe Fonts",
             "vscode",
             "Javascript",
             "NodeJS",
             "Greensock",
             "victory charts",
-            "Google Fonts"
+            
         ]
     },
     {
