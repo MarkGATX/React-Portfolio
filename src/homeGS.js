@@ -1,7 +1,5 @@
 const tl = gsap.timeline();
 const cup = document.getElementById('canvas')
-console.log(cup)
-
 
 tl.from("#animation_container", {duration:1, x:-2000 ,y:+1});
 tl.from(".header-name", {duration:1.7, x:-1500}, '-=1.5');
