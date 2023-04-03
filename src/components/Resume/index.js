@@ -10,7 +10,6 @@ export default function Resume() {
 
         <section className="col-md-8 col-lg-8 resumeContainer">
             <h2 className="col-12 mb-4">Resume</h2>
-            {/* <button className="button" onClick={()=>  window.open('../docs/Mark_Gardner_Full-stack_Dev_resume_2022.pdf', '_blank')}>Downloadable PDF</button> */}
             <a href={pdfResume} target="_blank" rel="noreferrer">Downloadable PDF here</a>
             <div className="row d-flex justify-content-center text-center mb-5">
                 <h2>MARK GARDNER</h2>
@@ -29,7 +28,7 @@ export default function Resume() {
             </div>
             <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection' >Summary</h3>
-                <p >Front-end and Full Stack developer and creative multi-hyphenate with a passion for learning. Looks at every challenge as a chance to improve and thrives on the feeling of accomplishment at the end of a project. Balances a drive for perfection with an easy-going and friendly personality to work well in teams. Technology and all media should be simple, effective, and sometimes a little surprising in order to keep people engaged. </p>
+                <p >Front-end and Full Stack developer and creative multi-hyphenate with a passion for learning. Looks at every challenge as a chance to improve and thrives on the feeling of accomplishment at the end of a project. Balances a drive for perfection with an easy-going and friendly personality to work well in teams. </p>
             </div>
             <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection'>Technical Skills</h3>
@@ -134,9 +133,17 @@ export default function Resume() {
             </div>
             <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection'>Projects Built</h3>
+
+                <h4 className='resumeHead'>Luxe Cavallo</h4>
+                <p >Live site: <a href="https://luxecavallo.herokuapp.com/" target='_blank' rel='noreferrer'>https://luxecavallo.herokuapp.com/</a> </p>
+                <p >GitHub Repo: <a href="https://github.com/MarkGATX/luxecavallo" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/luxecavallo</a></p>
+                <p >A MERN e-commerce application with a unique responsive design and an interface that prominently features engaging media.</p>
+                <p >Role:  Sole-developer</p>
+                <p className="mb-4" >Tools:  React, GraphQL, Apollo, Express, MongoDB, Mongoose, JavasScript, CSS3, Adobe Font, Photoshop,  Node.js,  SASS, Greensock </p>
+
                 <h4 className='resumeHead'>Migrate</h4>
                 <p >Live site: <a href="https://migrate-abroad.herokuapp.com" target='_blank' rel='noreferrer'>https://migrate-abroad.herokuapp.com </a> </p>
-                <p >GitHub Repo: <a href="https://github.com/richardjhong/migrate" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/migrate</a></p>
+                <p >GitHub Repo: <a href="https://github.com/MarkGATX/migrate" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/migrate</a></p>
                 <p >A MERN application to help people who are looking to relocate to another country to live or work find a place that will feel like home.</p>
                 <p >Role:  Front-end design, Full-stack coding</p>
                 <p className="mb-4" >Tools:  React, Express, MongoDB, JavasScript, CSS3, GoogleFonts, Photoshop,  Node.js, TypeKit, SASS, Greensock, Victory Charts, Unsplash API </p>
@@ -163,12 +170,6 @@ export default function Resume() {
                 <p >Role:Sole Developer</p>
                 <p className="mb-4">Tools: Bootstrap, JavasScript, CSS3, GoogleFonts, OpenWeather API, WeatherBit.io API</p>
 
-                <h4 className='resumeHead'>Word Guess Game</h4>
-                <p >Live site: <a href="https://markgatx.github.io/The-Word-Guess-Game/" target="_blank" rel="noreferrer">https://markgatx.github.io/The-Word-Guess-Game/</a> </p>
-                <p >GitHub Repo: <a href="https://github.com/MarkGATX/The-Word-Guess-Game" target="_blank" rel="noreferrer">https://github.com/MarkGATX/The-Word-Guess-Game</a></p>
-                <p >A fun and challenging take on a simple word guess game. Added features are animations, tougher scoring rules, a keyboard rate limiter, and a API call at game end for dictionary definitions.</p>
-                <p >Role:Sole Developer</p>
-                <p >Tools:JavasScript, CSS3, GoogleFonts, Dictionary API</p>
             </div>
             <div className="row d-flex justify-content-center">
                 <h3 className='col-12 resumeSection' >Relevant Experience</h3>
