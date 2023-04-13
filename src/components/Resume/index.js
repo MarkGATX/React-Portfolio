@@ -28,7 +28,7 @@ export default function Resume() {
             </div>
             <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection' >Summary</h3>
-                <p >Front-end and Full Stack developer and creative multi-hyphenate with a passion for learning. Looks at every challenge as a chance to improve and thrives on the feeling of accomplishment at the end of a project. Balances a drive for perfection with an easy-going and friendly personality to work well in teams. </p>
+                <p >Certified Front-End and Full-Stack Developer well-versed in a variety of technologies, including React,  JavaScript, Material UI, Node.js, HTML, CSS, and MongoDB to name a few. With over 18 years of professional experience across multiple industries, I’ve successfully worked on teams that consistently deliver quality products. My technical skills are complemented by 13 years of video production experience, which has given me a keen eye for detail, a talent for visual storytelling, and the soft skills needed to work with diverse teams. I’m passionate about learning and thrive on tackling new challenges head-on. I’m dedicated to delivering high-quality work that exceeds expectations.</p>
             </div>
             <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection'>Technical Skills</h3>
