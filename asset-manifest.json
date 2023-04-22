@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-v3/static/css/main.a77e4f19.css",
-    "main.js": "/React-Portfolio-v3/static/js/main.2da9fa77.js",
+    "main.css": "/React-Portfolio-v3/static/css/main.772f7fed.css",
+    "main.js": "/React-Portfolio-v3/static/js/main.74f470f0.js",
     "static/media/css_snippet_bg.jpg": "/React-Portfolio-v3/static/media/css_snippet_bg.0c981d8e2343182345cc.jpg",
     "static/media/tech background image.jpg": "/React-Portfolio-v3/static/media/tech background image.2fe0b76340fbe68f6469.jpg",
     "static/media/Play_Date_porfolio_shot_v1.jpg": "/React-Portfolio-v3/static/media/Play_Date_porfolio_shot_v1.cd629d9e0a1f23d588b8.jpg",
@@ -29,6 +29,7 @@
     "static/media/Coding Quiz Question example.jpg": "/React-Portfolio-v3/static/media/Coding Quiz Question example.850d1b0d84fe56b2bd02.jpg",
     "static/media/wheezy_main.jpg": "/React-Portfolio-v3/static/media/wheezy_main.ba86f812f8cb782b0a91.jpg",
     "static/media/mugging.jpg": "/React-Portfolio-v3/static/media/mugging.fd8e42894fe856251af9.jpg",
+    "static/media/CARY_thumb.jpg": "/React-Portfolio-v3/static/media/CARY_thumb.176007c2e5834304036a.jpg",
     "static/media/gsap-greensock.svg": "/React-Portfolio-v3/static/media/gsap-greensock.dff87e2debbe5d37479732018b2a575a.svg",
     "static/media/word_guess_bg.jpg": "/React-Portfolio-v3/static/media/word_guess_bg.8a58ffae3564781f751c.jpg",
     "static/media/victory.png": "/React-Portfolio-v3/static/media/victory.8c5e15c1209afa0bd28c.png",
@@ -38,11 +39,11 @@
     "static/media/live_path_icon.svg": "/React-Portfolio-v3/static/media/live_path_icon.f936b3c46029d57f238798138b9f3b6e.svg",
     "static/media/Adobe_Animate_CC_icon_(2020).svg": "/React-Portfolio-v3/static/media/Adobe_Animate_CC_icon_(2020).77d2058086cb94cb4ad514fbe8f48da5.svg",
     "index.html": "/React-Portfolio-v3/index.html",
-    "main.a77e4f19.css.map": "/React-Portfolio-v3/static/css/main.a77e4f19.css.map",
-    "main.2da9fa77.js.map": "/React-Portfolio-v3/static/js/main.2da9fa77.js.map"
+    "main.772f7fed.css.map": "/React-Portfolio-v3/static/css/main.772f7fed.css.map",
+    "main.74f470f0.js.map": "/React-Portfolio-v3/static/js/main.74f470f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a77e4f19.css",
-    "static/js/main.2da9fa77.js"
+    "static/css/main.772f7fed.css",
+    "static/js/main.74f470f0.js"
   ]
 }
