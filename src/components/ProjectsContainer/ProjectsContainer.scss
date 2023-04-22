@@ -1,0 +1,45 @@
+
+/* $form-select-focus-width:         $input-focus-width;
+$form-select-focus-box-shadow:    0 0 0 $form-select-focus-width $input-bt */
+// @import "../../../node_modules/bootstrap/scss/functions";
+// @import '../../../node_modules/bootstrap/scss/variables.scss';
+
+// @import "../../../node_modules/bootstrap/scss/bootstrap";
+// $form-select-focus-border-color:  var(--dark);
+// $form-select-focus-box-shadow:    0 0 0 .15rem var(--dark);
+
+
+
+.filters {
+    display:flex;
+    justify-content:flex-end;
+    align-items:baseline;
+}
+
+.filterSelect {
+    width:200px;
+    
+}
+
+.projects {
+    border-left: solid 2px var(--accent);
+    height: 1100px;
+}
+
+.projectHeadBG {
+    background-color: var(--light);
+    display:flex;
+    justify-content:space-between;
+}
+
+.projectDetails {
+    height:1000px;
+    overflow:auto;
+}
+
+@media screen and (min-width:300px) and (max-width: 768px) {
+    .projects {
+        z-index:1;
+        border:none;
+    }
+}

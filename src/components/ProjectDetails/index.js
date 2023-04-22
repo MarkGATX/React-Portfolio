@@ -5,17 +5,33 @@ import materialize from '../../images/materialize.svg';
 import googleFonts from "../../images/Google-Fonts-Logo.png"
 import "./ProjectDetails.css";
 import adobeFonts from "../../images/Adobe_Fonts.svg"
+// import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 
 
-export default function ProjectDetails({ linkTarget }) {
+export default function ProjectDetails({ linkTarget, filter }) {
 
+    let filteredData = projectData;
+    switch (filter) {
+        case 'all':
+            break;
+        case "dev":
+            filteredData = projectData.filter(project => project.type === "dev");
+            console.log(filteredData)
+            break;
+        case "vid":
+            filteredData = projectData.filter(project => project.type ==="vid");
+            break;
+        default:
+            break;
+    }
     return (
+        // <TransitionGroup>
         <>
-            {projectData.map((Val, key) => {
+            {filteredData.map((Val, key) => {
                 const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink } = Val;
                 return (
-
+                    // <CSSTransition key={key} className="project" timeout={300}>
                     <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap justify-content-end align-content-start`} data-link={title} onClick={() => linkTarget(displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink)}>
                         <div className="projectFeatTitle col-12 p-2 " >
                             <h5>{title}</h5>
@@ -35,10 +51,10 @@ export default function ProjectDetails({ linkTarget }) {
                                 } else if (techVal === "materialize") {
                                     return (<img key={key} title="Materialize" className="icon blue" alt="Materialize icon" src={materialize} />)
                                 } else if (techVal === "Google Fonts") {
-                                    return (<img key={key} title="Google Fonts" className="icon" alt="Google Fonts icon" src={googleFonts}  />)
+                                    return (<img key={key} title="Google Fonts" className="icon" alt="Google Fonts icon" src={googleFonts} />)
                                 } else if (techVal === "Adobe Fonts") {
-                                    return (<img key={key} title="Adobe Fonts" className="icon" alt="Adobe Fonts icon" src={adobeFonts}  />)
-                                }else {
+                                    return (<img key={key} title="Adobe Fonts" className="icon" alt="Adobe Fonts icon" src={adobeFonts} />)
+                                } else {
                                     return (<i key={key} title={techVal} className={`devicon-${techVal.toLowerCase()}-plain colored`}></i>)
                                 }
                             }
@@ -46,10 +62,12 @@ export default function ProjectDetails({ linkTarget }) {
                             }
                         </div>
                     </article>
+                    // </CSSTransition>
                 )
             }
             )
             }
-        </>
+            </>
+       // </TransitionGroup>
     )
 }

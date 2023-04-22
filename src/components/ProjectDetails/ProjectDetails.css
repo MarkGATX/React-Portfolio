@@ -66,7 +66,32 @@
 
 }
 
+/* Classes for react transition group to animation in and out with state change */
+
+.project-enter{
+    opacity:0;
+}
+
+.project-enter-active{
+    opacity: 1;
+  transition: opacity 300ms;
+}
+
+.project-exit{
+    opacity: 1;
+}
+
+.project-exit-active{
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
 /* classes for project background */
+
+.CARY {
+    background-image: url(../../images/CARY_thumb.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/CARY_thumb.jpg);
+    
+}
 
 .codeQuiz {
     background-image: url(../../images/Coding\ Quiz\ Question\ example.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/Coding\ Quiz\ Question\ example.jpg);
