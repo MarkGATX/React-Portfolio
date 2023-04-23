@@ -17,8 +17,7 @@ $form-select-focus-box-shadow:    0 0 0 $form-select-focus-width $input-bt */
 }
 
 .filterSelect {
-    width:200px;
-    
+    width:250px;  
 }
 
 .projects {
@@ -36,6 +35,8 @@ $form-select-focus-box-shadow:    0 0 0 $form-select-focus-width $input-bt */
     height:1000px;
     overflow:auto;
 }
+
+
 
 @media screen and (min-width:300px) and (max-width: 768px) {
     .projects {

@@ -32,7 +32,6 @@ export default function ProjectsContainer() {
     }
 
     const handleFilterChange = (event) => {
-
         setFilter(event.target.value);
 
     }
@@ -53,7 +52,7 @@ export default function ProjectsContainer() {
                         </select>
                     </div>
                 </div>
-                <div className=" col-12 d-flex flex-wrap justify-content-around pb-4 projectDetails">
+                <div className="col-12 d-flex flex-wrap justify-content-around pb-4 projectDetails">
                     < ProjectDetails linkTarget={linkTarget} filter={filter}/>
                 </div>
 

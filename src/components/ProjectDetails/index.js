@@ -5,8 +5,6 @@ import materialize from '../../images/materialize.svg';
 import googleFonts from "../../images/Google-Fonts-Logo.png"
 import "./ProjectDetails.css";
 import adobeFonts from "../../images/Adobe_Fonts.svg"
-// import { TransitionGroup, CSSTransition } from 'react-transition-group';
-
 
 
 export default function ProjectDetails({ linkTarget, filter }) {
@@ -17,7 +15,6 @@ export default function ProjectDetails({ linkTarget, filter }) {
             break;
         case "dev":
             filteredData = projectData.filter(project => project.type === "dev");
-            console.log(filteredData)
             break;
         case "vid":
             filteredData = projectData.filter(project => project.type ==="vid");
@@ -25,19 +22,17 @@ export default function ProjectDetails({ linkTarget, filter }) {
         default:
             break;
     }
-    return (
-        // <TransitionGroup>
+
+    return (    
         <>
             {filteredData.map((Val, key) => {
                 const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink } = Val;
                 return (
-                    // <CSSTransition key={key} className="project" timeout={300}>
                     <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap justify-content-end align-content-start`} data-link={title} onClick={() => linkTarget(displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink)}>
                         <div className="projectFeatTitle col-12 p-2 " >
                             <h5>{title}</h5>
                             <p>{desc}</p>
                         </div>
-                        {/* <div className='projectTech d-flex justify-content-center align-items-center ms-auto mt-auto flex-wrap col-7'> */}
                         <div className='projectTech d-flex justify-content-center align-items-center flex-wrap col-7'>
                             {tech.map((techVal, key) => {
                                 if (techVal === "Greensock") {
@@ -62,12 +57,13 @@ export default function ProjectDetails({ linkTarget, filter }) {
                             }
                         </div>
                     </article>
-                    // </CSSTransition>
+
+                    
                 )
             }
             )
             }
             </>
-       // </TransitionGroup>
+       
     )
 }
