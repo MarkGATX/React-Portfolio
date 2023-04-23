@@ -5,10 +5,11 @@ import materialize from '../../images/materialize.svg';
 import googleFonts from "../../images/Google-Fonts-Logo.png"
 import "./ProjectDetails.css";
 import adobeFonts from "../../images/Adobe_Fonts.svg"
+import { useEffect } from 'react';
+import { gsap } from 'gsap';
 
 
 export default function ProjectDetails({ linkTarget, filter }) {
-
     let filteredData = projectData;
     switch (filter) {
         case 'all':
@@ -17,13 +18,30 @@ export default function ProjectDetails({ linkTarget, filter }) {
             filteredData = projectData.filter(project => project.type === "dev");
             break;
         case "vid":
-            filteredData = projectData.filter(project => project.type ==="vid");
+            filteredData = projectData.filter(project => project.type === "vid");
             break;
         default:
             break;
     }
 
-    return (    
+    useEffect(() => {
+        const projectDetailsElements = document.querySelectorAll(".projectFeat");
+        projectDetailsElements.forEach((projectDetailsElement, index) => {
+            gsap.fromTo(projectDetailsElement, {
+                opacity: 0,
+                scale: .95,
+                ease: "sine.out",
+            }, {
+                opacity: 1,
+                scale: 1,
+                delay: index * .2,
+                duration: 1,
+
+            });
+        });
+    }, [filter]);
+
+    return (
         <>
             {filteredData.map((Val, key) => {
                 const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink } = Val;
@@ -58,12 +76,12 @@ export default function ProjectDetails({ linkTarget, filter }) {
                         </div>
                     </article>
 
-                    
+
                 )
             }
             )
             }
-            </>
-       
+        </>
+
     )
 }

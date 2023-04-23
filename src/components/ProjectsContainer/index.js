@@ -1,9 +1,8 @@
 import { useState } from "react";
 import LinkModal from "../LinkModal";
 import ProjectDetails from "../ProjectDetails";
-
-
 import "./ProjectsContainer.scss";
+import { gsap } from "gsap";
 
 let livePath = '';
 let gitPath = '';
@@ -31,10 +30,23 @@ export default function ProjectsContainer() {
         setShow(true);
     }
 
-    const handleFilterChange = (event) => {
-        setFilter(event.target.value);
-
-    }
+    const handleFilterChange = (event) => {  
+        const projects = document.getElementsByClassName('projectFeat');
+        const onCompleteAll = () => {
+            setFilter(event.target.value);
+        };
+        Array.from(projects).forEach((project, index, array) => {
+            gsap.to(project, {
+                opacity: 0,
+                scale: .95,
+                onComplete: () => {
+                    if (index === array.length - 1) {
+                        onCompleteAll();
+                    }
+                }
+            });
+        })
+    };
 
     return (
         <>
@@ -53,7 +65,7 @@ export default function ProjectsContainer() {
                     </div>
                 </div>
                 <div className="col-12 d-flex flex-wrap justify-content-around pb-4 projectDetails">
-                    < ProjectDetails linkTarget={linkTarget} filter={filter}/>
+                    < ProjectDetails linkTarget={linkTarget} filter={filter} />
                 </div>
 
             </section>
