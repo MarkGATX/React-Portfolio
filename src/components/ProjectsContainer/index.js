@@ -30,7 +30,7 @@ export default function ProjectsContainer() {
         setShow(true);
     }
 
-    const handleFilterChange = (event) => {  
+    const handleFilterChange = (event) => {
         const projects = document.getElementsByClassName('projectFeat');
         const onCompleteAll = () => {
             setFilter(event.target.value);
@@ -42,7 +42,7 @@ export default function ProjectsContainer() {
                 onComplete: () => {
                     if (index === array.length - 1) {
                         onCompleteAll();
-                    }
+                    }                  
                 }
             });
         })

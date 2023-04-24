@@ -11,14 +11,27 @@ import wingedVict from '../../images/winged_victory.jpg';
 // import walesCoffee from '../images/coffee_Wales.jpg';
 import cardiffWheel from '../../images/exploring_Cardiff.jpg';
 import "./Gallery.css";
+import { useEffect } from "react";
+import { gsap } from "gsap";
+
 
 export default function Gallery() {
 
+    useEffect (()=> {
+    const pics = document.querySelectorAll('.m-1');
+    console.log(pics);
+    // pics.forEach((pic) => pic.style.opacity=.5)
+    pics.forEach((pic) => 
+    gsap.from(pic, {opacity:0}))
+    });
+
     return (
+
         <ResponsiveMasonry
-            columnsCountBreakPoints={{ 350: 1, 1100: 2, 1900:3}}
+            columnsCountBreakPoints={{ 350: 1, 1100: 2, 1900: 3 }}
         >
-            <Masonry columnsCount={3}>
+
+            <Masonry columnsCount={3}  >
                 <img className="m-1" src={makingCurry} alt='making curry with my son' />
                 <img className="m-1" src={vegasAwards} alt='awards in Vegas' />
                 <img className="m-1" src={directingWG} alt='on set directing my pilot project' />
@@ -29,6 +42,8 @@ export default function Gallery() {
                 <img className="m-1" src={wingedVict} alt='my favorite statue, Winged Victory' />
                 <img className="m-1" src={cardiffWheel} alt='exploring Cardiff and the Wheel' />
             </Masonry>
+
         </ResponsiveMasonry>
+
     )
 }

@@ -5,11 +5,12 @@ import materialize from '../../images/materialize.svg';
 import googleFonts from "../../images/Google-Fonts-Logo.png"
 import "./ProjectDetails.css";
 import adobeFonts from "../../images/Adobe_Fonts.svg"
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
 
 export default function ProjectDetails({ linkTarget, filter }) {
+    const projectRefs = useRef([]);
     let filteredData = projectData;
     switch (filter) {
         case 'all':
@@ -25,20 +26,20 @@ export default function ProjectDetails({ linkTarget, filter }) {
     }
 
     useEffect(() => {
-        const projectDetailsElements = document.querySelectorAll(".projectFeat");
-        projectDetailsElements.forEach((projectDetailsElement, index) => {
-            gsap.fromTo(projectDetailsElement, {
+        gsap.fromTo(
+            projectRefs.current,
+            {
                 opacity: 0,
                 scale: .95,
                 ease: "sine.out",
-            }, {
+            },
+            {
                 opacity: 1,
                 scale: 1,
-                delay: index * .2,
+                delay: (index) => index * 0.2,
                 duration: 1,
-
-            });
-        });
+            }
+        );
     }, [filter]);
 
     return (
@@ -46,7 +47,7 @@ export default function ProjectDetails({ linkTarget, filter }) {
             {filteredData.map((Val, key) => {
                 const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink } = Val;
                 return (
-                    <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap justify-content-end align-content-start`} data-link={title} onClick={() => linkTarget(displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink)}>
+                    <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap justify-content-end align-content-start`} data-link={title} onClick={() => linkTarget(displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink)} ref={(el) => projectRefs.current[key] = el}>
                         <div className="projectFeatTitle col-12 p-2 " >
                             <h5>{title}</h5>
                             <p>{desc}</p>
