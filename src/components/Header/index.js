@@ -40,9 +40,9 @@ export default function Header({ currentPage, handlePageChange }) {
         tl.from(aniContain.current, {duration:1, x:-2500 ,y:+1}, '-=1');
         tl.from(pretendBorder.current, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(255,251,255) 1%, rgb(255,251,255) 30%)' }, '+=.1');
         tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.5');
-        tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=2.5');
-        tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.3');    
-        tl.from('.projects', { duration: 1, opacity: 0 }, '-=2')
+        tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=2.8');
+        tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.6');    
+        tl.from('.projects', { duration: 1, opacity: 0 }, '-=2.3')
     }, [])
 
     return (
