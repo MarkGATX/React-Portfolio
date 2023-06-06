@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-v3/static/css/main.92aea0a8.css",
+    "main.css": "/React-Portfolio-v3/static/css/main.9720f3e5.css",
     "main.js": "/React-Portfolio-v3/static/js/main.17ace19b.js",
     "static/media/css_snippet_bg.jpg": "/React-Portfolio-v3/static/media/css_snippet_bg.0c981d8e2343182345cc.jpg",
     "static/media/tech background image.jpg": "/React-Portfolio-v3/static/media/tech background image.2fe0b76340fbe68f6469.jpg",
@@ -39,11 +39,11 @@
     "static/media/live_path_icon.svg": "/React-Portfolio-v3/static/media/live_path_icon.f936b3c46029d57f238798138b9f3b6e.svg",
     "static/media/Adobe_Animate_CC_icon_(2020).svg": "/React-Portfolio-v3/static/media/Adobe_Animate_CC_icon_(2020).77d2058086cb94cb4ad514fbe8f48da5.svg",
     "index.html": "/React-Portfolio-v3/index.html",
-    "main.92aea0a8.css.map": "/React-Portfolio-v3/static/css/main.92aea0a8.css.map",
+    "main.9720f3e5.css.map": "/React-Portfolio-v3/static/css/main.9720f3e5.css.map",
     "main.17ace19b.js.map": "/React-Portfolio-v3/static/js/main.17ace19b.js.map"
   },
   "entrypoints": [
-    "static/css/main.92aea0a8.css",
+    "static/css/main.9720f3e5.css",
     "static/js/main.17ace19b.js"
   ]
 }
