@@ -37,7 +37,7 @@
     top:-3rem;
     /* width: 50%; */
     background-color: var(--light);
-    border: 3px solid var(--accent);
+    border: 3px solid var(--dark);
     height: auto;
     /* transition: all .5s cubic-bezier(.8, .05, .91, .68); */
     transition: all .5s;
@@ -49,6 +49,7 @@
 .projectFeat:hover .projectTech {
     transform: rotateX(0deg);
     top:-2px;
+    border: 3px solid var(--accent);
     /* box-shadow: 0 0 6px 4px var(--darkshadow) */
 }
 
