@@ -62,6 +62,10 @@ export default function Resume() {
                         <p>React</p>
                     </div>
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Next.js" className="devicon-nextjs-original"></i>
+                        <p>Next.js</p>
+                    </div>
+                    <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
                         <i title="MaterialUI" className="devicon-materialui-plain colored"></i>
                         <p>Material UI</p>
                     </div>

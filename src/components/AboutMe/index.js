@@ -19,17 +19,19 @@ export default function AboutMe() {
             <h5 id="techSkills" >Tech skills:</h5>
             <div className="d-flex flex-wrap">
                 <i title="React" className="devicon-react-plain colored"></i>
+                <i title="Javascript" className="devicon-javascript-plain colored"></i>
+                <i title="Next.js" className="devicon-nextjs-original"></i>
                 <i title="GraphQL" className="devicon-graphql-plain colored"></i>
                 <i title="MaterialUI" className="devicon-materialui-plain colored"></i>
+                <i title="MongoDB" className="devicon-mongodb-plain colored"></i>
+                <img title="Greensock" className="icon" alt="greensock logo" src={greensock} />
                 <i title="Sequelize" className="devicon-sequelize-plain colored"></i>
                 <i title="Bootstrap" className="devicon-bootstrap-plain colored"></i>
                 <i title="Handlebars" className="devicon-handlebars-plain colored"></i>
                 <i title="Heroku" className="devicon-heroku-plain colored"></i>
                 <i title="jquery" className="devicon-jquery-plain colored"></i>
                 <i title="MySQL" className="devicon-mysql-plain colored"></i>
-                <i title="MongoDB" className="devicon-mongodb-plain colored"></i>
                 <i title="vscode" className="devicon-vscode-plain colored"></i>
-                <i title="Javascript" className="devicon-javascript-plain colored"></i>
                 <i title="CSS3" className="devicon-css3-plain colored"></i>
                 <i title="HTML5" className="devicon-html5-plain colored"></i>
                 <i title="NodeJS" className="devicon-nodejs-plain colored"></i>
@@ -38,7 +40,6 @@ export default function AboutMe() {
                 <i title="Premiere Pro" className="devicon-premierepro-plain colored"></i>
                 <i title="After Effects" className="devicon-aftereffects-plain colored"></i>
                 <i title="Blender" className="devicon-blender-original colored"></i>
-                <img title="Greensock" className="icon" alt="greensock logo" src={greensock} />
                 <img title="Adobe Animate" className="icon" alt="adobe animate logo" src={animate} />
                 <img title="Google Fonts" className="icon" alt="Google Fonts logo" src={googleFonts} />
                     </div>
