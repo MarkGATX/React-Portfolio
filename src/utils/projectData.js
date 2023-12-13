@@ -1,5 +1,32 @@
 export const projectData = [
     {
+        "title": "The Softlife",
+        "displayClass": "softlife",
+        "type": "dev",
+        "livePath": "https://thesoftlife.xyz/",
+        "desc": "Full-stack freelance project for clients wanting a wishlist application",
+        "longDesc": "This is a full-stack social media application I developed for my clients from the ground up. Users can create their own accounts and follow other users as well as create Families so they can easily organize users by groups. Each use can create their own wishlist and fill it with items they want. Other users or visitors to the site can contribute to wishes by using a PayPal integration. Softlife was developed to take advantage of the benefits in NextJS 13 and the file-based App router. The database is handled by MongoDB and authentication and image storage is handled with Firebase. The CSS and styling was built from scratch using SCSS. The look and feel of the site went through many iterations and revisions after my initial pitch. We worked together extensively to move the application from an initial pitch of a 'soft-grunge' design into their final decision to lean into a more minimalist site with an almost mid-century modern feel.",
+        "imgs": [
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/pitch_v_final.webp?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/softlife_profileList.webp?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/softlife_profile_dash.webp?raw=true"
+        ],
+        "tech": [
+            "react",
+            "nextJS",
+            "vercel",
+            "graphQL",
+            "SCSS",
+            "Javascript",
+            "MongoDB",
+            "NodeJS",                     
+            "css3",
+            "Google Fonts",
+            "HTML5",            
+            "vscode",         
+        ]
+    },
+    {
         "title": "Luxe Cavallo",
         "displayClass": "luxe",
         "type": "dev",
@@ -24,10 +51,7 @@ export const projectData = [
             "Adobe Fonts",
             "Heroku",
             "HTML5",            
-            "vscode",
-            
-            
-            
+            "vscode",         
         ]
     },
     {

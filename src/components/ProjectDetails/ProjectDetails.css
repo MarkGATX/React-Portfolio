@@ -103,6 +103,11 @@
     background-image: url(../../images/CELL_hqdefault.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/Coding\ Quiz\ Question\ example.jpg);
 }
 
+.softlife {
+    background-image: url(../../images/softlife_home.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/softlife_home.webp);
+
+}
+
 
 .csssnips {
     background-image: url(../../images/css_snippet_bg.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/css_snippet_bg.jpg);
