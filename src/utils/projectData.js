@@ -16,7 +16,7 @@ export const projectData = [
             "nextJS",
             "vercel",
             "graphQL",
-            "SCSS",
+            "SASS",
             "Javascript",
             "MongoDB",
             "NodeJS",                     
