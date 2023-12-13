@@ -85,6 +85,10 @@ img, svg {
   margin-right:.3em;
 }
 
+img.icon {
+  margin-right:0;
+}
+
 .imgBlock img {
   width:32%;
   height:100%;

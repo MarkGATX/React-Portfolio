@@ -7,6 +7,7 @@ import "./ProjectDetails.css";
 import adobeFonts from "../../images/Adobe_Fonts.svg"
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import vercel from '../../images/Vercel_favicon.webp'
 
 
 export default function ProjectDetails({ linkTarget, filter }) {
@@ -68,6 +69,8 @@ export default function ProjectDetails({ linkTarget, filter }) {
                                     return (<img key={key} title="Google Fonts" className="icon" alt="Google Fonts icon" src={googleFonts} />)
                                 } else if (techVal === "Adobe Fonts") {
                                     return (<img key={key} title="Adobe Fonts" className="icon" alt="Adobe Fonts icon" src={adobeFonts} />)
+                                } else if (techVal === "vercel") {
+                                    return (<img key={key} title="Vercel" className="icon" alt="Vercel icon" src={vercel} />)
                                 } else {
                                     return (<i key={key} title={techVal} className={`devicon-${techVal.toLowerCase()}-plain colored`}></i>)
                                 }
