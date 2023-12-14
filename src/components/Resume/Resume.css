@@ -2,9 +2,17 @@
     border-left: solid 2px var(--accent);
 }
 
+.resumeProjects p{
+    margin-left:2em;
+}
+
 .resumeSection {
     border-bottom: solid 5px var(--accent);
     color: var(--dark);
+}
+
+.projectSubtitle {
+    font-weight: bold;
 }
 
 .resumeHead {

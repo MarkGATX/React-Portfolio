@@ -28,7 +28,7 @@ export default function Resume() {
             </div>
             <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection' >Summary</h3>
-                <p >Certified Front-End and Full-Stack Developer well-versed in a variety of technologies, including React,  JavaScript, Material UI, Node.js, HTML, CSS, and MongoDB to name a few. With over 18 years of professional experience across multiple industries, I’ve successfully worked on teams that consistently deliver quality products. My technical skills are complemented by 13 years of video production experience, which has given me a keen eye for detail, a talent for visual storytelling, and the soft skills needed to work with diverse teams. I’m passionate about learning and thrive on tackling new challenges head-on. I’m dedicated to delivering high-quality work that exceeds expectations.</p>
+                <p >Front-End and Full-Stack Developer with experience in a variety of technologies, including React, NextJS, JavaScript, MongoDB, Material UI, HTML, and CSS to name a few. With over 18 years of professional experience across multiple industries, I’ve successfully worked on teams that consistently deliver quality products. My technical skills are complemented by 13 years of video production experience, which has given me a keen eye for detail, a talent for visual storytelling, and the soft skills needed to work with diverse teams. I’m passionate about learning and thrive on tackling new challenges head-on to deliver high-quality work that exceeds expectations.</p>
             </div>
             <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection'>Technical Skills</h3>
@@ -139,44 +139,43 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
-            <div className="row d-flex justify-content-center mb-5">
+            <div className="row d-flex justify-content-center mb-5 resumeProjects">
                 <h3 className='col-12 resumeSection'>Projects Built</h3>
 
+                <h4 className='resumeHead'>The Softlife</h4>
+                <p ><span className='projectSubtitle'>Live site:</span> <a href="https://thesoftlife.xyz/" target='_blank' rel='noreferrer'>https://thesoftlife.xyz/</a> </p>
+                <p >A freelance full-stack social media site allowing users to create wishlists and accept contributions towards their wishes. </p>
+                <p ><span className='projectSubtitle'>Role:</span>  Sole-developer</p>
+                <p className="mb-4" ><span className='projectSubtitle'>Tools:</span>  React, GraphQL, Apollo, NextJS, MongoDB, Mongoose, JavaScript, CSS3, Google Fonts, Photoshop,  Node.js,  SASS, React Spring </p>
+
                 <h4 className='resumeHead'>Luxe Cavallo</h4>
-                <p >Live site: <a href="https://luxecavallo.herokuapp.com/" target='_blank' rel='noreferrer'>https://luxecavallo.herokuapp.com/</a> </p>
-                <p >GitHub Repo: <a href="https://github.com/MarkGATX/luxecavallo" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/luxecavallo</a></p>
+                <p ><span className='projectSubtitle'>Live site:</span> <a href="https://luxecavallo.herokuapp.com/" target='_blank' rel='noreferrer'>https://luxecavallo.herokuapp.com/</a> </p>
+                <p ><span className='projectSubtitle'>GitHub Repo:</span> <a href="https://github.com/MarkGATX/luxecavallo" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/luxecavallo</a></p>
                 <p >A MERN e-commerce application with a unique responsive design and an interface that prominently features engaging media.</p>
-                <p >Role:  Sole-developer</p>
-                <p className="mb-4" >Tools:  React, GraphQL, Apollo, Express, MongoDB, Mongoose, JavaScript, CSS3, Adobe Font, Photoshop,  Node.js,  SASS, Greensock </p>
+                <p ><span className='projectSubtitle'>Role:</span>  Sole-developer</p>
+                <p className="mb-4" ><span className='projectSubtitle'>Tools:</span>  React, GraphQL, Apollo, Express, MongoDB, Mongoose, JavaScript, CSS3, Adobe Font, Photoshop,  Node.js,  SASS, Greensock </p>
 
                 <h4 className='resumeHead'>Migrate</h4>
-                <p >Live site: <a href="https://migrate-abroad.herokuapp.com" target='_blank' rel='noreferrer'>https://migrate-abroad.herokuapp.com </a> </p>
-                <p >GitHub Repo: <a href="https://github.com/MarkGATX/migrate" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/migrate</a></p>
+                <p ><span className='projectSubtitle'>Live site:</span> <a href="https://migrate-abroad.herokuapp.com" target='_blank' rel='noreferrer'>https://migrate-abroad.herokuapp.com </a> </p>
+                <p ><span className='projectSubtitle'>GitHub Repo:</span> <a href="https://github.com/MarkGATX/migrate" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/migrate</a></p>
                 <p >A MERN application to help people who are looking to relocate to another country to live or work find a place that will feel like home.</p>
-                <p >Role:  Front-end design, Full-stack coding</p>
-                <p className="mb-4" >Tools:  React, Express, MongoDB, JavaScript, CSS3, GoogleFonts, Photoshop,  Node.js, TypeKit, SASS, Greensock, Victory Charts, Unsplash API </p>
+                <p ><span className='projectSubtitle'>Role:</span>  Front-end design, Full-stack coding</p>
+                <p className="mb-4" ><span className='projectSubtitle'>Tools:</span>  React, Express, MongoDB, JavaScript, CSS3, GoogleFonts, Photoshop,  Node.js, TypeKit, SASS, Greensock, Victory Charts, Unsplash API </p>
 
                 <h4 className='resumeHead'>Wheezy Waiter</h4>
-                <p >Live site: <a href="https://markgatx.github.io/wheezywaiter/" target='_blank' rel='noreferrer'>https://markgatx.github.io/wheezywaiter/ </a> </p>
-                <p >GitHub Repo: <a href="https://github.com/MarkGATX/wheezywaiter" target="_blank" rel='noreferrer'>https://github.com/MarkGATX/wheezywaiter</a></p>
+                <p ><span className='projectSubtitle'>Live site:</span> <a href="https://markgatx.github.io/wheezywaiter/" target='_blank' rel='noreferrer'>https://markgatx.github.io/wheezywaiter/ </a> </p>
+                <p ><span className='projectSubtitle'>GitHub Repo:</span> <a href="https://github.com/MarkGATX/wheezywaiter" target="_blank" rel='noreferrer'>https://github.com/MarkGATX/wheezywaiter</a></p>
                 <p >An unofficial site for a YouTube creator that acts as a home for all of their projects, regardless of the rise and fall of other social outlets.
                 </p>
-                <p >Role:  Sole Developer</p>
-                <p className="mb-4" >Tools:  React, Material UI, JavaScript, CSS3, GoogleFonts, YouTube API, Spotify API</p>
-
-                <h4 className='resumeHead'>Garden<sup>2</sup></h4>
-                <p >Live site: <a href="https://garden2ed.herokuapp.com/" target='_blank' rel='noreferrer'>https://garden2ed.herokuapp.com/ </a> </p>
-                <p >GitHub Repo: <a href="https://github.com/MarkGATX/Garden2" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/Garden2</a></p>
-                <p >A full-stack web application to help home gardeners plan successful gardens with a comprehenive database of plants, care instructions, and garden layouts users can save to their accounts.</p>
-                <p >Role:  Front-end design, branding logos and graphics creation</p>
-                <p className="mb-4" >Tools:  Bootstrap, JavaScript, CSS3, GoogleFonts, Photoshop, Illustrator, Node.js, Handlebars </p>
+                <p ><span className='projectSubtitle'>Role:</span>  Sole Developer</p>
+                <p className="mb-4" ><span className='projectSubtitle'>Tools:</span>  React, Material UI, JavaScript, CSS3, GoogleFonts, YouTube API, Spotify API</p>
 
                 <h4 className='resumeHead'>Weather Dashboard</h4>
-                <p >Live site: <a href="https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/" target="_blank" rel='noreferrer'>https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/</a> </p>
-                <p >GitHub Repo: <a href="https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp" target="_blank" rel="noreferrer">https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp</a></p>
+                <p ><span className='projectSubtitle'>Live site:</span> <a href="https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/" target="_blank" rel='noreferrer'>https://markgatx.github.io/Weather-Dashboard-Full-Stack-Bootcamp/</a> </p>
+                <p ><span className='projectSubtitle'>GitHub Repo:</span> <a href="https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp" target="_blank" rel="noreferrer">https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp</a></p>
                 <p >Accurate weather forecasts for cities anywhere in the world using two weather APIs while storing past searches in a simple but powerful interface.</p>
-                <p >Role:Sole Developer</p>
-                <p className="mb-4">Tools: Bootstrap, JavaScript, CSS3, GoogleFonts, OpenWeather API, WeatherBit.io API</p>
+                <p ><span className='projectSubtitle'>Role:</span> Sole Developer</p>
+                <p className="mb-4"><span className='projectSubtitle'>Tools:</span> Bootstrap, JavaScript, CSS3, GoogleFonts, OpenWeather API, WeatherBit.io API</p>
 
             </div>
             <div className="row d-flex justify-content-center">
@@ -184,26 +183,25 @@ export default function Resume() {
                 <h4 className='resumeHead'>Local Government Solutions  /  Developer</h4>
                 <p >2017 - 2018,  AUSTIN</p>
                 <ul className='ms-5'>
-                    <li>Assisted in customer and business transitions to LGS after HCSS was acquired.</li>
-                    <li> Developed proposals and outlines for new customer training and retention programs and developed a proposal for a revamped
-                        online brand presence and website.</li>
+                    <li> Developed new customer training and retention programs to manage transition to new ownership after Hill Country Software was acquired by LGS.</li>
+                    <li>Developed a fully responsive website for the new company.</li>
+                    <li>Assisted in customer and business transitions to LGS after Hill Country Software was acquired.</li>
                 </ul>
                 <h4 className='resumeHead'>The Weirdlings  /  Creator and Producer</h4>
                 <p >2011 - 2020,   AUSTIN</p>
                 <ul className='ms-5'>
-                    <li>Guided growth of the channel and contributors to reach over 15,000 subscribers and 2.7 million lifetime views on YouTube.</li>
-                    <li>Engaged in the community and was elected to the Board of Directors of the International Academy of Web Televison where I
-                        was named Secretary.</li>
-                    <li>Created and maintained all social outlets and websites using Wordpress, Social Pilot, Tweetdeck and others.</li>
-                    <li>Implemented custom CSS to further customize pages and managed a team of creators to optimize videos for release.</li>
+                    <li>Managed all aspects of the channel to reach over 15,000 subscribers and 2.7 million lifetime views on YouTube and 2500 subscribers on Twitch.</li>
+                    <li>Elected to Secretary on The International Academy of Web Television Board of Directors after engaging with the world-wide creator community.</li>
+                    <li>Created custom CSS and styling solutions for for all of The Weirdlings Wordpress websites.</li>
+                    <li>Managed a team of creators and optimized all videos for release and growth.</li>
                 </ul>
                 <h4 className='resumeHead'>Hill Country Software and Support  / VP of Development</h4>
                 <p >2008 - 2017,  AUSTIN</p>
                 <ul className='ms-5'>
-                    <li>Implemented a complete redesign and deployment of the web-based front end of a COBOL backend.</li>
-                        <li>Migrated the website to a Wordpress CMS and implemented systems to directly notify customers of updates to systems and
-                            important news.</li>
-                        <li>Trained users and provided technical support as needed.</li>
+                    <li>Redesigned and deployed a new UI that interfaced with a legacy COBOL backend.</li>
+                    <li>Implemented messaging systems to allow direct notification to all customers of important system updates and new.</li>
+                    <li>Developed and successfully migrated the company website to a Wordpress deployment.</li>
+                    <li>Trained users and provided technical support as needed.</li>
                 </ul>
             </div>
             <div className="row d-flex justify-content-center">
