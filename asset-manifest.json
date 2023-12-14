@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-v3/static/css/main.7adf26b8.css",
-    "main.js": "/React-Portfolio-v3/static/js/main.db204717.js",
+    "main.css": "/React-Portfolio-v3/static/css/main.891f345a.css",
+    "main.js": "/React-Portfolio-v3/static/js/main.66d1f2bf.js",
     "static/media/css_snippet_bg.jpg": "/React-Portfolio-v3/static/media/css_snippet_bg.0c981d8e2343182345cc.jpg",
     "static/media/tech background image.jpg": "/React-Portfolio-v3/static/media/tech background image.2fe0b76340fbe68f6469.jpg",
     "static/media/Play_Date_porfolio_shot_v1.jpg": "/React-Portfolio-v3/static/media/Play_Date_porfolio_shot_v1.cd629d9e0a1f23d588b8.jpg",
@@ -34,17 +34,18 @@
     "static/media/gsap-greensock.svg": "/React-Portfolio-v3/static/media/gsap-greensock.dff87e2debbe5d37479732018b2a575a.svg",
     "static/media/word_guess_bg.jpg": "/React-Portfolio-v3/static/media/word_guess_bg.8a58ffae3564781f751c.jpg",
     "static/media/victory.png": "/React-Portfolio-v3/static/media/victory.8c5e15c1209afa0bd28c.png",
+    "static/media/Vercel_favicon.webp": "/React-Portfolio-v3/static/media/Vercel_favicon.24d7607509765554e798.webp",
     "static/media/materialize.svg": "/React-Portfolio-v3/static/media/materialize.c4b6be200e026abe331cb284e60223da.svg",
     "static/media/CELL_hqdefault.webp": "/React-Portfolio-v3/static/media/CELL_hqdefault.4c1aa3bc0000fe36a571.webp",
     "static/media/Adobe_Fonts.svg": "/React-Portfolio-v3/static/media/Adobe_Fonts.bf94f46a4ce1fd0b838d33545f0f160e.svg",
     "static/media/live_path_icon.svg": "/React-Portfolio-v3/static/media/live_path_icon.f936b3c46029d57f238798138b9f3b6e.svg",
     "static/media/Adobe_Animate_CC_icon_(2020).svg": "/React-Portfolio-v3/static/media/Adobe_Animate_CC_icon_(2020).77d2058086cb94cb4ad514fbe8f48da5.svg",
     "index.html": "/React-Portfolio-v3/index.html",
-    "main.7adf26b8.css.map": "/React-Portfolio-v3/static/css/main.7adf26b8.css.map",
-    "main.db204717.js.map": "/React-Portfolio-v3/static/js/main.db204717.js.map"
+    "main.891f345a.css.map": "/React-Portfolio-v3/static/css/main.891f345a.css.map",
+    "main.66d1f2bf.js.map": "/React-Portfolio-v3/static/js/main.66d1f2bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.7adf26b8.css",
-    "static/js/main.db204717.js"
+    "static/css/main.891f345a.css",
+    "static/js/main.66d1f2bf.js"
   ]
 }
