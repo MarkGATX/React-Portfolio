@@ -21,6 +21,7 @@ export const projectData = [
             "SASS",
             "Javascript",
             "MongoDB",
+            "paypal",
             "NodeJS",                     
             "css3",
             "Google Fonts",

@@ -8,6 +8,7 @@ import adobeFonts from "../../images/Adobe_Fonts.svg"
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import vercel from '../../images/Vercel_favicon.webp'
+import paypal from '../../images/PayPal_Logo.webp'
 
 
 export default function ProjectDetails({ linkTarget, filter }) {
@@ -71,7 +72,9 @@ export default function ProjectDetails({ linkTarget, filter }) {
                                     return (<img key={key} title="Adobe Fonts" className="icon" alt="Adobe Fonts icon" src={adobeFonts} />)
                                 } else if (techVal === "vercel") {
                                     return (<img key={key} title="Vercel" className="icon" alt="Vercel icon" src={vercel} />)
-                                } else {
+                                } else if (techVal === "paypal") {
+                                    return (<img key={key} title="PayPal" className="icon" alt="PayPal icon" src={paypal} />)
+                                }else {
                                     return (<i key={key} title={techVal} className={`devicon-${techVal.toLowerCase()}-plain colored`}></i>)
                                 }
                             }
