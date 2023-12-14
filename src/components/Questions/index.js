@@ -4,14 +4,14 @@ import "./Questions.css";
 export default function Questions() {
 
     const questAboutMe = [
-        ["Favorite food?", "Mole enchiladas or sushi"],
+        ["Favorite food?", "Sushi"],
         ["Favorite movie?", "Serenity"],
         ["Star Wars or Star Trek?", "Both, all day long"],
         ["Hogwart's House?", "Hufflepuff, Huffle-proud"],
         ["Favorite Artist?", "John Singer Sargent"],
         ["Dream Job?", "Starfleet Captain"],
         ["Best Star Trek Captain?", "Captain Pike, SNW"],
-        ["Hobby?", "Board games"],
+        ["Hobbies?", "Board games, Legos, art, curling"],
         ["Guilty Pleasure?", "None! You shouldn't feel guilty for doing fun things."],
         ["Favorite Pokemon?", "Eevee"],
         ["Favorite Graphic Novel?", "Y: The Last Man"],
@@ -23,7 +23,8 @@ export default function Questions() {
         ["Second Favorite Sport?", "Soccer"],
         ["Cake or pie?", "Quit trying to make me choose!"],
         ["Favorite Fruit?", "Strawberries"],
-        ["Favorite Board Games", "Powergrid, Brass, Dune:Imperium, Underwater Cities"]
+        ["Favorite Board Games", "Powergrid, Brass, Dune:Imperium, Terraforming Mars"],
+        ["Favorite Jedi", "Ahsoka Tano"]
     ]
 
     const questNum = Math.floor(Math.random() * questAboutMe.length + 1);
