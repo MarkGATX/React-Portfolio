@@ -6,6 +6,7 @@ export const projectData = [
         "livePath": "https://thesoftlife.xyz/",
         "desc": "Full-stack freelance project for clients wanting a wishlist application",
         "longDesc": "This is a full-stack social media application I developed for my clients from the ground up. Users can create their own accounts and follow other users as well as create Families so they can easily organize users by groups. Each use can create their own wishlist and fill it with items they want. Other users or visitors to the site can contribute to wishes by using a PayPal integration. Softlife was developed to take advantage of the benefits in NextJS 13 and the file-based App router. The database is handled by MongoDB and authentication and image storage is handled with Firebase. The CSS and styling was built from scratch using SCSS. The look and feel of the site went through many iterations and revisions after my initial pitch. We worked together extensively to move the application from an initial pitch of a 'soft-grunge' design into their final decision to lean into a more minimalist site with an almost mid-century modern feel.",
+        "role": "Sole Full-Stack Developer",
         "imgs": [
             "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/pitch_v_final.webp?raw=true",
             "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/softlife_profileList.webp?raw=true",
@@ -14,6 +15,7 @@ export const projectData = [
         "tech": [
             "react",
             "nextJS",
+            "firebase",
             "vercel",
             "graphQL",
             "SASS",
@@ -34,6 +36,7 @@ export const projectData = [
         "gitPath": "https://github.com/markgatx/luxecavallo",
         "desc": "MERN stack project for fictional luxury boutique",
         "longDesc": "This is a constantly evolving project I started to reinforce my React skills with GraphQL and MongoDB. It all started with me playing with the idea behind a vertical navbar on a desktop application. From there it evolved into a Full-stack project that pushed my knowledge and understanding of app development. The layouts between mobile and desktop versions are drastically different and that was a unique challenge. I've learned a lot about the structure of code and making sure unique layouts stay responsive at various screen resolutions and not just screen width. Even though I'm still working on a functional shopping cart, I'm happy with the overall look and feel. It also let me get back to some quick video and photo editing to make the intro splash and edit the product images for consistency.",
+        "role": "Sole Full-stack developer",
         "imgs": [
             "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/luxecavallo_home.jpg?raw=true",
             "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/luxe_product_detail.jpg?raw=true"
@@ -259,8 +262,8 @@ export const projectData = [
         "longDesc": "This was a video project I took on to help out a local non-profit called CARY, the Center for At-Risk Youth. With a very small budget I went into the school and shot video for one school day with the permission of everyone involved. While the original intent was for a 2-3 minute video, the footage I had and the story that needed to be told was much bigger than that. I finally finished it at around 12 minutes long. ",
         "role": "DP, Editor, Producer",
         "imgs": [
-            "https://raw.githubusercontent.com/MarkGATX/React-Portfolio-v3/main/src/images/CARY_still_1.jpg",
-            "https://raw.githubusercontent.com/MarkGATX/React-Portfolio-v3/main/src/images/CARY_still_2.jpg"
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/CARY_still_1.jpg?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/CARY_still_2.jpg?raw=true"
         ],
         "tech": [
             "Photoshop",
@@ -277,8 +280,8 @@ export const projectData = [
         "longDesc": "This is one of my online streaming projects with The Heroes of Awesome that streamed live plays of the Star Trek Adventures Role-Playing Game. This was one of my most ambitiuous streaming projects since it entailed multiple cameras as well as seven people with mics and an interactive overlay during gameplay. I also used this as a reason to learn some basic Blender skills. I'm actually very proud of one of the starships I rendered. The Sovereign-class USS Mazu was based off another model but as I was trying to use it, I ended up completely remaking the vast majority of it into a fairly successful render. I still wish I could see that ship in action.",
         "role": "Creator, Developer, Game Master",
         "imgs": [
-            "https://raw.githubusercontent.com/MarkGATX/React-Portfolio-v3/main/src/images/constellation%20background.jpg",
-            "https://raw.githubusercontent.com/MarkGATX/React-Portfolio-v3/main/src/images/constell-play.jpg"
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/constellation%20background.jpg?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/constell-play.jpg?raw=true"
         ],
         "tech": [
             "Blender",

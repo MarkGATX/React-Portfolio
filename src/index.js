@@ -5,7 +5,7 @@ import App from './App';
 // import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css'
-// import "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+
 
 
 

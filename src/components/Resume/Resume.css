@@ -10,3 +10,7 @@
 .resumeHead {
     color: var(--dark);
 }
+
+i + p {
+    text-align: center;
+}

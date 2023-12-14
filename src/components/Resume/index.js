@@ -106,10 +106,6 @@ export default function Resume() {
                 <h5 className='resumeHead'>Tools:</h5>
                 <div className='col-12 d-flex flex-wrap justify-content-center align-items-start'>
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
-                        <i title="Adobe Creative Suite" className="devicon-photoshop-plain colored"></i>
-                        <p>Adobe Creative Suite</p>
-                    </div>
-                    <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
                         <i title="GitHub" className="devicon-github-plain colored"></i>
                         <p>GitHub</p>
                     </div>
@@ -132,6 +128,10 @@ export default function Resume() {
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
                         <i title="SQL Workbench" className="devicon-mysql-plain colored"></i>
                         <p>SQL Workbench</p>
+                    </div>
+                    <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Adobe Creative Suite" className="devicon-photoshop-plain colored"></i>
+                        <p>Adobe Creative Suite</p>
                     </div>
                 </div>
             </div>

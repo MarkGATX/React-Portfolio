@@ -1,7 +1,7 @@
 // import Bootstrap from 'react-bootstrap'
 
 import { gsap } from "gsap/dist/gsap";
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import markCoffee from '../../images/mark_with_coffee.jpg'
 import "./Header.css";
 
@@ -15,21 +15,42 @@ export default function Header({ currentPage, handlePageChange }) {
     const navItem = useRef();
     const forgeBy = useRef();
     const fuelBy = useRef();
+    const [isSmallScreen, setIsSmallScreen] = useState(true);
+    const smallMenuRef = useRef();
+
+    //toggle nav menu visibility on small screens
+
+    const handleHamburgerClick = () => {
+        smallMenuRef.current.classList.toggle("smallMenuActive")
+    }
 
     useEffect(() => {
         const tl = gsap.timeline();
         const links = document.querySelectorAll('li')
         // init();
-        
+
         tl.from(headerName.current, { duration: 1.3, x: -1500 });
         tl.from('.aboutMe', { duration: 1.3, y: -20, opacity: 0, }, '-=.5');
-        tl.from(aniContain.current, {duration:1, x:-2500 ,y:+1}, '-=1');
+        tl.from(aniContain.current, { duration: 1, x: -2500, y: +1 }, '-=1');
         tl.from(pretendBorder.current, { duration: 4, backgroundImage: 'radial-gradient(at 70% top, rgb(255,251,255) 1%, rgb(255,251,255) 30%)' }, '+=.1');
         tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.5');
         tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=2.8');
-        tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.6');    
+        tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.6');
         tl.from('.projects', { duration: 1, opacity: 0 }, '-=2.3')
+
+        const mediaQuery = window.matchMedia('(max-width: 768px)');
+        function handleMediaQueryChange(event) {
+            setIsSmallScreen(event.matches);
+        }
+        mediaQuery.addEventListener('change', handleMediaQueryChange);
+        handleMediaQueryChange(mediaQuery); // Initial check
+
+        //cleanup
+        return () => {
+            mediaQuery.removeEventListener('change', handleMediaQueryChange);
+        };
     }, [])
+
 
     return (
         <>
@@ -44,23 +65,45 @@ export default function Header({ currentPage, handlePageChange }) {
 
 
                 <nav className="navbar expand-lg col-md-6 col-lg-4 d-flex align-items-end">
-                    <div className="container-fluid justify-content-end">
-                        <ul className="navbar-nav mb-2 d-flex flex-row" ref={navItem}>
-                            <li className="nav-item " >
-                                <a className={currentPage === 'Portfolio' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Portfolio')} href="#Portfolio">Portfolio</a>
-                            </li>
-                            <li className="nav-item" >
-                                <a className={currentPage === 'About Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('About Me')} href="#aboutMe">About Me</a>
-                            </li>
-                            <li className="nav-item" >
-                                <a className={currentPage === 'Contact Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Contact Me')} href="#contactMe">Contact</a>
-                            </li>
-                            
-                            <li className="nav-item" >
-                                <a className={currentPage === 'Resume' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Resume')} href="#Resume">Resume</a>
-                            </li>
-                        </ul>
-                    </div>
+                    {isSmallScreen
+                        ?
+                        <>
+                            <img src='/images/menu_icon.svg' alt='hamburger navigation icon' className="menuIcon" onClick={handleHamburgerClick} />
+                            <ul className="smallMenu" ref={smallMenuRef} >
+                                <li className="nav-item " >
+                                    <a className={currentPage === 'Portfolio' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Portfolio')} href="#Portfolio">Portfolio</a>
+                                </li>
+                                <li className="nav-item" >
+                                    <a className={currentPage === 'About Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('About Me')} href="#aboutMe">About Me</a>
+                                </li>
+                                <li className="nav-item" >
+                                    <a className={currentPage === 'Contact Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Contact Me')} href="#contactMe">Contact</a>
+                                </li>
+
+                                <li className="nav-item" >
+                                    <a className={currentPage === 'Resume' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Resume')} href="#Resume">Resume</a>
+                                </li>
+                            </ul>
+                        </>
+                        :
+                        <div className="container-fluid justify-content-end">
+                            <ul className="navbar-nav mb-2 d-flex flex-row" ref={navItem}>
+                                <li className="nav-item " >
+                                    <a className={currentPage === 'Portfolio' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Portfolio')} href="#Portfolio">Portfolio</a>
+                                </li>
+                                <li className="nav-item" >
+                                    <a className={currentPage === 'About Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('About Me')} href="#aboutMe">About Me</a>
+                                </li>
+                                <li className="nav-item" >
+                                    <a className={currentPage === 'Contact Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Contact Me')} href="#contactMe">Contact</a>
+                                </li>
+
+                                <li className="nav-item" >
+                                    <a className={currentPage === 'Resume' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Resume')} href="#Resume">Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    }
                 </nav>
                 <div className="row container-fluid pretend-border" ref={pretendBorder}></div>
                 <div className="row container-fluid tagRow">

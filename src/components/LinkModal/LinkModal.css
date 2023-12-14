@@ -10,7 +10,7 @@ i.detailsIcon {
 }
 
 .livePath, .gitPath {
-    /* width:48%; */
+    width:48%;
 }
 
 .livePath div,
@@ -46,4 +46,21 @@ i.detailsIcon {
 .modal-footer {
     background-color: var(--light) !important;
     justify-content: center !important;
+}
+
+.imgBlock {
+    flex-wrap:wrap;
+}
+
+.imgBlock img {
+    transition: all .5s;
+    border:0;
+    scale:1;
+}
+
+.imgBlock img.zoomed {
+    border:5px solid var(--accent);
+    border-radius:5px;
+    z-index:20;
+   transform: scale(2.5);
 }
