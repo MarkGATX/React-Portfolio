@@ -110,6 +110,10 @@ export default function Resume() {
                         <p>GitHub</p>
                     </div>
                     <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
+                        <i title="Firebase" className="devicon-firebase-plain colored"></i>
+                        <p>Firebase</p>
+                    </div>
+                    <div className="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center justify-content-center me-3">
                         <i title="Heroku" className="devicon-heroku-plain colored"></i>
                         <p>Heroku</p>
                     </div>
