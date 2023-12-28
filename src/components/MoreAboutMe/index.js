@@ -9,7 +9,7 @@ export default function MoreAboutMe() {
 
         <section className="col-md-8 col-lg-8 contactMeContainer">
             <h2 className="col-12 mb-4 ps-2">More About Me</h2>
-            <div className=" container col-12 d-flex justify-content-between flex-wrap ms-0">
+            <div className=" container-fluid col-12 d-flex justify-content-between flex-wrap ms-0">
                 <div className="col-5">
                     <p> So you want to know even more about me?</p>
                     <p> Well that's nice to hear. Thank you!</p>

@@ -24,10 +24,10 @@ export default function Questions() {
         ["Cake or pie?", "Quit trying to make me choose!"],
         ["Favorite Fruit?", "Strawberries"],
         ["Favorite Board Games", "Powergrid, Brass, Dune:Imperium, Terraforming Mars"],
-        ["Favorite Jedi", "Ahsoka Tano"]
+        ["Favorite Jedi", "Ahsoka Tano, even though she is no Jedi"]
     ]
 
-    const questNum = Math.floor(Math.random() * questAboutMe.length + 1);
+    const questNum = Math.floor(Math.random() * questAboutMe.length);
     let quest = "Random question: " + questAboutMe?.[questNum]?.[0];
     let ans = questAboutMe?.[questNum]?.[1];
 
