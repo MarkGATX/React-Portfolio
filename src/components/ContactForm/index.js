@@ -73,7 +73,7 @@ export default function ContactForm() {
             <div className="emailLink text-center">
                 <p>Send me an email at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#104;&#101;&#109;&#97;&#114;&#107;&#103;&#97;&#114;&#100;&#110;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#116;&#104;&#101;&#109;&#97;&#114;&#107;&#103;&#97;&#114;&#100;&#110;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></p>
             </div>
-            <div className="container-fluid row d-flex justify-content-center mt-2">
+            <div className="d-flex justify-content-center mt-2">
                 <div className="card contactCard col-8">
                     <form className="card-body" ref={form} onSubmit={HandleFormSubmit}>
                         <h5 className="card-title">Or contact me via handy form...</h5>
