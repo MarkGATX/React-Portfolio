@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/React-Portfolio-v3/static/css/main.8048e2c0.css",
-    "main.js": "/React-Portfolio-v3/static/js/main.cfe6e605.js",
+    "main.js": "/React-Portfolio-v3/static/js/main.5cff9674.js",
     "static/media/css_snippet_bg.jpg": "/React-Portfolio-v3/static/media/css_snippet_bg.0c981d8e2343182345cc.jpg",
     "static/media/tech background image.jpg": "/React-Portfolio-v3/static/media/tech background image.2fe0b76340fbe68f6469.jpg",
     "static/media/Play_Date_porfolio_shot_v1.jpg": "/React-Portfolio-v3/static/media/Play_Date_porfolio_shot_v1.cd629d9e0a1f23d588b8.jpg",
-    "static/media/Mark_Gardner-Full-stack-Dev-resume-2023.pdf": "/React-Portfolio-v3/static/media/Mark_Gardner-Full-stack-Dev-resume-2023.581a883ee9f3e9b17e01.pdf",
+    "static/media/Mark_Gardner-Front-End-Dev-resume-2024.pdf": "/React-Portfolio-v3/static/media/Mark_Gardner-Front-End-Dev-resume-2024.66bddf619ace305ae83f.pdf",
     "static/media/hoa_bg.jpg": "/React-Portfolio-v3/static/media/hoa_bg.6416b8fa3603d0e2a91a.jpg",
     "static/media/paris_notre_dame.jpg": "/React-Portfolio-v3/static/media/paris_notre_dame.da46980b66d7dbd809c9.jpg",
     "static/media/hiking_in_mtns.jpg": "/React-Portfolio-v3/static/media/hiking_in_mtns.c6ca38c5830a740c89d9.jpg",
@@ -44,10 +44,10 @@
     "index.html": "/React-Portfolio-v3/index.html",
     "static/media/menu_icon.svg": "/React-Portfolio-v3/static/media/menu_icon.ae47d4c340a1a52822c480cd047a30c5.svg",
     "main.8048e2c0.css.map": "/React-Portfolio-v3/static/css/main.8048e2c0.css.map",
-    "main.cfe6e605.js.map": "/React-Portfolio-v3/static/js/main.cfe6e605.js.map"
+    "main.5cff9674.js.map": "/React-Portfolio-v3/static/js/main.5cff9674.js.map"
   },
   "entrypoints": [
     "static/css/main.8048e2c0.css",
-    "static/js/main.cfe6e605.js"
+    "static/js/main.5cff9674.js"
   ]
 }
