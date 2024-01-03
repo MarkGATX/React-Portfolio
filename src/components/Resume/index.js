@@ -1,5 +1,6 @@
 // import pdfResume from '../docs/Full-stack_Dev_Resume_2022.pdf'
-import pdfResume from '../../docs/Mark_Gardner-Full-stack-Dev-resume-2023.pdf';
+// import pdfResume from '../../docs/Mark_Gardner-Front-End-Dev-resume-2024.pdf';
+import pdfResume from '../../docs/Mark_Gardner-Front-End-Dev-resume-2024.pdf'
 import greensock from '../../images/gsap-greensock.svg'
 import "./Resume.css";
 
@@ -28,7 +29,7 @@ export default function Resume() {
             </div>
             <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection' >Summary</h3>
-                <p >Front-End and Full-Stack Developer with experience in a variety of technologies, including React, NextJS, JavaScript, MongoDB, Material UI, HTML, and CSS to name a few. With over 18 years of professional experience across multiple industries, I’ve successfully worked on teams that consistently deliver quality products. My technical skills are complemented by 13 years of video production experience, which has given me a keen eye for detail, a talent for visual storytelling, and the soft skills needed to work with diverse teams. I’m passionate about learning and thrive on tackling new challenges head-on to deliver high-quality work that exceeds expectations.</p>
+                <p >{`As a Front-End Developer, I have experience in a variety of technologies, including Next.js, React, Vercel, JavaScript, Bootstrap, Materiall UI, GraphQL, MongoDB, HTML, and CSS. My technical skills are complemented by 13 years of video production experience, which has given me a keen eye for detail, a talent for visual storytelling, and the soft skills needed to work with diverse teams. I’m passionate about learning and thrive on tackling new challenges head-on. With over 18 years of professional experience across multiple industries, I’ve successfully worked on teams that consistently deliver quality products and I’m dedicated to delivering high-quality work that exceeds expectations.`}</p>
             </div>
             <div className="row d-flex justify-content-center mb-5">
                 <h3 className='col-12 resumeSection'>Technical Skills</h3>
@@ -144,21 +145,21 @@ export default function Resume() {
 
                 <h4 className='resumeHead'>The Softlife</h4>
                 <p ><span className='projectSubtitle'>Live site:</span> <a href="https://thesoftlife.xyz/" target='_blank' rel='noreferrer'>https://thesoftlife.xyz/</a> </p>
-                <p >A freelance full-stack social media site allowing users to create wishlists and accept contributions towards their wishes. </p>
+                <p >A freelance development job leveraging the power of Next.js and React with Vercel hosting. I worked extensively with my clients to refine their vision for their e-commerce wishlist site in order to stay on schedule and within budget.</p>
                 <p ><span className='projectSubtitle'>Role:</span>  Sole-developer</p>
-                <p className="mb-4" ><span className='projectSubtitle'>Tools:</span>  React, GraphQL, Apollo, NextJS, MongoDB, Mongoose, JavaScript, CSS3, Google Fonts, Photoshop,  Node.js,  SASS, React Spring </p>
+                <p className="mb-4" ><span className='projectSubtitle'>Tools:</span>NextJS, React, JavaScript, GraphQL, Apollo GraphQL, MongoDB, SASS, CSS3, Google Fonts, Photoshop, Node.js, React Spring </p>
 
                 <h4 className='resumeHead'>Luxe Cavallo</h4>
                 <p ><span className='projectSubtitle'>Live site:</span> <a href="https://luxecavallo.herokuapp.com/" target='_blank' rel='noreferrer'>https://luxecavallo.herokuapp.com/</a> </p>
                 <p ><span className='projectSubtitle'>GitHub Repo:</span> <a href="https://github.com/MarkGATX/luxecavallo" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/luxecavallo</a></p>
-                <p >A MERN e-commerce application with a unique responsive design and an interface that prominently features engaging media.</p>
+                <p >A fictional luxury boutique created to be highly responsive and media-rich, providing an immersive and engaging user experience. </p>
                 <p ><span className='projectSubtitle'>Role:</span>  Sole-developer</p>
                 <p className="mb-4" ><span className='projectSubtitle'>Tools:</span>  React, GraphQL, Apollo, Express, MongoDB, Mongoose, JavaScript, CSS3, Adobe Font, Photoshop,  Node.js,  SASS, Greensock </p>
 
                 <h4 className='resumeHead'>Migrate</h4>
                 <p ><span className='projectSubtitle'>Live site:</span> <a href="https://migrate-abroad.herokuapp.com" target='_blank' rel='noreferrer'>https://migrate-abroad.herokuapp.com </a> </p>
                 <p ><span className='projectSubtitle'>GitHub Repo:</span> <a href="https://github.com/MarkGATX/migrate" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/migrate</a></p>
-                <p >A MERN application to help people who are looking to relocate to another country to live or work find a place that will feel like home.</p>
+                <p >A MERN application to help people looking to relocate to another country find a place that will feel like home utilizing complex APIs and data-visualization.</p>
                 <p ><span className='projectSubtitle'>Role:</span>  Front-end design, Full-stack coding</p>
                 <p className="mb-4" ><span className='projectSubtitle'>Tools:</span>  React, Express, MongoDB, JavaScript, CSS3, GoogleFonts, Photoshop,  Node.js, TypeKit, SASS, Greensock, Victory Charts, Unsplash API </p>
 
@@ -180,28 +181,39 @@ export default function Resume() {
             </div>
             <div className="row d-flex justify-content-center">
                 <h3 className='col-12 resumeSection' >Relevant Experience</h3>
-                <h4 className='resumeHead'>Local Government Solutions  /  Developer</h4>
+                <h4 className='resumeHead'>Freelance - Full-stack Developer</h4>
+                <p >2023 - present,  AUSTIN</p>
+                <ul className='ms-5'>
+                    <li>Contract with clients to create full-stack applications that meet their specific needs and goals.</li>
+                    <li>Develop applications using modern stacks, such as Next.js, React, Material UI, Bootstrap, GSAP, and more.</li>
+                    <li>Work with clients to develop comprehensive style guides that align with their goals and branding.</li>
+                    <li>Communicate and collaborate with clients about goals, timelines, and challenges through the development process</li>
+                </ul>
+                <h4 className='resumeHead'>Hello World Computer Science - Engineering Instructor</h4>
+                <p >2023 - present,  AUSTIN</p>
+                <ul className='ms-5'>
+                    <li>Part-time Teaching Assistant for Computer Science classes at the Ann Richards School for Young Women Leaders</li>
+                    <li>Teach students web development and guide troubleshooting in their code and errors in the CoSpaces coding environment.</li>
+                </ul>
+                <h4 className='resumeHead'>Local Government Solutions  -  Developer</h4>
                 <p >2017 - 2018,  AUSTIN</p>
                 <ul className='ms-5'>
-                    <li> Developed new customer training and retention programs to manage transition to new ownership after Hill Country Software was acquired by LGS.</li>
-                    <li>Developed a fully responsive website for the new company.</li>
-                    <li>Assisted in customer and business transitions to LGS after Hill Country Software was acquired.</li>
+                    <li>Assisted in customer and business transitions to LGS after HCSS was acquired. </li>
+                    <li>Developed outlines for new customer training and retention programs and developed a revamped online brand presence.</li>
                 </ul>
-                <h4 className='resumeHead'>The Weirdlings  /  Creator and Producer</h4>
+                <h4 className='resumeHead'>The Weirdlings  -  Creator and Producer</h4>
                 <p >2011 - 2020,   AUSTIN</p>
                 <ul className='ms-5'>
-                    <li>Managed all aspects of the channel to reach over 15,000 subscribers and 2.7 million lifetime views on YouTube and 2500 subscribers on Twitch.</li>
-                    <li>Elected to Secretary on The International Academy of Web Television Board of Directors after engaging with the world-wide creator community.</li>
-                    <li>Created custom CSS and styling solutions for for all of The Weirdlings Wordpress websites.</li>
-                    <li>Managed a team of creators and optimized all videos for release and growth.</li>
+                    <li>Guided growth of the award-winning channel to reach over 15,000 subscribers and 2.8 million lifetime views on YouTube.</li>
+                    <li>Engaged with the world-wide digital video community and was elected to the International Academy of Web Television Board of Directors where I was named Secretary. </li>
+                    <li>Created and maintained all social outlets and websites for The Weirdlings using WordPress and custom CSS.</li>
+                    <li>Developed all graphic effects for every video released, ranging from lower-thirds to full spash screens.</li>
                 </ul>
-                <h4 className='resumeHead'>Hill Country Software and Support  / VP of Development</h4>
+                <h4 className='resumeHead'>Hill Country Software and Support - VP of Development</h4>
                 <p >2008 - 2017,  AUSTIN</p>
                 <ul className='ms-5'>
-                    <li>Redesigned and deployed a new UI that interfaced with a legacy COBOL backend.</li>
-                    <li>Implemented messaging systems to allow direct notification to all customers of important system updates and new.</li>
-                    <li>Developed and successfully migrated the company website to a Wordpress deployment.</li>
-                    <li>Trained users and provided technical support as needed.</li>
+                    <li>Implemented a complete UI/UX redesign and deployment of the web-based application of a COBOL backend with Javascript, JQuery, and updated HTML and CSS.</li>
+                    <li>Migrated the corporate website to a WordPress CMS and implemented systems to directly notify customers of updates to systems and important notes.</li>
                 </ul>
             </div>
             <div className="row d-flex justify-content-center">
