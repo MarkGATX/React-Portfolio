@@ -1,9 +1,6 @@
-// import Bootstrap from 'react-bootstrap'
-
 import { gsap } from "gsap/dist/gsap";
 import { useEffect, useRef, useState } from 'react'
 import markCoffee from '../../images/mark_with_coffee.jpg'
-// import "./Header.css";
 import "./Header2.css";
 import hamburger from '../../images/menu_icon.svg'
 
@@ -31,7 +28,6 @@ export default function Header({ currentPage, handlePageChange }) {
         handleMediaQueryChange(mediaQuery); // Initial check
         const tl = gsap.timeline();
         const links = document.querySelectorAll('li')
-        // init();
 
         tl.from(headerName.current, { duration: 1.3, x: -1500 });
         tl.from('.aboutMe', { duration: 1.3, y: -20, opacity: 0, }, '-=.5');
@@ -40,7 +36,7 @@ export default function Header({ currentPage, handlePageChange }) {
         tl.from(links, { duration: 1, y: 15, opacity: 0, stagger: 0.3 }, '-=3.5');
         tl.from(forgeBy.current, { duration: 2, y: -20, opacity: 0 }, '-=2.8');
         tl.from(fuelBy.current, { duration: 2, y: -20, opacity: 0, }, '-=2.6');
-        tl.from('.projects', { duration: 1, opacity: 0 }, '-=2.3')
+        tl.from('.projects', { duration: 1, opacity: 0 }, '-=2.0')
 
         //cleanup
         return () => {

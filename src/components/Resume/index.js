@@ -1,5 +1,3 @@
-// import pdfResume from '../docs/Full-stack_Dev_Resume_2022.pdf'
-// import pdfResume from '../../docs/Mark_Gardner-Front-End-Dev-resume-2024.pdf';
 import pdfResume from '../../docs/Mark_Gardner-Front-End-Dev-resume-2024.pdf'
 import greensock from '../../images/gsap-greensock.svg'
 import "./Resume.css";

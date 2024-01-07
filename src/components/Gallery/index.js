@@ -19,8 +19,6 @@ export default function Gallery() {
 
     useEffect (()=> {
     const pics = document.querySelectorAll('.m-1');
-    console.log(pics);
-    // pics.forEach((pic) => pic.style.opacity=.5)
     pics.forEach((pic) => 
     gsap.from(pic, {opacity:0}))
     });

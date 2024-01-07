@@ -12,12 +12,8 @@ import googleFonts from "../../images/Google-Fonts-Logo.png"
 
 
 export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, title, desc, role, imgs, tech }) {
-    console.log(tech)
     const images = imgs[0]
     const [zoomedImage, setZoomedImage] = useState();
-    // const imgArray = imgs.map((image) => image.map((imageData, key) => <img key={key} src={imageData} alt={title} onClick={(event) => handleImageClick(event, imageData)}
-    // className={zoomedImage === imageData ? 'zoomed' : ''}/>))
-
 
     useEffect(() => {
         const handleDocumentClick = () => {
@@ -53,7 +49,7 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                     <div className='mb-4 d-flex flex-column'>
                         <h4>Technology used:</h4>
                         <div className='d-flex align-items-center'>
-                        {tech.map((techVal, key) => {
+                        {tech?.map((techVal, key) => {
                             if (techVal === "Greensock") {
                                 return (<img key={key} title="Greensock" className="icon " alt="greensock logo" src={greensock} />);
                             } else if (techVal === "victory charts") {
