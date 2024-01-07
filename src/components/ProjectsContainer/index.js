@@ -11,22 +11,22 @@ let role = '';
 let imgs = [];
 let title = '';
 let vidlink = '';
-
-
+let tech = '';
 
 export default function ProjectsContainer() {
 
     const [filter, setFilter] = useState('all');
     const [show, setShow] = useState(false);
 
-    const linkTarget = (link, titleData, liveData, gitData, descData, roleData, imgsData, vidlinkData) => {
+    const linkTarget = (link, titleData, liveData, gitData, descData, roleData, imgsData, vidlinkData, techData) => {
         vidlink = { vidlinkData };
         title = { titleData };
         livePath = { liveData };
         gitPath = { gitData };
         desc = { descData };
         role = { roleData };
-        imgs = Object.values({ imgsData })
+        imgs = Object.values({ imgsData });
+        tech = {techData}
         setShow(true);
     }
 
@@ -70,7 +70,7 @@ export default function ProjectsContainer() {
 
             </section>
 
-            <LinkModal livePath={livePath.liveData} gitPath={gitPath.gitData} desc={desc.descData} role={role.roleData} vidlink={vidlink.vidlinkData} imgs={imgs} title={title.titleData} setShow={setShow} show={show} />
+            <LinkModal livePath={livePath.liveData} gitPath={gitPath.gitData} desc={desc.descData} role={role.roleData} vidlink={vidlink.vidlinkData} imgs={imgs} title={title.titleData} setShow={setShow} show={show} tech={tech.techData}/>
         </>
     )
 

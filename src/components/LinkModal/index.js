@@ -2,12 +2,18 @@ import React, { useEffect, useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 import liveIcon from "../../images/live_path_icon.svg"
 import "./LinkModal.css";
+import vercel from '../../images/Vercel_favicon.webp'
+import paypal from '../../images/PayPal_Logo.webp'
+import adobeFonts from "../../images/Adobe_Fonts.svg"
+import greensock from '../../images/gsap-greensock.svg'
+import victory from '../../images/victory.png';
+import materialize from '../../images/materialize.svg';
+import googleFonts from "../../images/Google-Fonts-Logo.png"
 
 
-export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, title, desc, role, imgs }) {
-    console.log(imgs)
+export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, title, desc, role, imgs, tech }) {
+    console.log(tech)
     const images = imgs[0]
-    console.log(images)
     const [zoomedImage, setZoomedImage] = useState();
     // const imgArray = imgs.map((image) => image.map((imageData, key) => <img key={key} src={imageData} alt={title} onClick={(event) => handleImageClick(event, imageData)}
     // className={zoomedImage === imageData ? 'zoomed' : ''}/>))
@@ -43,7 +49,36 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                     <Modal.Title>{title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <h4>My role: {role}</h4>
+                    <h4 className='mb-4'>My role: {role}</h4>
+                    <div className='mb-4 d-flex flex-column'>
+                        <h4>Technology used:</h4>
+                        <div className='d-flex align-items-center'>
+                        {tech.map((techVal, key) => {
+                            if (techVal === "Greensock") {
+                                return (<img key={key} title="Greensock" className="icon " alt="greensock logo" src={greensock} />);
+                            } else if (techVal === "victory charts") {
+                                return (<img key={key} title="victory charts" className="icon " alt="victory chart logo" src={victory} />)
+                            } else if (techVal === "express") {
+                                return (<i key={key} title="express" className="devicon-express-original colored"></i>)
+                            } else if (techVal === "Blender") {
+                                return (<i key={key} title="blender" className="devicon-blender-original colored"></i>)
+                            } else if (techVal === "materialize") {
+                                return (<img key={key} title="Materialize" className="icon blue" alt="Materialize icon" src={materialize} />)
+                            } else if (techVal === "Google Fonts") {
+                                return (<img key={key} title="Google Fonts" className="icon" alt="Google Fonts icon" src={googleFonts} />)
+                            } else if (techVal === "Adobe Fonts") {
+                                return (<img key={key} title="Adobe Fonts" className="icon" alt="Adobe Fonts icon" src={adobeFonts} />)
+                            } else if (techVal === "vercel") {
+                                return (<img key={key} title="Vercel" className="icon" alt="Vercel icon" src={vercel} />)
+                            } else if (techVal === "paypal") {
+                                return (<img key={key} title="PayPal" className="icon" alt="PayPal icon" src={paypal} />)
+                            } else {
+                                return (<i key={key} title={techVal} className={`devicon-${techVal.toLowerCase()}-plain colored`}></i>)
+                            }
+                        }
+                        )}
+                        </div>
+                    </div>
                     <div className="mb-5">
                         <p>{desc}</p>
                     </div>

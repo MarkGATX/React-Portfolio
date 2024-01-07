@@ -47,9 +47,9 @@ export default function ProjectDetails({ linkTarget, filter }) {
     return (
         <>
             {filteredData.map((Val, key) => {
-                const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink } = Val;
+                const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink} = Val;
                 return (
-                    <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap justify-content-end align-content-start`} data-link={title} onClick={() => linkTarget(displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink)} ref={(el) => projectRefs.current[key] = el}>
+                    <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap justify-content-end align-content-start`} data-link={title} onClick={() => linkTarget(displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink, tech)} ref={(el) => projectRefs.current[key] = el}>
                         <div className="projectFeatTitle col-12 p-2 " >
                             <h5>{title}</h5>
                             <p>{desc}</p>

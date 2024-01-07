@@ -13,7 +13,6 @@ import "./PortfolioContainer.css";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Portfolio');
-  // const main = useRef();
 console.log("%cHi there!", "color: #5355aa; font-family: sans-serif; font-size: 2em; font-weight: bolder; text-shadow: #000 1px 1px;");
 console.log("Thanks for stopping by. I'm a front-end/full-stack developer looking to join a great team. Don't forget to check out my resume that's posted here. I'd love to talk to you more about my work and qualifications so send me a message via phone or email. I'm always around. ");
 
