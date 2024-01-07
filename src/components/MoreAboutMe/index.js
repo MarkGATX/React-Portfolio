@@ -7,7 +7,7 @@ import "./MoreAboutMe.css";
 export default function MoreAboutMe() {
     return (
 
-        <section className="col-xs-11 col-lg-8 contactMeContainer">
+        <section className="col-11 col-lg-8 contactMeContainer">
             <h2 className="col-12 mb-4 ps-2">More About Me</h2>
             <div className=" container-fluid col-12 d-flex justify-content-between flex-wrap ms-0">
                 <div className="col-sm-7 col-md-5">

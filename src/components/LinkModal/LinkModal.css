@@ -9,9 +9,9 @@ i.detailsIcon {
     width:100%;
 }
 
-.livePath, .gitPath {
+/* .livePath, .gitPath {
     width:48%;
-}
+} */
 
 .livePath div,
 .gitPath div {
@@ -50,16 +50,21 @@ i.detailsIcon {
 
 .imgBlock {
     flex-wrap:wrap;
+    min-height:200px;
 }
 
 .imgBlock img {
     transition: all .5s;
-    border:0;
+    border:1px solid var(--accent);
     scale:1;
 }
 
+.imgBlock img:hover {
+    cursor:pointer;
+}
+
 .imgBlock img.zoomed {
-    border:5px solid var(--accent);
+    border:3px solid var(--accent);
     border-radius:5px;
     z-index:20;
    transform: scale(2.5);

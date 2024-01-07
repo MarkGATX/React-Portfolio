@@ -85,8 +85,10 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                         {images?.length > 0
                             ?
                             images.map((img, index) => (
+                               
                                 <img key={index + img} src={img} alt={img.title} onClick={(event) => handleImageClick(event, img)}
-                                    className={zoomedImage === img ? 'zoomed' : ''} />
+                                    className={`col-10 col-md-3 mb-2 ${zoomedImage === img ? 'zoomed' : ''}`} />
+                                    
                             ))
                             :
                             null
@@ -100,8 +102,8 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                         <div className="d-flex flex-wrap justify-content-around detailsLinks" >
                             {livePath
                                 ?
-                                <a href={livePath} target="_blank" rel="noreferrer" className="livePath col-5 text-decoration-none">
-                                    <div className="mb-2 d-flex justify-content-start rounded">
+                                <a href={livePath} target="_blank" rel="noreferrer" className="livePath col-10 col-md-5 text-decoration-none d-flex justify-content-center">
+                                    <div className="mb-2 d-flex justify-content-center rounded">
                                         <img className='icon' src={liveIcon} alt="icon for live site" title="Icon for live site" />Live site
                                     </div>
                                 </a>
@@ -110,8 +112,8 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                             }
                             {gitPath
                                 ?
-                                <a href={gitPath} target="_blank" rel="noreferrer" className="gitPath col-5 text-decoration-none">
-                                    <div className="mb-2 d-flex justify-content-start align-items-center rounded">
+                                <a href={gitPath} target="_blank" rel="noreferrer" className="gitPath col-10 col-md-5 text-decoration-none d-flex justify-content-center">
+                                    <div className="mb-2 d-flex justify-content-center align-items-center rounded">
                                         <i className="devicon-github-original detailsIcon" title="icon for GitHub"></i>
                                         GitHub
                                     </div>
@@ -122,7 +124,7 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                         </div>
                         :
                         <div className="d-flex flex-wrap justify-content-center col-10 text-center align-items-center">
-                            <a href={vidlink} target="_blank" rel="noreferrer" className="livePath col-11 text-decoration-none">
+                            <a href={vidlink} target="_blank" rel="noreferrer" className="livePath col-11 text-decoration-none d-flex justify-content-center">
                                 <div className="m-0 ">
                                     <img className='icon' src={liveIcon} alt="icon for live site" title="Icon for live site" />Click here to see {title}.
                                 </div>
