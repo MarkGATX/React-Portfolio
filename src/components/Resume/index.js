@@ -9,7 +9,7 @@ export default function Resume() {
 
     return (
 
-        <section className="col-md-8 col-lg-8 resumeContainer">
+        <section className="col-md-11 col-lg-8 resumeContainer">
             <h2 className="col-12 mb-4">Resume</h2>
             <a href={pdfResume} target="_blank" rel="noreferrer">Downloadable PDF here</a>
             <div className="row d-flex justify-content-center text-center mb-5">

@@ -15,26 +15,26 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
 
     useEffect(() => {
         const handleDocumentClick = () => {
-          setZoomedImage(null);
+            setZoomedImage(null);
         };
-      
+
         document.addEventListener('click', handleDocumentClick);
-      
+
         // Clean up the event listener when the component unmounts
         return () => {
-          document.removeEventListener('click', handleDocumentClick);
+            document.removeEventListener('click', handleDocumentClick);
         };
-      }, []);
+    }, []);
 
-      const handleImageClick = (event, imageData) => {
+    const handleImageClick = (event, imageData) => {
         event.stopPropagation();
-      
+
         if (zoomedImage === imageData) {
-          setZoomedImage(null);
+            setZoomedImage(null);
         } else {
-          setZoomedImage(imageData);
+            setZoomedImage(imageData);
         }
-      };
+    };
 
     return (
         <>
@@ -44,7 +44,9 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                 </Modal.Header>
                 <Modal.Body>
                     <h4>My role: {role}</h4>
-                    <div className="mb-5">{desc}</div>
+                    <div className="mb-5">
+                        <p>{desc}</p>
+                    </div>
                     {/* <div className='imgBlock mb-3 d-flex justify-content-around'>
                         {imgArray}
                     </div> */}
@@ -53,11 +55,11 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                             ?
                             images.map((img, index) => (
                                 <img key={index + img} src={img} alt={img.title} onClick={(event) => handleImageClick(event, img)}
-                                className={zoomedImage === img ? 'zoomed' : ''}/>
+                                    className={zoomedImage === img ? 'zoomed' : ''} />
                             ))
                             :
                             null
-                        } 
+                        }
                         {/* {imgArray} */}
                     </div>
                 </Modal.Body>
@@ -68,7 +70,7 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                             {livePath
                                 ?
                                 <a href={livePath} target="_blank" rel="noreferrer" className="livePath col-5 text-decoration-none">
-                                    <div className="mb-2 d-flex justify-content-start">
+                                    <div className="mb-2 d-flex justify-content-start rounded">
                                         <img className='icon' src={liveIcon} alt="icon for live site" title="Icon for live site" />Live site
                                     </div>
                                 </a>
@@ -78,7 +80,7 @@ export default function LinkModal({ livePath, gitPath, setShow, vidlink, show, t
                             {gitPath
                                 ?
                                 <a href={gitPath} target="_blank" rel="noreferrer" className="gitPath col-5 text-decoration-none">
-                                    <div className="mb-2 d-flex justify-content-start align-items-center">
+                                    <div className="mb-2 d-flex justify-content-start align-items-center rounded">
                                         <i className="devicon-github-original detailsIcon" title="icon for GitHub"></i>
                                         GitHub
                                     </div>

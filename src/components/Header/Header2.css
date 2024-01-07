@@ -10,6 +10,7 @@
   padding:.5rem;
   background-color:var(--dark);
   color:var(--light);
+  min-height:3rem;
 }
 
 .forgeBy {
@@ -17,10 +18,13 @@
   top:-12px;
 }
 
+
+
 header {
   position:relative;
   z-index:2;
   background-color:var(--light);
+
   /* box-shadow: 2px 2px 5px var(--darkshadow); */
 
 }
@@ -75,6 +79,10 @@ header h1 {
 .tagContainer {
   height:5rem;
   padding:1rem;
+}
+
+.tagContainer-mobile {
+  height:4rem;
 }
 
 /* IDs */
@@ -182,6 +190,33 @@ header h1 {
 
   .menuIcon {
     filter: invert(1);
+  }
+}
+
+@media screen and (max-width:576px)  {
+  .animationContainer {
+    padding:0 !important;
+
+  }
+  .forgeBy {
+    font-size:.9rem;
+    width:40%;
+    text-align:center;
+    align-self:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fuelBy {
+    font-size:.9rem;
+    width:40%;
+    top:20px;
+    position:relative;
+    min-height:3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 

@@ -30,13 +30,8 @@ header h1 {
 
 }
 
-.navbar img {
-  
-}
-
 .nav-link {
   color: var(--accent) !important;
-  /* opacity:.5; */
   scale: 100%;
   text-shadow:0 0 5px 5px var(--darkshadow);
   transition: all .3s !important;
@@ -96,9 +91,6 @@ header h1 {
   top:0;
 }
 
-.menuIcon {
-
-}
 
 .smallMenu a {
       width: 100%;
@@ -157,11 +149,11 @@ header h1 {
   }
 }
 
-@media screen and (max-width:566px) {
+/* @media screen and (max-width:566px) {
   .fuelBy, .forgeBy {
     font-size:calc(1.1rem + .6vw);
   }
-}
+} */
 
 @media screen and (max-width:530px) {
   #cupAnimation {

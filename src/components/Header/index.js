@@ -87,7 +87,7 @@ export default function Header({ currentPage, handlePageChange }) {
                     </div>
                 </div>
             </header> */}
-            <header className="container-fluid p-0 col-12 d-flex flex-wrap justify-content-between align-items-end ">
+            <header className="container-fluid p-0 pb-5 col-12 d-flex flex-wrap justify-content-between align-items-end ">
 
                 <div className='titleNavContainer col-12 d-flex justify-content-between align-items-center'>
                     <div className="col-md-6 col-lg-5 col-sm-8  d-flex row align-items-end justify-content-start header-name" ref={headerName}>
@@ -153,18 +153,15 @@ export default function Header({ currentPage, handlePageChange }) {
                 </div>
                 <div className='animationContainer container-fluid justify-content-end'>
                     <iframe className='cupPosition' id="cupAnimation" src={`${process.env.PUBLIC_URL}/coffee_cup_400.html`} title="Coffee cup spilling coffee" ref={aniContain}></iframe>
-
-
-
                     <div className="container-fluid pretend-border" ref={pretendBorder}></div>
                     <div className="tagRow">
-                        <div className="tagContainer d-flex justify-content-end p-0">
-                            <h3 className="forgeBy align-self-start " ref={forgeBy}>Forged by geekdom</h3>
-                            <h3 className="fuelBy d-block align-self-end" ref={fuelBy}>Fueled by coffee.</h3>
-                        </div>
-                    </div>
+                            <div className="tagContainer-mobile d-flex justify-content-end p-0">
+                                <h3 className="forgeBy" ref={forgeBy}>Forged by geekdom</h3>
+                                <h3 className="fuelBy" ref={fuelBy}>Fueled by coffee.</h3>
+                            </div>                    
                 </div>
-            </header>
+            </div>
+        </header >
         </>
     )
 }

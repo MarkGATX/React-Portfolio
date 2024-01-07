@@ -1,17 +1,16 @@
 .projectFeat {
     height: 400px;
     width: 47%;
-    /* border: 5px solid var(--dark); */
+    border: 2px solid var(--dark);
     background-position: center, 0 0, center;
     background-size: cover, 100% 300%, cover;
     background-blend-mode: luminosity, multiply;
     background-repeat: no-repeat;
-    opacity:1;
+    opacity: 1;
     overflow: revert;
     /* box-shadow: 0 0 1px 2px var(--darkshadow); */
-    transition: box-shadow .6s ease-out, scale .4s ease-out
-    , background-position .3s, height .3s;
-    cursor:pointer;
+    transition: box-shadow .6s ease-out, scale .4s ease-out, background-position .3s, height .3s;
+    cursor: pointer;
 }
 
 .projectFeatTitle {
@@ -22,7 +21,7 @@
     background-color: var(--dark);
     transition: all .5s;
     height: 5rem;
-    z-index:10;
+    z-index: 10;
 }
 
 .projectFeatTitle p:nth-child(2) {
@@ -32,23 +31,19 @@
 
 .projectTech {
     position: relative;
-    /* bottom: -2.5rem; */
-    /* right: -5px; */
-    top:-3rem;
-    /* width: 50%; */
+    top: -3rem;
     background-color: var(--light);
     border: 3px solid var(--dark);
     height: auto;
-    /* transition: all .5s cubic-bezier(.8, .05, .91, .68); */
     transition: all .5s;
     transform: rotateX(90deg);
-    padding:5px 5px;
- 
+    padding: 5px 5px;
+
 }
 
 .projectFeat:hover .projectTech {
     transform: rotateX(0deg);
-    top:-2px;
+    top: -2px;
     border: 3px solid var(--accent);
     /* box-shadow: 0 0 6px 4px var(--darkshadow) */
 }
@@ -69,20 +64,20 @@
 
 /* Classes for react transition group to animation in and out with state change */
 
-.project-enter{
-    opacity:0;
+.project-enter {
+    opacity: 0;
 }
 
-.project-enter-active{
+.project-enter-active {
     opacity: 1;
-  transition: opacity 300ms;
+    transition: opacity 300ms;
 }
 
-.project-exit{
+.project-exit {
     opacity: 1;
 }
 
-.project-exit-active{
+.project-exit-active {
     opacity: 0;
     transition: opacity 300ms;
 }
@@ -91,12 +86,12 @@
 
 .CARY {
     background-image: url(../../images/CARY_thumb.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/CARY_thumb.jpg);
-    
+
 }
 
 .codeQuiz {
     background-image: url(../../images/Coding\ Quiz\ Question\ example.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/Coding\ Quiz\ Question\ example.jpg);
-    
+
 }
 
 .CELL {
@@ -173,6 +168,7 @@
 .wheezy {
     background-image: url(../../images/wheezy_main.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/wheezy_main.jpg);
 }
+
 .wordguess {
     background-image: url(../../images/word_guess_bg.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/word_guess_bg.jpg);
 }
@@ -181,26 +177,33 @@
 
 @media screen and (max-width: 1365px) {
     .projectFeat {
-        width:90%;
+        width: 90%;
     }
+
     .projectFeatTitle {
-        font-size:.9em;
-  }
+        font-size: .9em;
+    }
 }
 
 @media screen and (min-width:2500px) {
 
     .projectFeat {
-      height:600px;
+        height: 600px;
     }
-    /* .projectTech {
-      height:7em;
-      bottom:0;
-    } */
-  }
 
-  @media screen and (max-width:450px) {
+  
+}
+
+@media screen and (max-width:450px) {
     .projectFeatTitle {
-        height:6rem;
+        height: 6rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .projectTech {
+        top:0;
+        display:block;
+        transform:none;
     }
 }

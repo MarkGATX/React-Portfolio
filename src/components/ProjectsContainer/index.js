@@ -50,7 +50,7 @@ export default function ProjectsContainer() {
 
     return (
         <>
-            <section className="col-md-8 col-lg-8 projects">
+            <section className="col-md-11 col-lg-8 projects">
                 <div className="col-12 mb-4 projectHeadBG">
                     <h2 className="col-5">My Projects</h2>
                     <div className="col-5 filters">

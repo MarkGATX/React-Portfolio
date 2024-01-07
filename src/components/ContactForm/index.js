@@ -59,7 +59,7 @@ export default function ContactForm() {
 
     return (
 
-        <section className="col-md-8 col-lg-8 contactMeContainer">
+        <section className="col-md-11 col-lg-8 contactMeContainer">
             <h2 className="col-12 mb-4">Contact Me</h2>
             <div className="d-flex justify-content-center flex-wrap mb-3">
                 <p className="col-12 text-center">You can always reach me on GitHub or LinkedIn</p>
@@ -74,7 +74,7 @@ export default function ContactForm() {
                 <p>Send me an email at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#104;&#101;&#109;&#97;&#114;&#107;&#103;&#97;&#114;&#100;&#110;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#116;&#104;&#101;&#109;&#97;&#114;&#107;&#103;&#97;&#114;&#100;&#110;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></p>
             </div>
             <div className="d-flex justify-content-center mt-2">
-                <div className="card contactCard col-8">
+                <div className="card contactCard col-lg-8 col-sm-11">
                     <form className="card-body" ref={form} onSubmit={HandleFormSubmit}>
                         <h5 className="card-title">Or contact me via handy form...</h5>
                         <label className="form-label">Your Email address</label>

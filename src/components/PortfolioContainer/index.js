@@ -44,7 +44,7 @@ console.log("Thanks for stopping by. I'm a front-end/full-stack developer lookin
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>
         <div className="container-fluid">
-          <div className="row justify-content-around">
+          <div className="row justify-content-lg-around justify-content-center">
             <AboutMe />
             {renderMainSection()}
             <Contact />

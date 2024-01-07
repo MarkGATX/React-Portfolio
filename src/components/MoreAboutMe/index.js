@@ -7,10 +7,10 @@ import "./MoreAboutMe.css";
 export default function MoreAboutMe() {
     return (
 
-        <section className="col-md-8 col-lg-8 contactMeContainer">
+        <section className="col-xs-11 col-lg-8 contactMeContainer">
             <h2 className="col-12 mb-4 ps-2">More About Me</h2>
             <div className=" container-fluid col-12 d-flex justify-content-between flex-wrap ms-0">
-                <div className="col-5">
+                <div className="col-sm-7 col-md-5">
                     <p> So you want to know even more about me?</p>
                     <p> Well that's nice to hear. Thank you!</p>
                     <p> I'm a Front-End and Full-Stack Developer who loves to push the boundaries on what I can achieve. When I come up with a concept in any field, I figure out what I need to learn to make it happen. Then I do it. </p>
@@ -19,7 +19,7 @@ export default function MoreAboutMe() {
                     <p>On a personal level, I love good food, board games, Star Trek, Star Wars, stars, movies, and more than I can list here. I always say "I'll try anything twice," and that's paid off for me over the years.</p>
                     <p>Now I'm ready for my next challenge and can't wait to see where it takes me. Reach out and say hello!</p>
                 </div>
-                <div className='col-6'>
+                <div className='col-sm-4 col-md-6'>
                     <Gallery />
                 </div>
             </div>

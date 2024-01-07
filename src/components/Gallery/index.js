@@ -28,7 +28,7 @@ export default function Gallery() {
     return (
 
         <ResponsiveMasonry
-            columnsCountBreakPoints={{ 350: 1, 1100: 2, 1900: 3 }}
+            columnsCountBreakPoints={{ 350: 2, 768: 2, 1900: 3 }}
         >
 
             <Masonry columnsCount={3}  >
