@@ -148,7 +148,7 @@ export default function Resume() {
                 <p className="mb-4" ><span className='projectSubtitle'>Tools:</span>NextJS, React, JavaScript, GraphQL, Apollo GraphQL, MongoDB, SASS, CSS3, Google Fonts, Photoshop, Node.js, React Spring </p>
 
                 <h4 className='resumeHead'>Luxe Cavallo</h4>
-                <p ><span className='projectSubtitle'>Live site:</span> <a href="https://luxecavallo.herokuapp.com/" target='_blank' rel='noreferrer'>https://luxecavallo.herokuapp.com/</a> </p>
+                <p ><span className='projectSubtitle'>Live site:</span> <a href="https://luxecavallo.vercel.app/" target='_blank' rel='noreferrer'>https://luxecavallo.vercel.app/</a> </p>
                 <p ><span className='projectSubtitle'>GitHub Repo:</span> <a href="https://github.com/MarkGATX/luxecavallo" target="_blank" rel='noreferrer'> https://github.com/MarkGATX/luxecavallo</a></p>
                 <p >A fictional luxury boutique created to be highly responsive and media-rich, providing an immersive and engaging user experience. </p>
                 <p ><span className='projectSubtitle'>Role:</span>  Sole-developer</p>
