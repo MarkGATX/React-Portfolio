@@ -1,5 +1,5 @@
 import { gsap } from "gsap/dist/gsap";
-import { useEffect, useRef, useState } from 'react'
+import { useLayoutEffect, useRef, useState } from 'react'
 import markCoffee from '../../images/mark_with_coffee.jpg'
 import "./Header2.css";
 import hamburger from '../../images/menu_icon.svg'
@@ -19,7 +19,7 @@ export default function Header({ currentPage, handlePageChange }) {
         smallMenuRef.current.classList.toggle('smallMenuActive')
     }
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         const mediaQuery = window.matchMedia('(max-width: 1000px)');
         function handleMediaQueryChange(event) {
             setIsSmallScreen(event.matches);
@@ -47,43 +47,6 @@ export default function Header({ currentPage, handlePageChange }) {
 
     return (
         <>
-            {/* <header className="container-fluid p-0 d-flex flex-wrap justify-content-between align-items-end ">
-                <div className="col-md-9 col-lg-5 d-flex row align-items-end justify-content-start header-name" ref={headerName}>
-                    <img className='img-fluid rounded-circle col-3 position-relative mt-2 ms-4 mb-2'
-                        src={markCoffee} alt="Mark with huge coffee cup" />
-
-                    <h1 className='col-8 m-0 p-0 pb-1 position-relative'>Mark Gardner</h1>
-                </div>
-                <iframe id="cupAnimation" src={`${process.env.PUBLIC_URL}/coffee_cup_400.html`} title="Coffee cup spilling coffee" ref={aniContain}></iframe>
-
-
-                <nav className="navbar expand-lg col-md-6 col-lg-4 d-flex align-items-end">
-                    <div className="container-fluid justify-content-end">
-                        <ul className="navbar-nav mb-2 d-flex flex-row text-center" ref={navItem}>
-                            <li className="nav-item " >
-                                <a className={currentPage === 'Portfolio' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Portfolio')} href="#Portfolio">Portfolio</a>
-                            </li>
-                            <li className="nav-item" >
-                                <a className={currentPage === 'About Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('About Me')} href="#aboutMe">About Me</a>
-                            </li>
-                            <li className="nav-item" >
-                                <a className={currentPage === 'Contact Me' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Contact Me')} href="#contactMe">Contact</a>
-                            </li>
-                            
-                            <li className="nav-item" >
-                                <a className={currentPage === 'Resume' ? "nav-link  ms-3 me-1 fs-5 active" : "nav-link  ms-3 me-1 fs-5 "} aria-current="page" onClick={() => handlePageChange('Resume')} href="#Resume">Resume</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <div className="row container-fluid pretend-border" ref={pretendBorder}></div>
-                <div className="row container-fluid tagRow">
-                    <div className="tagContainer d-flex justify-content-end p-0">
-                        <h3 className="forgeBy align-self-start " ref={forgeBy}>Forged by geekdom</h3>
-                        <h3 className="fuelBy d-block align-self-end" ref={fuelBy}>Fueled by coffee.</h3>
-                    </div>
-                </div>
-            </header> */}
             <header className="container-fluid p-0 pb-5 col-12 d-flex flex-wrap justify-content-between align-items-end ">
 
                 <div className='titleNavContainer col-12 d-flex justify-content-between align-items-center'>

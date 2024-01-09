@@ -1,15 +1,15 @@
 import React from "react"
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
-import makingCurry from '../../images/cooking_curry.jpg';
-import vegasAwards from '../../images/Awards_las_vegas.jpg';
-import directingWG from '../../images/directing_WG_pilot.jpg';
-import hiking from '../../images/hiking_in_mtns.jpg';
-import mugging from '../../images/mugging.jpg';
-import parisND from '../../images/paris_notre_dame.jpg';
-import stepRepeat from '../../images/step_repeat_LA.jpg';
-import wingedVict from '../../images/winged_victory.jpg';
-// import walesCoffee from '../images/coffee_Wales.jpg';
-import cardiffWheel from '../../images/exploring_Cardiff.jpg';
+import makingCurry from '../../images/cooking_curry.webp';
+import vegasAwards from '../../images/Awards_las_vegas.webp';
+import directingWG from '../../images/directing_WG_pilot.webp';
+import hiking from '../../images/hiking_in_mtns.webp';
+import mugging from '../../images/mugging.webp';
+import parisND from '../../images/paris_notre_dame.webp';
+import stepRepeat from '../../images/step_repeat_LA.webp';
+import wingedVict from '../../images/winged_victory.webp';
+// import walesCoffee from '../images/coffee_Wales.webp';
+import cardiffWheel from '../../images/exploring_Cardiff.webp';
 import "./Gallery.css";
 import { useEffect } from "react";
 import { gsap } from "gsap";
