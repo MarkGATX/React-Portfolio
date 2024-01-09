@@ -26,7 +26,7 @@ export default function ProjectsContainer() {
         desc = { descData };
         role = { roleData };
         imgs = Object.values({ imgsData });
-        tech = {techData}
+        tech = { techData }
         setShow(true);
     }
 
@@ -42,7 +42,7 @@ export default function ProjectsContainer() {
                 onComplete: () => {
                     if (index === array.length - 1) {
                         onCompleteAll();
-                    }                  
+                    }
                 }
             });
         })
@@ -57,10 +57,33 @@ export default function ProjectsContainer() {
                         <i className="bi bi-filter"></i>
 
                         <select className="align-self-center filterSelect" aria-label="Project type options" onChange={handleFilterChange}>
-                            <option disabled>Filter Projects</option>
-                            <option value="all">All Projects</option>
-                            <option value="dev">Software Dev</option>
-                            <option value="vid">Video</option>
+                            <option disabled>
+                                Filter Projects
+                            </option>
+                            <optgroup label="All Projects">
+                                <option value="all">
+                                    All Projects
+                                </option>
+                            </optgroup>
+                            <optgroup label="Software Dev">
+                                <option value="dev">
+                                    All Software Dev
+                                </option>
+                                <option value="next">
+                                    Next.js
+                                </option>
+                                <option value="react">
+                                    React
+                                </option>
+                                <option value="sass">
+                                    SASS
+                                </option>
+                            </optgroup>
+                            <optgroup label="Video">
+                                <option value="vid">
+                                    All Video
+                                </option>
+                            </optgroup>
                         </select>
                     </div>
                 </div>
@@ -70,7 +93,7 @@ export default function ProjectsContainer() {
 
             </section>
 
-            <LinkModal livePath={livePath.liveData} gitPath={gitPath.gitData} desc={desc.descData} role={role.roleData} vidlink={vidlink.vidlinkData} imgs={imgs} title={title.titleData} setShow={setShow} show={show} tech={tech.techData}/>
+            <LinkModal livePath={livePath.liveData} gitPath={gitPath.gitData} desc={desc.descData} role={role.roleData} vidlink={vidlink.vidlinkData} imgs={imgs} title={title.titleData} setShow={setShow} show={show} tech={tech.techData} />
         </>
     )
 

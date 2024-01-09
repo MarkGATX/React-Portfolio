@@ -23,6 +23,15 @@ export default function ProjectDetails({ linkTarget, filter }) {
         case "vid":
             filteredData = projectData.filter(project => project.type === "vid");
             break;
+        case "react":
+            filteredData = projectData.filter(project => project.tech.includes("react"));
+            break;
+            case "next":
+            filteredData = projectData.filter(project => project.tech.includes("nextJS"));
+            break;
+            case "sass":
+            filteredData = projectData.filter(project => project.tech.includes("SASS"));
+            break;
         default:
             break;
     }
@@ -47,7 +56,7 @@ export default function ProjectDetails({ linkTarget, filter }) {
     return (
         <>
             {filteredData.map((Val, key) => {
-                const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink} = Val;
+                const { title, desc, role, imgs, longDesc, tech, displayClass, livePath, gitPath, vidlink } = Val;
                 return (
                     <article key={key} className={`${displayClass} projectFeat mb-5 d-flex flex-wrap justify-content-end align-content-start`} data-link={title} onClick={() => linkTarget(displayClass, title, livePath, gitPath, longDesc, role, imgs, vidlink, tech)} ref={(el) => projectRefs.current[key] = el}>
                         <div className="projectFeatTitle col-12 p-2 " >
@@ -74,7 +83,7 @@ export default function ProjectDetails({ linkTarget, filter }) {
                                     return (<img key={key} title="Vercel" className="icon" alt="Vercel icon" src={vercel} />)
                                 } else if (techVal === "paypal") {
                                     return (<img key={key} title="PayPal" className="icon" alt="PayPal icon" src={paypal} />)
-                                }else {
+                                } else {
                                     return (<i key={key} title={techVal} className={`devicon-${techVal.toLowerCase()}-plain colored`}></i>)
                                 }
                             }

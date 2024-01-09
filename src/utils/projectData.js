@@ -1,3 +1,31 @@
+import constellationBackground from '../images/constellation background.webp'
+import softlifePitch from '../images/pitch_v_final.webp'
+import softlifeProfileList from '../images/softlife_profileList.webp'
+import softlifeProfileDash from '../images/softlife_profile_dash.webp'
+import luxeHome from '../images/luxecavallo_home.webp'
+import luxeProduct from '../images/luxe_product_detail.webp'
+import constellationPlay from '../images/constell-play.webp'
+import cssSnippet from '../images/css_snippet_bg.webp'
+import migrateSplash from '../images/migrate-splash.webp'
+import migrateSingleCountry from '../images/migrate-single-country.webp'
+import wheezyMain from '../images/wheezy_main.webp'
+import wheezyPlayer from '../images/wheezy_player.webp'
+import garden2Splash from '../images/garden2_bg.webp'
+import garden2Vege from '../images/garden2_vege_shot.webp'
+import weatherDash from '../images/weather_dash_bg.webp'
+import scriblNotes from '../images/scribl_notes_home.webp'
+import scriblComments from '../images/scrible_notes_comments.webp'
+import wordguessGame from '../images/word_guess_game_screenshot.webp'
+import wordguessGameLabelled from '../images/word_guess_game_screenshot_labelled.webp'
+import codingQuizQuestion from '../images/Coding Quiz Question example.webp'
+import codingQuizScores from '../images/Coding Quiz High Scores.webp'
+import playdateWithEvent from '../images/Playdate_Screenshot_with_active_event.webp'
+import CARYStill1 from '../images/CARY_still_1.webp'
+import CARYStill2 from '../images/CARY_still_2.webp'
+import MazuA from '../images/MAZU-A.webp'
+
+
+
 export const projectData = [
     {
         "title": "The Softlife",
@@ -5,12 +33,12 @@ export const projectData = [
         "type": "dev",
         "livePath": "https://thesoftlife.xyz/",
         "desc": "Next.js freelance project for clients wanting a wishlist application",
-        "longDesc": "This is a full-stack social media application I developed for my clients from the ground up. Users can create their own accounts and follow other users as well as create Families so they can easily organize users by groups. Each use can create their own wishlist and fill it with items they want. Other users or visitors to the site can contribute to wishes by using a PayPal integration. Softlife was developed to take advantage of the benefits in NextJS 13 and the file-based App router. The database is handled by MongoDB and authentication and image storage is handled with Firebase. The CSS and styling was built from scratch using SCSS. The look and feel of the site went through many iterations and revisions after my initial pitch. We worked together extensively to move the application from an initial pitch of a 'soft-grunge' design into their final decision to lean into a more minimalist site with an almost mid-century modern feel.",
+        "longDesc": "This is a full-stack social media wish-list application developed with Next.js. I developed for my clients. Users can create their own accounts to make and populate wish-lists. They can follow other users as well as create private Families.  Users and visitors can contribute financially to wishes with a PayPal integration. The look and feel of the site went through many iterations and revisions after my initial pitch. We worked together extensively to move the application from an initial pitch of a 'soft-grunge' design into their final decision to lean into a minimalist site with an almost mid-century modern feel.",
         "role": "Sole Full-Stack Developer",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/pitch_v_final.webp?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/softlife_profileList.webp?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/softlife_profile_dash.webp?raw=true"
+            softlifePitch,
+            softlifeProfileList,
+            softlifeProfileDash
         ],
         "tech": [
             "react",
@@ -36,12 +64,11 @@ export const projectData = [
         "livePath": "https://luxecavallo.vercel.app/",
         "gitPath": "https://github.com/markgatx/luxecavallo",
         "desc": "MERN stack project for fictional luxury boutique",
-        "longDesc": "This is a constantly evolving project I started to reinforce my React skills with GraphQL and MongoDB. It all started with me playing with the idea behind a vertical navbar on a desktop application. From there it evolved into a Full-stack project that pushed my knowledge and understanding of app development. The layouts between mobile and desktop versions are drastically different and that was a unique challenge. I've learned a lot about the structure of code and making sure unique layouts stay responsive at various screen resolutions and not just screen width. Even though I'm still working on a functional shopping cart, I'm happy with the overall look and feel. It also let me get back to some quick video and photo editing to make the intro splash and edit the product images for consistency.",
+        "longDesc": "This project started with me wanting to develope an animated vertical navbar on a desktop application. From there it evolved into a Full-stack project that pushed my knowledge and understanding of app development using a MERN stack and GraphQL. The layouts between mobile and desktop versions are drastically different, which presented several unique challenges. I've learned a lot about the structure of code and making sure unique layouts stay responsive at various screen resolutions and not just screen width. I'm happy with the overall look and feel and overtime I'll flesh out more of the functionality.",
         "role": "Sole Full-stack developer",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/luxecavallo_home.webp?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/luxe_product_detail.webp?raw=true"
-           
+            luxeHome,
+            luxeProduct          
         ],
         "tech": [
             "react",
@@ -65,12 +92,11 @@ export const projectData = [
         "livePath": "https://migrate-abroad.herokuapp.com/",
         "gitPath": "https://github.com/richardjhong/migrate",
         "desc": "An app to help potential expats make decisions on their future.",
-        "longDesc": "This was a final group project in the UT-Austin Full-Stack Development Bootcamp. We were given a one-week deadline to develop a MERN stack applicaton. We also use Greensock, SASS, and Victory Charts to make a solid and smooth user experience. The world is a big place and with the growing acceptance of remote work and the desire to experience different parts of the world, finding good information on what life could be like can be hard. Migrate takes data from the Social Progress Imperative and displays it in a format that's easy to understand.",
+        "longDesc": " The world is a big place and with the growing acceptance of remote work and the desire to experience different parts of the world, finding good information on what life could be like can be hard. Migrate takes data from the Social Progress Imperative and displays it in a format that's easy to understand.This was a final group project in the UT-Austin Full-Stack Development Bootcamp. We were given a one-week deadline to develop a MERN stack applicaton. We also use Greensock, SASS, and Victory Charts to make a solid and smooth user experience.",
         "role": "Front-End and Full-Stack Development",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/migrate-splash.webp?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/migrate-single-country.webp?raw=true"
-           
+            migrateSplash,
+            migrateSingleCountry
         ],
         "tech": [
             "react",
@@ -79,7 +105,7 @@ export const projectData = [
             "graphQL",
             "Heroku",
             "HTML5",
-            "Sass",
+            "SASS",
             "MongoDB",
             "Adobe Fonts",
             "vscode",
@@ -100,9 +126,8 @@ export const projectData = [
         "longDesc": "I developed this unofficial site for my friend Craig to help keep my coding sharp while teaching myself another front-end framework, namely Material UI. Using his current official site and feedback he gave as a starting point, I developed a custom color theme using Material Design concepts and theme generators and also implemented a dark-mode toggle. The YouTube API also provides videos with a simple one-line query for my custom video sections. With the creator economy still booming and with the constant rise of fall of social media outlets, having an evergreen home on the internet is vital for content creators. ",
         "role": "Sole-Developer",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/wheezy_main.webp?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/wheezy_player.webp?raw=true"
-           
+     wheezyMain,
+     wheezyPlayer
         ],
         "tech": [
             "react",
@@ -126,8 +151,8 @@ export const projectData = [
         "role": "Front-End and Full-Stack Developer",
         "imgs": [
             "https://github.com/MarkGATX/Garden2/raw/main/Assets/screenPlay.gif",
-            "https://github.com/MarkGATX/Garden2/raw/main/Assets/photo3.jpg",
-            "https://github.com/MarkGATX/Garden2/raw/main/Assets/photo5.jpg",
+            garden2Splash,
+            garden2Vege
         ],
         "tech": [
             "css3",
@@ -154,7 +179,7 @@ export const projectData = [
         "longDesc": "This is a solo project for the UT-Austin Full-Stack Bootcamp that aims to create a simple yet powerful weather dashboard. This app uses two separate weather APIs to pinpoint locations and to return five day weather forecasts. The logic behind the app will even help you pinpoint exactly which city you want to search for by providing you with options from all over the world. Your last five searches are also saved in local storage for ease of use.",
         "role": "Sole-Developer",
         "imgs": [
-            "https://github.com/MarkGATX/Weather-Dashboard-Full-Stack-Bootcamp/raw/main/assets/images/Weather%20Dashboard%20small%20Screenshot.jpg",
+            weatherDash
         ],
         "tech": [
             "Bootstrap",
@@ -175,8 +200,8 @@ export const projectData = [
         "longDesc": "This solo project for the UT-Austin Full-Stack Bootcamp is meant to be one of our first exposures to CMS systems. It has a basic user-login that will allow users to create Thoughts and also post replies to other user Thoughts. This is one of the earliest uses of Bootstrap for me as a developer and I've definitely learned a lot since then. In the end, I wanted to try and slightly different look and feel to the expected tech blog and I think I achieved that while maintaining good function on the back end.",
         "role": "Sole-Developer",
         "imgs": [
-            "https://github.com/MarkGATX/Scrible_Notes_CMS/raw/main/public/images/scribl_notes_home.jpg",
-            "https://github.com/MarkGATX/Scrible_Notes_CMS/raw/main/public/images/scrible_notes_comments.jpg",
+            scriblNotes,
+            scriblComments
         ],
         "tech": [
             "css3",
@@ -202,8 +227,8 @@ export const projectData = [
         "longDesc": "The idea for this game was inspired by a Mini-Project meant to be done during one hour of our UT-Austin Full Stack Bootcamp. I really liked the idea and wanted to try and liven it up a bit. While the basic function of a high-score system has been used before in camp, I wanted to add some extra flair. I made a few modifications, including changing the score system to increase scores based on perceived difficulty, adding animations for slecting letters and winning the game, and including an API call to a dictionary to show the final word's definition after the game. In the end, I'm really proud of this simple application and one day I may even increase the size of the word array.",
         "role": "Sole-Developer",
         "imgs": [
-            "https://github.com/MarkGATX/The-Word-Guess-Game/raw/main/assets/images/word_guess_game_screenshot.jpg",
-            "https://github.com/MarkGATX/The-Word-Guess-Game/raw/main/assets/images/word_guess_game_screenshot_labelled.jpg"
+            wordguessGame,
+            wordguessGameLabelled
         ],
         "tech": [
             "css3",
@@ -223,8 +248,8 @@ export const projectData = [
         "longDesc": "This coding quiz game is a project from the UT-Austin Full-Stack Bootcamp that challenged students early on with web APIs and all of our HTML and CSS knowledge to that point. I added a few more bells and whistles to my final project by randomizing the questions and the answers to each question. I also added some very basic :hover effects and some additional CSS stylings to give it a little more effect. I'm pround of the final result. In fact, the grader for the Bootcamp said, 'This is one of the most put-together, well-designed, and intuitive quizzes I've seen!' ",
         "role": "Sole-Developer",
         "imgs": [
-            "https://github.com/MarkGATX/The-Coding-Quiz-Challenge/raw/main/assets/images/Coding%20Quiz%20Question%20example.jpg",
-            "https://github.com/MarkGATX/The-Coding-Quiz-Challenge/raw/main/assets/images/Coding%20Quiz%20High%20Scores.jpg"
+            codingQuizQuestion,
+            codingQuizScores
         ],
         "tech": [
             "css3",
@@ -243,7 +268,7 @@ export const projectData = [
         "longDesc": "This is the very first group project that was assigned at the UT-Austin Boot Camp. This was meant to be our first introduction to collaborative coding using GitHub while pushing our use of third-party APIs. My role was primarily to use the MapBox API to render map locations. I also helped as needed on other aspects of the backend by helping to troubleshoot when called on.",
         "role": "MapBox API, Back-end code",
         "imgs": [
-            "https://github.com/MarkGATX/Playdate-The-App-for-Exhausted-Parents/raw/main/assets/images/Playdate%20Screenshot.jpg"
+            playdateWithEvent
         ],
         "tech": [
             "materialize",
@@ -260,11 +285,11 @@ export const projectData = [
         "desc":"12 minute promotional film for CARY",
         "type": "vid",
         "vidlink": "https://youtu.be/c8Z8P9Cec5Q",
-        "longDesc": "This was a video project I took on to help out a local non-profit called CARY, the Center for At-Risk Youth. With a very small budget I went into the school and shot video for one school day with the permission of everyone involved. While the original intent was for a 2-3 minute video, the footage I had and the story that needed to be told was much bigger than that. I finally finished it at around 12 minutes long. ",
+        "longDesc": "This is a video project I took on to help out a local non-profit called CARY, the Center for At-Risk Youth. With a very small budget I went into the school and shot video for one school day with the permission of everyone involved. While the original intent was for a 2-3 minute video, the footage I had and the story that needed to be told was much bigger than that. I finally finished it at around 12 minutes long and the results made everyone involved happy and helped increase engagement with their donors. ",
         "role": "DP, Editor, Producer",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/CARY_still_1.webp?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/CARY_still_2.webp?raw=true"
+            CARYStill1,
+            CARYStill2
         ],
         "tech": [
             "Photoshop",
@@ -281,8 +306,9 @@ export const projectData = [
         "longDesc": "This is one of my online streaming projects with The Heroes of Awesome that streamed live plays of the Star Trek Adventures Role-Playing Game. This was one of my most ambitiuous streaming projects since it entailed multiple cameras as well as seven people with mics and an interactive overlay during gameplay. I also used this as a reason to learn some basic Blender skills. I'm actually very proud of one of the starships I rendered. The Sovereign-class USS Mazu was based off another model but as I was trying to use it, I ended up completely remaking the vast majority of it into a fairly successful render. I still wish I could see that ship in action.",
         "role": "Creator, Developer, Game Master",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/constellation%20background.webp?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/constell-play.webp?raw=true"
+            constellationBackground,
+            MazuA,
+            constellationPlay
         ],
         "tech": [
             "Blender",
@@ -349,7 +375,7 @@ export const projectData = [
         "longDesc": "This is a very simple HTML page that was done as a mini-project for one of our first tests of using CSS in the UT-Austin Full-Stack Boot Camp. I was able to get the page completed in the one-hour given and decided that I wanted to keep it around to use. So on occassion I will still post some trick or use of CSS to the Snippet page just in case I want an easy resource later.",
         "role": "Sole-Developer",
         "imgs": [
-            "https://github.com/MarkGATX/CSS-Cheat-Sheet/raw/main/assets/images/css_snippet_bg.webp"
+            cssSnippet
         ],
         "tech": [
             "css3",
