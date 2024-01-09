@@ -68,8 +68,8 @@ export const projectData = [
         "longDesc": "This was a final group project in the UT-Austin Full-Stack Development Bootcamp. We were given a one-week deadline to develop a MERN stack applicaton. We also use Greensock, SASS, and Victory Charts to make a solid and smooth user experience. The world is a big place and with the growing acceptance of remote work and the desire to experience different parts of the world, finding good information on what life could be like can be hard. Migrate takes data from the Social Progress Imperative and displays it in a format that's easy to understand.",
         "role": "Front-End and Full-Stack Development",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/migrate-splash.jpg?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/migrate-single-country.jpg?raw=true"
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/migrate-splash.webp?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/migrate-single-country.webp?raw=true"
            
         ],
         "tech": [
@@ -100,8 +100,8 @@ export const projectData = [
         "longDesc": "I developed this unofficial site for my friend Craig to help keep my coding sharp while teaching myself another front-end framework, namely Material UI. Using his current official site and feedback he gave as a starting point, I developed a custom color theme using Material Design concepts and theme generators and also implemented a dark-mode toggle. The YouTube API also provides videos with a simple one-line query for my custom video sections. With the creator economy still booming and with the constant rise of fall of social media outlets, having an evergreen home on the internet is vital for content creators. ",
         "role": "Sole-Developer",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/wheezy_main.jpg?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/wheezy_player.jpg?raw=true"
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/wheezy_main.webp?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/wheezy_player.webp?raw=true"
            
         ],
         "tech": [
@@ -263,8 +263,8 @@ export const projectData = [
         "longDesc": "This was a video project I took on to help out a local non-profit called CARY, the Center for At-Risk Youth. With a very small budget I went into the school and shot video for one school day with the permission of everyone involved. While the original intent was for a 2-3 minute video, the footage I had and the story that needed to be told was much bigger than that. I finally finished it at around 12 minutes long. ",
         "role": "DP, Editor, Producer",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/CARY_still_1.jpg?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/CARY_still_2.jpg?raw=true"
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/CARY_still_1.webp?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/CARY_still_2.webp?raw=true"
         ],
         "tech": [
             "Photoshop",
@@ -281,8 +281,8 @@ export const projectData = [
         "longDesc": "This is one of my online streaming projects with The Heroes of Awesome that streamed live plays of the Star Trek Adventures Role-Playing Game. This was one of my most ambitiuous streaming projects since it entailed multiple cameras as well as seven people with mics and an interactive overlay during gameplay. I also used this as a reason to learn some basic Blender skills. I'm actually very proud of one of the starships I rendered. The Sovereign-class USS Mazu was based off another model but as I was trying to use it, I ended up completely remaking the vast majority of it into a fairly successful render. I still wish I could see that ship in action.",
         "role": "Creator, Developer, Game Master",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/constellation%20background.jpg?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/constell-play.jpg?raw=true"
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/constellation%20background.webp?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/constell-play.webp?raw=true"
         ],
         "tech": [
             "Blender",
@@ -349,7 +349,7 @@ export const projectData = [
         "longDesc": "This is a very simple HTML page that was done as a mini-project for one of our first tests of using CSS in the UT-Austin Full-Stack Boot Camp. I was able to get the page completed in the one-hour given and decided that I wanted to keep it around to use. So on occassion I will still post some trick or use of CSS to the Snippet page just in case I want an easy resource later.",
         "role": "Sole-Developer",
         "imgs": [
-            "https://github.com/MarkGATX/CSS-Cheat-Sheet/raw/main/assets/images/css_snippet_bg.jpg"
+            "https://github.com/MarkGATX/CSS-Cheat-Sheet/raw/main/assets/images/css_snippet_bg.webp"
         ],
         "tech": [
             "css3",

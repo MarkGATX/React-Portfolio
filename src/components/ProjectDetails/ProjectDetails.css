@@ -85,17 +85,17 @@
 /* classes for project background */
 
 .CARY {
-    background-image: url(../../images/CARY_thumb.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/CARY_thumb.jpg);
+    background-image: url(../../images/CARY_thumb.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/CARY_thumb.webp);
 
 }
 
 .codeQuiz {
-    background-image: url(../../images/Coding\ Quiz\ Question\ example.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/Coding\ Quiz\ Question\ example.jpg);
+    background-image: url(../../images/Coding\ Quiz\ Question\ example.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/Coding\ Quiz\ Question\ example.webp);
 
 }
 
 .CELL {
-    background-image: url(../../images/CELL_hqdefault.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/Coding\ Quiz\ Question\ example.jpg);
+    background-image: url(../../images/CELL_hqdefault.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/CELL_hqdefault.webp);
 }
 
 .softlife {
@@ -105,72 +105,72 @@
 
 
 .csssnips {
-    background-image: url(../../images/css_snippet_bg.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/css_snippet_bg.jpg);
+    background-image: url(../../images/css_snippet_bg.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/css_snippet_bg.webp);
 }
 
 
 .constell {
-    background-image: url(../../images/constellation\ background.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/constellation\ background.jpg);
+    background-image: url(../../images/constellation\ background.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/constellation\ background.webp);
 }
 
 .git {
-    background-image: url(../../images/tech\ background\ image.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/tech\ background\ image.jpg);
+    background-image: url(../../images/tech\ background\ image.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/tech\ background\ image.webp);
 
 }
 
 .migrate {
-    background-image: url(../../images/migrate-screenschot.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/migrate-screenschot.jpg);
+    background-image: url(../../images/migrate-screenschot.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/migrate-screenschot.webp);
 
 }
 
 .tds {
-    background-image: url(../../images/foodie_bg.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/foodie_bg.jpg);
+    background-image: url(../../images/foodie_bg.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/foodie_bg.webp);
 
 }
 
 .musing {
-    background-image: url(../../images/musing_bg.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/musing_bg.jpg);
+    background-image: url(../../images/musing_bg.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/musing_bg.webp);
 
 }
 
 .hoa {
-    background-image: url(../../images/hoa_bg.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/hoa_bg.jpg);
+    background-image: url(../../images/hoa_bg.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/hoa_bg.webp);
 
 }
 
 .luxe {
-    background-image: url(../../images/luxecavallo_home.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/luxecavallo_home.jpg);
+    background-image: url(../../images/luxecavallo_home.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/luxecavallo_home.webp);
 
 }
 
 .playdate {
-    background-image: url(../../images/Play_Date_porfolio_shot_v1.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/Play_Date_porfolio_shot_v1.jpg);
+    background-image: url(../../images/Play_Date_porfolio_shot_v1.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/Play_Date_porfolio_shot_v1.webp);
 }
 
 .garden2 {
-    background-image: url(../../images/garden2_bg.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/garden2_bg.jpg);
+    background-image: url(../../images/garden2_bg.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/garden2_bg.webp);
 
 }
 
 .scribl {
-    background-image: url(../../images/scrible_notes_bg.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/scrible_notes_bg.jpg);
+    background-image: url(../../images/scrible_notes_bg.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/scrible_notes_bg.webp);
 
 }
 
 .weatherDash {
-    background-image: url(../../images/weather_dash_bg.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/weather_dash_bg.jpg);
+    background-image: url(../../images/weather_dash_bg.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/weather_dash_bg.webp);
 }
 
 .wg {
-    background-image: url(../../images/weird_girls_thumb.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/weird_girls_thumb.jpg);
+    background-image: url(../../images/weird_girls_thumb.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/weird_girls_thumb.webp);
 }
 
 .wheezy {
-    background-image: url(../../images/wheezy_main.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/wheezy_main.jpg);
+    background-image: url(../../images/wheezy_main.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/wheezy_main.webp);
 }
 
 .wordguess {
-    background-image: url(../../images/word_guess_bg.jpg), linear-gradient(0deg, white 33%, grey 66%), url(../../images/word_guess_bg.jpg);
+    background-image: url(../../images/word_guess_bg.webp), linear-gradient(0deg, white 33%, grey 66%), url(../../images/word_guess_bg.webp);
 }
 
 /* Media Queries */
