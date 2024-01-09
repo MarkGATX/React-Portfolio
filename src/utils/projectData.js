@@ -39,8 +39,8 @@ export const projectData = [
         "longDesc": "This is a constantly evolving project I started to reinforce my React skills with GraphQL and MongoDB. It all started with me playing with the idea behind a vertical navbar on a desktop application. From there it evolved into a Full-stack project that pushed my knowledge and understanding of app development. The layouts between mobile and desktop versions are drastically different and that was a unique challenge. I've learned a lot about the structure of code and making sure unique layouts stay responsive at various screen resolutions and not just screen width. Even though I'm still working on a functional shopping cart, I'm happy with the overall look and feel. It also let me get back to some quick video and photo editing to make the intro splash and edit the product images for consistency.",
         "role": "Sole Full-stack developer",
         "imgs": [
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/luxecavallo_home.jpg?raw=true",
-            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/luxe_product_detail.jpg?raw=true"
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/luxecavallo_home.webp?raw=true",
+            "https://github.com/MarkGATX/React-Portfolio-v3/blob/main/src/images/luxe_product_detail.webp?raw=true"
            
         ],
         "tech": [

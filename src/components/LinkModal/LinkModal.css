@@ -57,6 +57,8 @@ i.detailsIcon {
     transition: all .5s;
     border:1px solid var(--accent);
     scale:1;
+    /* aspect-ratio: 3/2;
+    background-size:cover */
 }
 
 .imgBlock img:hover {
@@ -67,5 +69,6 @@ i.detailsIcon {
     border:3px solid var(--accent);
     border-radius:5px;
     z-index:20;
+    aspect-ratio:unset;
    transform: scale(2.5);
 }
