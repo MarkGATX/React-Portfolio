@@ -48,7 +48,7 @@ export default function ContactForm() {
           
       });
         
-        // clear out the input after a successful submit.
+        // clear out the input after a successful submit..
 
         setName('');
         setMessage('');
@@ -78,14 +78,14 @@ export default function ContactForm() {
                     <form className="card-body" ref={form} onSubmit={HandleFormSubmit}>
                         <h5 className="card-title">Or contact me via handy form...</h5>
                         <label className="form-label">Your Email address</label>
-                        <input type="email" className="form-control mb-3" name='user_email' id="email" value={email} onChange={ handleInputChange} aria-describedby="emailHelp" />
+                        <input type="email" className="form-control mb-3" name='user_email' id="email"  onChange={ handleInputChange} ref={emailRef} aria-describedby="emailHelp" />
                         <div className="mb-3">
                             <label className="form-label">Your Name</label>
-                            <input type="text" value={name} className="form-control" name='user_name' id="name" onChange={ handleInputChange} />
+                            <input type="text" className="form-control" name='user_name' id="name" ref={nameRef} onChange={ handleInputChange} />
                         </div>
                         <div className="mb-3">
                             <label className="form-label">Your message here:</label>
-                            <input type="textarea" value={message} name="message" className="form-control" onChange={ handleInputChange} id="message" />
+                            <input type="textarea" ref={messageRef} name="message" className="form-control" onChange={ handleInputChange} id="message" />
                         </div>
                         <button type="submit" className="button" >Submit</button>
                         {errorMessage && (
